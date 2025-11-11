@@ -1,0 +1,6339 @@
+Make	B-make
+rear	B-windowPosition
+left	I-windowPosition
+vehicle	B-window
+window	I-window
+opened	B-open
+to	B-degree
+maximum	I-degree
+
+Roll	B-open
+down	I-open
+rear	B-windowPosition
+left	I-windowPosition
+vehicle	B-window
+window	I-window
+to	B-degree
+maximum	I-degree
+
+Roll	B-open
+rear	B-windowPosition
+left	I-windowPosition
+vehicle	B-window
+window	I-window
+down	B-openBack
+to	B-degree
+maximum	I-degree
+
+Open	B-open
+rear	B-windowPosition
+left	I-windowPosition
+car	B-window
+window	I-window
+to	B-degree
+maximum	I-degree
+
+Make	B-make
+rear	B-windowPosition
+left	I-windowPosition
+car	B-window
+window	I-window
+rolled	B-open
+down	I-open
+to	B-degree
+maximum	I-degree
+
+Roll	B-open
+driver	B-windowPosition
+window	B-window
+down	B-openBack
+to	B-degree
+maximum	I-degree
+
+Open	B-open
+driver	B-windowPosition
+car	B-window
+window	I-window
+to	B-degree
+maximum	I-degree
+
+Make	B-make
+driver	B-windowPosition
+car	B-window
+window	I-window
+rolled	B-open
+down	I-open
+to	B-degree
+maximum	I-degree
+
+Make	B-make
+driver	B-windowPosition
+car	B-window
+window	I-window
+opened	B-open
+to	B-degree
+maximum	I-degree
+
+Roll	B-open
+down	I-open
+driver	B-windowPosition
+car	B-window
+window	I-window
+to	B-degree
+maximum	I-degree
+
+Open	B-open
+rear	B-windowPosition
+right	I-windowPosition
+car	B-window
+window	I-window
+to	B-degree
+maximum	I-degree
+
+Make	B-make
+rear	B-windowPosition
+right	I-windowPosition
+car	B-window
+window	I-window
+rolled	B-open
+down	I-open
+to	B-degree
+maximum	I-degree
+
+Make	B-make
+rear	B-windowPosition
+right	I-windowPosition
+car	B-window
+window	I-window
+opened	B-open
+to	B-degree
+maximum	I-degree
+
+Roll	B-open
+down	I-open
+rear	B-windowPosition
+right	I-windowPosition
+car	B-window
+window	I-window
+to	B-degree
+maximum	I-degree
+
+Open	B-open
+right	B-windowPosition
+side	I-windowPosition
+windows	B-window
+to	B-degree
+maximum	I-degree
+
+Make	B-make
+right	B-windowPosition
+side	I-windowPosition
+windows	B-window
+rolled	B-open
+down	I-open
+to	B-degree
+maximum	I-degree
+
+Make	B-make
+right	B-windowPosition
+side	I-windowPosition
+windows	B-window
+opened	B-open
+to	B-degree
+maximum	I-degree
+
+Roll	B-open
+down	I-open
+right	B-windowPosition
+side	I-windowPosition
+windows	B-window
+to	B-degree
+maximum	I-degree
+
+Open	B-open
+all	B-windowPosition
+window	B-window
+to	B-degree
+maximum	I-degree
+
+Make	B-make
+all	B-windowPosition
+window	B-window
+rolled	B-open
+down	I-open
+to	B-degree
+maximum	I-degree
+
+Make	B-make
+all	B-windowPosition
+windows	B-window
+opened	B-open
+to	B-degree
+maximum	I-degree
+
+Roll	B-open
+down	I-open
+all	B-windowPosition
+windows	B-window
+to	B-degree
+maximum	I-degree
+
+Open	B-open
+front	B-windowPosition
+windows	B-window
+to	B-degree
+maximum	I-degree
+
+Make	B-make
+front	B-windowPosition
+windows	B-window
+rolled	B-open
+down	I-open
+to	B-degree
+maximum	I-degree
+
+Make	B-make
+front	B-windowPosition
+windows	B-window
+opened	B-open
+to	B-degree
+maximum	I-degree
+
+Roll	B-open
+down	I-open
+left	B-windowPosition
+side	I-windowPosition
+windows	B-window
+to	B-degree
+maximum	I-degree
+
+Roll	B-open
+left	B-windowPosition
+side	I-windowPosition
+windows	B-window
+down	B-openBack
+to	B-degree
+maximum	I-degree
+
+Open	B-open
+left	B-windowPosition
+side	I-windowPosition
+windows	B-window
+to	B-degree
+maximum	I-degree
+
+Make	B-make
+left	B-windowPosition
+side	I-windowPosition
+windows	B-window
+rolled	B-open
+down	I-open
+to	B-degree
+maximum	I-degree
+
+Make	B-make
+left	B-windowPosition
+side	I-windowPosition
+windows	B-window
+opened	B-open
+to	B-degree
+maximum	I-degree
+
+Turn	B-stop
+Nap	B-appName
+mode	I-appName
+app	I-appName
+back	B-seatPosition
+right	I-seatPosition
+off	B-closeBack
+
+Deactivate	B-stop
+Nap	B-appName
+mode	I-appName
+app	I-appName
+back	B-seatPosition
+right	I-seatPosition
+
+Switch	B-switch
+Nap	B-appName
+mode	I-appName
+app	I-appName
+back	B-seatPosition
+right	I-seatPosition
+off	B-closeBack
+
+Exit	B-stop
+Nap	B-appName
+mode	I-appName
+app	I-appName
+back	B-seatPosition
+right	I-seatPosition
+
+Quit	B-stop
+Nap	B-appName
+mode	I-appName
+app	I-appName
+back	B-seatPosition
+right	I-seatPosition
+
+Deactivate	B-stop
+Rest	B-seatModeValue
+Mode	I-seatModeValue
+rear	B-seatPosition
+right	I-seatPosition
+
+Turn	B-stop
+off	I-stop
+The	B-articles
+Rest	B-seatModeValue
+Mode	I-seatModeValue
+rear	B-seatPosition
+right	I-seatPosition
+
+Turn	B-stop
+off	I-stop
+Rest	B-seatModeValue
+Mode	I-seatModeValue
+rear	B-seatPosition
+right	I-seatPosition
+
+Turn	B-stop
+Nap	B-seatModeValue
+mode	I-seatModeValue
+back	B-seatPosition
+right	I-seatPosition
+off	B-closeBack
+
+Turn	B-stop
+off	I-stop
+left	B-seatPosition
+rear	I-seatPosition
+MAX	B-seatHeatValue
+heating	B-heatType
+
+Help	B-auxiliary_help
+me	I-auxiliary_help
+Switch	B-switch
+off	I-switch
+rear	B-seatPosition
+left	I-seatPosition
+side	I-seatPosition
+MAX	B-seatHeatValue
+heating	B-heatType
+
+I	B-auxiliary_help
+need	I-auxiliary_help
+to	I-auxiliary_help
+Deactivate	B-stop
+heating	B-heatType
+mode	I-heatType
+rear	B-seatPosition
+left	I-seatPosition
+side	I-seatPosition
+
+I	B-auxiliary_help
+want	I-auxiliary_help
+to	I-auxiliary_help
+Deactivate	B-stop
+heating	B-heatType
+mode	I-heatType
+left	B-seatPosition
+rear	I-seatPosition
+
+Turn	B-stop
+off	I-stop
+the	B-articles
+left	B-seatPosition
+rear	I-seatPosition
+MAX	B-seatHeatValue
+heating	B-heatType
+mode	I-heatType
+
+Help	B-auxiliary_help
+me	I-auxiliary_help
+Turn	B-stop
+off	I-stop
+left	B-seatPosition
+rear	I-seatPosition
+side	I-seatPosition
+MAX	B-seatHeatValue
+heating	B-heatType
+mode	I-heatType
+
+Switch	B-switch
+off	I-switch
+heating	B-heatType
+right	B-seatPosition
+rear	I-seatPosition
+
+Help	B-auxiliary_help
+me	I-auxiliary_help
+Switch	B-switch
+off	I-switch
+rear	B-seatPosition
+right	I-seatPosition
+side	I-seatPosition
+MAX	B-seatHeatValue
+heating	B-heatType
+mode	I-heatType
+
+I	B-auxiliary_help
+need	I-auxiliary_help
+to	I-auxiliary_help
+Deactivate	B-stop
+heating	B-heatType
+rear	B-seatPosition
+right	I-seatPosition
+side	I-seatPosition
+
+I	B-auxiliary_help
+want	I-auxiliary_help
+to	I-auxiliary_help
+Deactivate	B-stop
+heating	B-heatType
+right	B-seatPosition
+rear	I-seatPosition
+
+Turn	B-stop
+off	I-stop
+the	B-articles
+right	B-seatPosition
+rear	I-seatPosition
+MAX	B-seatHeatValue
+heating	B-heatType
+
+Help	B-auxiliary_help
+me	I-auxiliary_help
+Switch	B-switch
+off	I-switch
+rear	B-seatPosition
+right	I-seatPosition
+side	I-seatPosition
+MAX	B-seatHeatValue
+heating	B-heatType
+
+I	B-auxiliary_help
+need	I-auxiliary_help
+to	I-auxiliary_help
+Deactivate	B-stop
+heating	B-heatType
+mode	I-heatType
+rear	B-seatPosition
+right	I-seatPosition
+side	I-seatPosition
+
+I	B-auxiliary_help
+want	I-auxiliary_help
+to	I-auxiliary_help
+Deactivate	B-stop
+heating	B-heatType
+mode	I-heatType
+right	B-seatPosition
+rear	I-seatPosition
+
+Turn	B-stop
+off	I-stop
+the	B-articles
+right	B-seatPosition
+rear	I-seatPosition
+MAX	B-seatHeatValue
+heating	B-heatType
+mode	I-heatType
+
+Help	B-auxiliary_help
+me	I-auxiliary_help
+Turn	B-stop
+off	I-stop
+right	B-seatPosition
+rear	I-seatPosition
+side	I-seatPosition
+MAX	B-seatHeatValue
+heating	B-heatType
+mode	I-heatType
+
+Switch	B-switch
+off	I-switch
+heating	B-heatType
+all	B-windowPosition
+
+Help	B-auxiliary_help
+me	I-auxiliary_help
+Switch	B-switch
+off	I-switch
+all	B-windowPosition
+MAX	B-seatHeatValue
+heating	B-heatType
+mode	I-heatType
+
+I	B-auxiliary_help
+need	I-auxiliary_help
+to	I-auxiliary_help
+Deactivate	B-stop
+heating	B-heatType
+mode	I-heatType
+all	B-windowPosition
+
+I	B-auxiliary_help
+want	I-auxiliary_help
+to	I-auxiliary_help
+Deactivate	B-stop
+heating	B-heatType
+all	B-windowPosition
+
+Turn	B-stop
+all	B-windowPosition
+MAX	B-seatHeatValue
+heating	B-heatType
+off	B-closeBack
+
+Help	B-auxiliary_help
+me	I-auxiliary_help
+Switch	B-switch
+off	I-switch
+all	B-windowPosition
+MAX	B-seatHeatValue
+heating	B-heatType
+
+I	B-auxiliary_help
+need	I-auxiliary_help
+to	I-auxiliary_help
+Deactivate	B-stop
+heating	B-heatType
+mode	I-heatType
+all	B-windowPosition
+
+I	B-auxiliary_help
+want	I-auxiliary_help
+to	I-auxiliary_help
+Deactivate	B-stop
+heating	B-heatType
+mode	I-heatType
+all	B-windowPosition
+
+Turn	B-stop
+off	I-stop
+the	B-articles
+heating	B-heatType
+mode	I-heatType
+all	B-windowPosition
+
+Help	B-auxiliary_help
+me	I-auxiliary_help
+Turn	B-stop
+off	I-stop
+all	B-windowPosition
+MAX	B-seatHeatValue
+heating	B-heatType
+mode	I-heatType
+
+Set	B-set
+front	B-sunshadePosition
+sunshade	B-sunshade
+half	B-sunshadeDegree
+open	I-sunshadeDegree
+
+Adjust	B-adjust
+front	B-sunshadePosition
+sunshade	B-sunshade
+half	B-sunshadeDegree
+open	I-sunshadeDegree
+
+Half	B-open
+open	I-open
+front	B-sunshadePosition
+sunshade	B-sunshade
+
+Slide	B-open
+open	I-open
+front	B-sunshadePosition
+sunshade	B-sunshade
+half	B-sunshadeDegree
+open	I-sunshadeDegree
+position	I-sunshadeDegree
+
+Move	B-move
+front	B-sunshadePosition
+sunshade	B-sunshade
+half	B-sunshadeDegree
+open	I-sunshadeDegree
+position	I-sunshadeDegree
+
+front	B-sunshadePosition
+sunshade	B-sunshade
+open	B-open
+halfway	B-sunshadeDegree
+
+Halfway	B-open
+open	I-open
+front	B-sunshadePosition
+sunshade	B-sunshade
+
+Set	B-set
+rear	B-sunshadePosition
+sunshade	B-sunshade
+half	B-sunshadeDegree
+open	I-sunshadeDegree
+
+Adjust	B-adjust
+rear	B-sunshadePosition
+sunshade	B-sunshade
+half	B-sunshadeDegree
+open	I-sunshadeDegree
+
+Half	B-open
+open	I-open
+rear	B-sunshadePosition
+sunshade	B-sunshade
+
+Adjust	B-adjust
+sunshade	B-sunshade
+rear	B-sunshadePosition
+half	B-sunshadeDegree
+open	I-sunshadeDegree
+
+Make	B-make
+sunshade	B-sunshade
+rear	B-sunshadePosition
+half	B-sunshadeDegree
+open	I-sunshadeDegree
+
+Half	B-open
+open	I-open
+sunshade	B-sunshade
+rear	B-sunshadePosition
+
+Half	B-open
+open	I-open
+sunshade	B-sunshade
+rear	B-sunshadePosition
+
+Open	B-open
+rear	B-sunshadePosition
+sunshade	B-sunshade
+halfway	B-sunshadeDegree
+
+Make	B-make
+front	B-sunshadePosition
+sunshade	B-sunshade
+ten	B-sunshadeDegree
+percent	I-sunshadeDegree
+open	I-sunshadeDegree
+
+Set	B-set
+front	B-sunshadePosition
+sunshade	B-sunshade
+thirty	B-sunshadeDegree
+percent	I-sunshadeDegree
+open	I-sunshadeDegree
+
+Adjust	B-adjust
+front	B-sunshadePosition
+sunshade	B-sunshade
+thirty	B-sunshadeDegree
+percent	I-sunshadeDegree
+open	I-sunshadeDegree
+
+front	B-sunshadePosition
+sunshade	B-sunshade
+thirty	B-sunshadeDegree
+percent	I-sunshadeDegree
+open	I-sunshadeDegree
+
+Slide	B-open
+open	I-open
+front	B-sunshadePosition
+sunshade	B-sunshade
+thirty	B-sunshadeDegree
+percent	I-sunshadeDegree
+
+rear	B-sunshadePosition
+sunshade	B-sunshade
+ten	B-sunshadeDegree
+percent	I-sunshadeDegree
+open	I-sunshadeDegree
+
+rear	B-sunshadePosition
+sunshade	B-sunshade
+ten	B-sunshadeDegree
+percent	I-sunshadeDegree
+open	I-sunshadeDegree
+
+Get	B-get
+rear	B-sunshadePosition
+sunshade	B-sunshade
+ten	B-sunshadeDegree
+percent	I-sunshadeDegree
+open	I-sunshadeDegree
+
+Slide	B-open
+open	I-open
+rear	B-sunshadePosition
+sunshade	B-sunshade
+ten	B-sunshadeDegree
+percent	I-sunshadeDegree
+
+Set	B-set
+rear	B-sunshadePosition
+sunshade	B-sunshade
+ten	B-sunshadeDegree
+percent	I-sunshadeDegree
+open	I-sunshadeDegree
+
+Make	B-make
+rear	B-sunshadePosition
+sunshade	B-sunshade
+thirty	B-sunshadeDegree
+percent	I-sunshadeDegree
+open	I-sunshadeDegree
+
+Set	B-set
+all	B-sunshadePosition
+sunshades	B-sunshade
+half	B-sunshadeDegree
+close	I-sunshadeDegree
+
+Adjust	B-adjust
+all	B-sunshadePosition
+sunshades	B-sunshade
+half	B-sunshadeDegree
+close	I-sunshadeDegree
+
+Half	B-close
+close	I-close
+all	B-sunshadePosition
+sunshades	B-sunshade
+
+Help	B-auxiliary_help
+me	I-auxiliary_help
+to	I-auxiliary_help
+close	B-close
+all	B-sunshadePosition
+sunshades	B-sunshade
+halfway	B-sunshadeDegree
+
+Adjust	B-adjust
+all	B-sunshadePosition
+sunshades	B-sunshade
+halfway	B-sunshadeDegree
+close	I-sunshadeDegree
+
+I	B-auxiliary_help
+want	I-auxiliary_help
+to	I-auxiliary_help
+close	B-close
+all	B-sunshadePosition
+sunshades	B-sunshade
+half	B-sunshadeDegree
+position	I-sunshadeDegree
+
+I	B-auxiliary_help
+wanna	I-auxiliary_help
+close	B-close
+all	B-sunshadePosition
+sunshades	B-sunshade
+half	B-sunshadeDegree
+position	I-sunshadeDegree
+
+Half	B-close
+close	I-close
+all	B-sunshadePosition
+sunshades	B-sunshade
+for	B-auxiliary_help
+me	I-auxiliary_help
+
+I	B-auxiliary_help
+would	I-auxiliary_help
+like	I-auxiliary_help
+to	I-auxiliary_help
+close	B-close
+all	B-sunshadePosition
+sunshades	B-sunshade
+half	B-sunshadeDegree
+position	I-sunshadeDegree
+
+I	B-auxiliary_help
+would	I-auxiliary_help
+like	I-auxiliary_help
+to	I-auxiliary_help
+close	B-close
+front	B-sunshadePosition
+sunshade	B-sunshade
+by	B-sunshadeDegree
+half	I-sunshadeDegree
+
+I	B-auxiliary_help
+wanna	I-auxiliary_help
+close	B-close
+front	B-sunshadePosition
+sunshade	B-sunshade
+by	B-sunshadeDegree
+half	I-sunshadeDegree
+
+I	B-auxiliary_help
+want	I-auxiliary_help
+to	I-auxiliary_help
+close	B-close
+front	B-sunshadePosition
+sunshade	B-sunshade
+by	B-sunshadeDegree
+half	I-sunshadeDegree
+
+Close	B-close
+front	B-sunshadePosition
+sunshade	B-sunshade
+halfway	B-sunshadeDegree
+
+Close	B-close
+sunshade	B-sunshade
+front	B-sunshadePosition
+by	B-sunshadeDegree
+half	I-sunshadeDegree
+for	B-auxiliary_help
+me	I-auxiliary_help
+
+front	B-sunshadePosition
+sunshade	B-sunshade
+close	B-close
+by	B-sunshadeDegree
+half	I-sunshadeDegree
+
+Help	B-auxiliary_help
+me	I-auxiliary_help
+to	I-auxiliary_help
+move	B-move
+front	B-sunshadePosition
+sunshade	B-sunshade
+halfway	B-sunshadeDegree
+closed	I-sunshadeDegree
+
+Set	B-set
+rear	B-sunshadePosition
+sunshade	B-sunshade
+half	B-sunshadeDegree
+closed	I-sunshadeDegree
+
+Adjust	B-adjust
+rear	B-sunshadePosition
+sunshade	B-sunshade
+half	B-sunshadeDegree
+closed	I-sunshadeDegree
+
+Half	B-close
+close	I-close
+rear	B-sunshadePosition
+sunshade	B-sunshade
+
+Adjust	B-adjust
+sunshade	B-sunshade
+rear	B-sunshadePosition
+half	B-sunshadeDegree
+closed	I-sunshadeDegree
+
+I	B-auxiliary_help
+want	I-auxiliary_help
+to	I-auxiliary_help
+close	B-close
+rear	B-sunshadePosition
+sunshade	B-sunshade
+half	B-sunshadeDegree
+position	I-sunshadeDegree
+
+I	B-auxiliary_help
+wanna	I-auxiliary_help
+close	B-close
+rear	B-sunshadePosition
+sunshade	B-sunshade
+half	B-sunshadeDegree
+position	I-sunshadeDegree
+
+Half	B-close
+close	I-close
+sunshade	B-sunshade
+rear	B-sunshadePosition
+
+I	B-auxiliary_help
+would	I-auxiliary_help
+like	I-auxiliary_help
+to	I-auxiliary_help
+close	B-close
+rear	B-sunshadePosition
+sunshade	B-sunshade
+half	B-sunshadeDegree
+position	I-sunshadeDegree
+
+Open	B-open
+front	B-sunshadePosition
+sunshade	B-sunshade
+a	B-sunshadeDegree
+little	I-sunshadeDegree
+bit	I-sunshadeDegree
+wider	I-sunshadeDegree
+
+Open	B-open
+sunshade	B-sunshade
+front	B-sunshadePosition
+by	B-sunshadeDegree
+a	I-sunshadeDegree
+bit	I-sunshadeDegree
+
+Pull	B-pull
+front	B-sunshadePosition
+sunshade	B-sunshade
+open	B-openBack
+a	B-sunshadeDegree
+little	I-sunshadeDegree
+further	I-sunshadeDegree
+
+Quit	B-stop
+high	B-drivingAssistMode
+speed	I-drivingAssistMode
+navigation	I-drivingAssistMode
+driving	I-drivingAssistMode
+assistance	I-drivingAssistMode
+
+Stop	B-stop
+using	I-stop
+high	B-drivingAssistMode
+speed	I-drivingAssistMode
+navigation	I-drivingAssistMode
+driving	I-drivingAssistMode
+assistance	I-drivingAssistMode
+
+Stop	B-stop
+using	I-stop
+high	B-drivingAssistMode
+speed	I-drivingAssistMode
+navigation	I-drivingAssistMode
+driving	I-drivingAssistMode
+assistance	I-drivingAssistMode
+function	I-drivingAssistMode
+
+Exit	B-stop
+high	B-drivingAssistMode
+speed	I-drivingAssistMode
+navigation	I-drivingAssistMode
+driving	I-drivingAssistMode
+assistance	I-drivingAssistMode
+function	I-drivingAssistMode
+
+Shut	B-close
+high	B-drivingAssistMode
+speed	I-drivingAssistMode
+navigation	I-drivingAssistMode
+driving	I-drivingAssistMode
+assistance	I-drivingAssistMode
+function	I-drivingAssistMode
+
+Power	B-stop
+off	I-stop
+high	B-drivingAssistMode
+speed	I-drivingAssistMode
+navigation	I-drivingAssistMode
+driving	I-drivingAssistMode
+assistance	I-drivingAssistMode
+function	I-drivingAssistMode
+
+Close	B-close
+Speed	B-drivingAssistMode
+navigation	I-drivingAssistMode
+pilotage	I-drivingAssistMode
+aid	I-drivingAssistMode
+
+Activate	B-start
+Cruising	B-laneAssistMode
+auto	I-laneAssistMode
+lane	I-laneAssistMode
+shift	I-laneAssistMode
+
+Enable	B-start
+Cruising	B-laneAssistMode
+auto	I-laneAssistMode
+lane	I-laneAssistMode
+shift	I-laneAssistMode
+
+Engage	B-start
+Cruising	B-laneAssistMode
+auto	I-laneAssistMode
+lane	I-laneAssistMode
+shift	I-laneAssistMode
+
+Start	B-start
+Cruising	B-laneAssistMode
+auto	I-laneAssistMode
+lane	I-laneAssistMode
+shift	I-laneAssistMode
+
+Start	B-start
+up	I-start
+Cruising	B-laneAssistMode
+auto	I-laneAssistMode
+lane	I-laneAssistMode
+shift	I-laneAssistMode
+
+Start	B-start
+up	I-start
+Cruising	B-laneAssistMode
+auto	I-laneAssistMode
+lane	I-laneAssistMode
+shift	I-laneAssistMode
+function	I-laneAssistMode
+
+Initiate	B-start
+Cruising	B-laneAssistMode
+auto	I-laneAssistMode
+lane	I-laneAssistMode
+shift	I-laneAssistMode
+function	I-laneAssistMode
+
+Begin	B-start
+Cruising	B-laneAssistMode
+auto	I-laneAssistMode
+lane	I-laneAssistMode
+shift	I-laneAssistMode
+function	I-laneAssistMode
+
+Power	B-start
+on	I-start
+Cruising	B-laneAssistMode
+auto	I-laneAssistMode
+lane	I-laneAssistMode
+shift	I-laneAssistMode
+function	I-laneAssistMode
+
+Open	B-open
+Auto	B-laneAssistMode
+lane	I-laneAssistMode
+shift	I-laneAssistMode
+on	I-laneAssistMode
+cruising	I-laneAssistMode
+
+Deactivate	B-stop
+Cruising	B-laneAssistMode
+auto	I-laneAssistMode
+lane	I-laneAssistMode
+shift	I-laneAssistMode
+
+Disable	B-stop
+Cruising	B-laneAssistMode
+auto	I-laneAssistMode
+lane	I-laneAssistMode
+shift	I-laneAssistMode
+
+Disengage	B-stop
+Cruising	B-laneAssistMode
+auto	I-laneAssistMode
+lane	I-laneAssistMode
+shift	I-laneAssistMode
+
+Quit	B-stop
+Cruising	B-laneAssistMode
+auto	I-laneAssistMode
+lane	I-laneAssistMode
+shift	I-laneAssistMode
+
+Stop	B-stop
+using	I-stop
+Cruising	B-laneAssistMode
+auto	I-laneAssistMode
+lane	I-laneAssistMode
+shift	I-laneAssistMode
+
+Stop	B-stop
+using	I-stop
+Cruising	B-laneAssistMode
+auto	I-laneAssistMode
+lane	I-laneAssistMode
+shift	I-laneAssistMode
+function	I-laneAssistMode
+
+Exit	B-stop
+Cruising	B-laneAssistMode
+auto	I-laneAssistMode
+lane	I-laneAssistMode
+shift	I-laneAssistMode
+function	I-laneAssistMode
+
+Shut	B-close
+Cruising	B-laneAssistMode
+auto	I-laneAssistMode
+lane	I-laneAssistMode
+shift	I-laneAssistMode
+function	I-laneAssistMode
+
+Power	B-stop
+off	I-stop
+Cruising	B-laneAssistMode
+auto	I-laneAssistMode
+lane	I-laneAssistMode
+shift	I-laneAssistMode
+function	I-laneAssistMode
+
+Close	B-close
+Auto	B-laneAssistMode
+lane	I-laneAssistMode
+shift	I-laneAssistMode
+on	I-laneAssistMode
+cruising	I-laneAssistMode
+
+Activate	B-start
+Traffic	B-drivingAssistMode
+light	I-drivingAssistMode
+recognition	I-drivingAssistMode
+system	I-drivingAssistMode
+
+Enable	B-start
+Traffic	B-drivingAssistMode
+light	I-drivingAssistMode
+recognition	I-drivingAssistMode
+system	I-drivingAssistMode
+
+Access	B-open
+Traffic	B-drivingAssistMode
+light	I-drivingAssistMode
+recognition	I-drivingAssistMode
+system	I-drivingAssistMode
+
+Start	B-start
+Traffic	B-drivingAssistMode
+light	I-drivingAssistMode
+recognition	I-drivingAssistMode
+system	I-drivingAssistMode
+
+Start	B-start
+up	I-start
+Traffic	B-drivingAssistMode
+light	I-drivingAssistMode
+recognition	I-drivingAssistMode
+system	I-drivingAssistMode
+
+Go	B-start
+to	I-start
+Traffic	B-drivingAssistMode
+light	I-drivingAssistMode
+recognition	I-drivingAssistMode
+system	I-drivingAssistMode
+
+Operate	B-start
+Traffic	B-drivingAssistMode
+light	I-drivingAssistMode
+recognition	I-drivingAssistMode
+system	I-drivingAssistMode
+
+Let's	B-start
+use	I-start
+Traffic	B-drivingAssistMode
+light	I-drivingAssistMode
+recognition	I-drivingAssistMode
+system	I-drivingAssistMode
+
+Open	B-open
+up	I-open
+Traffic	B-drivingAssistMode
+light	I-drivingAssistMode
+recognition	I-drivingAssistMode
+system	I-drivingAssistMode
+
+Change	B-switch
+to	I-switch
+Traffic	B-drivingAssistMode
+light	I-drivingAssistMode
+recognition	I-drivingAssistMode
+system	I-drivingAssistMode
+
+Disable	B-stop
+Traffic	B-drivingAssistMode
+light	I-drivingAssistMode
+recognition	I-drivingAssistMode
+system	I-drivingAssistMode
+
+Quit	B-stop
+Traffic	B-drivingAssistMode
+light	I-drivingAssistMode
+recognition	I-drivingAssistMode
+system	I-drivingAssistMode
+
+Stop	B-stop
+Traffic	B-drivingAssistMode
+light	I-drivingAssistMode
+recognition	I-drivingAssistMode
+system	I-drivingAssistMode
+
+Stop	B-stop
+operating	I-stop
+Traffic	B-drivingAssistMode
+light	I-drivingAssistMode
+recognition	I-drivingAssistMode
+system	I-drivingAssistMode
+
+Traffic	B-stop
+light	I-stop
+recognition	I-stop
+system	I-stop
+off	I-stop
+Traffic	B-drivingAssistMode
+light	I-drivingAssistMode
+recognition	I-drivingAssistMode
+system	I-drivingAssistMode
+
+Stop	B-stop
+using	I-stop
+Traffic	B-drivingAssistMode
+light	I-drivingAssistMode
+recognition	I-drivingAssistMode
+system	I-drivingAssistMode
+
+Don't	B-stop
+use	I-stop
+Traffic	B-drivingAssistMode
+light	I-drivingAssistMode
+recognition	I-drivingAssistMode
+system	I-drivingAssistMode
+
+Disengage	B-stop
+Traffic	B-drivingAssistMode
+light	I-drivingAssistMode
+recognition	I-drivingAssistMode
+system	I-drivingAssistMode
+
+Shut	B-stop
+down	I-stop
+Traffic	B-drivingAssistMode
+light	I-drivingAssistMode
+recognition	I-drivingAssistMode
+system	I-drivingAssistMode
+
+Power	B-stop
+off	I-stop
+Traffic	B-drivingAssistMode
+light	I-drivingAssistMode
+recognition	I-drivingAssistMode
+system	I-drivingAssistMode
+
+Switch	B-switch
+on	I-switch
+low	B-brakeAssistMode
+speed	I-brakeAssistMode
+automatic	I-brakeAssistMode
+emergency	I-brakeAssistMode
+braking	I-brakeAssistMode
+function	I-brakeAssistMode
+
+Turn	B-start
+low	B-brakeAssistMode
+speed	I-brakeAssistMode
+automatic	I-brakeAssistMode
+emergency	I-brakeAssistMode
+braking	I-brakeAssistMode
+function	I-brakeAssistMode
+on	B-status
+
+Switch	B-switch
+low	B-brakeAssistMode
+speed	I-brakeAssistMode
+automatic	I-brakeAssistMode
+emergency	I-brakeAssistMode
+braking	I-brakeAssistMode
+function	I-brakeAssistMode
+on	B-status
+
+Enable	B-start
+low	B-brakeAssistMode
+speed	I-brakeAssistMode
+automatic	I-brakeAssistMode
+emergency	I-brakeAssistMode
+braking	I-brakeAssistMode
+function	I-brakeAssistMode
+
+Activate	B-start
+low	B-brakeAssistMode
+speed	I-brakeAssistMode
+automatic	I-brakeAssistMode
+emergency	I-brakeAssistMode
+braking	I-brakeAssistMode
+function	I-brakeAssistMode
+Can	B-auxiliary_help
+you	I-auxiliary_help
+
+Turn	B-stop
+off	I-stop
+low	B-brakeAssistMode
+speed	I-brakeAssistMode
+automatic	I-brakeAssistMode
+emergency	I-brakeAssistMode
+braking	I-brakeAssistMode
+
+Deactivate	B-stop
+low	B-brakeAssistMode
+speed	I-brakeAssistMode
+automatic	I-brakeAssistMode
+emergency	I-brakeAssistMode
+braking	I-brakeAssistMode
+
+Shut	B-stop
+off	I-stop
+low	B-brakeAssistMode
+speed	I-brakeAssistMode
+automatic	I-brakeAssistMode
+emergency	I-brakeAssistMode
+braking	I-brakeAssistMode
+
+Switch	B-switch
+off	I-switch
+low	B-brakeAssistMode
+speed	I-brakeAssistMode
+automatic	I-brakeAssistMode
+emergency	I-brakeAssistMode
+braking	I-brakeAssistMode
+
+Turn	B-stop
+low	B-brakeAssistMode
+speed	I-brakeAssistMode
+automatic	I-brakeAssistMode
+emergency	I-brakeAssistMode
+braking	I-brakeAssistMode
+off	B-status
+
+Switch	B-switch
+off	I-switch
+Low	B-brakeAssistMode
+speed	I-brakeAssistMode
+Emergency	I-brakeAssistMode
+Braking	I-brakeAssistMode
+
+Deactivate	B-stop
+Low	B-brakeAssistMode
+speed	I-brakeAssistMode
+Emergency	I-brakeAssistMode
+Braking	I-brakeAssistMode
+
+Disable	B-stop
+Low	B-brakeAssistMode
+speed	I-brakeAssistMode
+Emergency	I-brakeAssistMode
+Braking	I-brakeAssistMode
+
+Quit	B-stop
+Low	B-brakeAssistMode
+speed	I-brakeAssistMode
+Emergency	I-brakeAssistMode
+Braking	I-brakeAssistMode
+
+Stop	B-stop
+Low	B-brakeAssistMode
+speed	I-brakeAssistMode
+Emergency	I-brakeAssistMode
+Braking	I-brakeAssistMode
+
+Change	B-change
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+high	B-noiseVolumeCompensationLevel
+
+Set	B-set
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+high	B-noiseVolumeCompensationLevel
+
+Adjust	B-adjust
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+high	B-noiseVolumeCompensationLevel
+
+Change	B-change
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+high	B-noiseVolumeCompensationLevel
+
+Set	B-set
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+high	B-noiseVolumeCompensationLevel
+
+Open	B-open
+tailgate	B-tailgateSet
+settings	I-tailgateSet
+page	B-page
+
+Show	B-showVerb
+tailgate	B-tailgateSet
+settings	I-tailgateSet
+page	B-page
+
+Enter	B-open
+tailgate	B-tailgateSet
+settings	I-tailgateSet
+page	B-page
+
+Display	B-displayVerb
+tailgate	B-tailgateSet
+settings	I-tailgateSet
+page	B-page
+
+Open	B-open
+tailgate	B-tailgateSet
+settings	I-tailgateSet
+menu	B-menu
+
+Call	B-callVerb
+the	B-auxiliary_help
+same	B-same
+number	B-number
+
+Pull	B-open
+up	I-open
+the	B-auxiliary_help
+saved	B-poiCollectList
+places	I-poiCollectList
+list	I-poiCollectList
+
+Show	B-show
+my	B-my
+bookmarked	B-poiCollectList
+locations	I-poiCollectList
+
+Access	B-open
+my	B-my
+saved	B-poiCollectList
+destinations	I-poiCollectList
+
+Retry	B-retry
+the	B-auxiliary_help
+call	B-callNoun
+
+Set	B-set
+ambient	B-ambientLight
+light	I-ambientLight
+color	B-color
+to	B-prep
+green	B-atmosphereLampColor
+
+Set	B-set
+the	B-auxiliary_help
+color	B-color
+of	B-prep
+ambient	B-ambientLight
+light	I-ambientLight
+to	B-prep
+green	B-atmosphereLampColor
+
+Set	B-set
+ambient	B-ambientLight
+light	I-ambientLight
+color	B-color
+to	B-prep
+ice	B-atmosphereLampColor
+blue	I-atmosphereLampColor
+
+Set	B-set
+the	B-auxiliary_help
+color	B-color
+of	B-prep
+ambient	B-ambientLight
+light	I-ambientLight
+to	B-prep
+ice	B-atmosphereLampColor
+blue	I-atmosphereLampColor
+
+Set	B-set
+ambient	B-ambientLight
+light	I-ambientLight
+color	B-color
+to	B-prep
+pink	B-atmosphereLampColor
+
+Minimum	B-minimize
+the	B-the
+dashboard	B-dashboard
+brightness	B-brightness
+
+Turn	B-adjust
+the	B-the
+temperature	B-temp
+up	B-up
+1	B-offsetNumber
+degree	B-degree
+
+Turn	B-close
+off	I-close
+screen	B-screen
+
+Turn	B-open
+on	I-open
+the	B-the
+wifi	B-wifi
+
+Music	B-music
+mute	B-mute
+
+Decrease	B-decrease
+the	B-auxiliary_help
+passenger	B-airconPosition
+seat	I-airconPosition
+temperature	B-temp
+by	B-by
+five	B-offsetNumber
+degrees	B-degree
+
+Decrease	B-decrease
+the	B-auxiliary_help
+passenger	B-airconPosition
+seat	I-airconPosition
+temperature	B-temp
+by	B-by
+two	B-offsetNumber
+degrees	B-degree
+
+Increase	B-increase
+the	B-auxiliary_help
+temperature	B-temp
+for	B-for
+driver	B-airconPosition
+seat	I-airconPosition
+by	B-by
+five	B-offsetNumber
+degrees	B-degree
+
+Decrease	B-decrease
+the	B-auxiliary_help
+driver	B-airconPosition
+seat	I-airconPosition
+temperature	B-temp
+by	B-by
+five	B-offsetNumber
+degrees	B-degree
+
+Decrease	B-decrease
+the	B-auxiliary_help
+driver	B-airconPosition
+seat	I-airconPosition
+temperature	B-temp
+by	B-by
+two	B-offsetNumber
+degrees	B-degree
+
+Language	B-language
+set	B-set
+to	B-to
+Portuguese	B-languageType
+
+Language	B-language
+set	B-set
+to	B-to
+Japanese	B-languageType
+
+Language	B-language
+set	B-set
+to	B-to
+French	B-languageType
+
+Language	B-language
+set	B-set
+to	B-to
+Arabic	B-languageType
+
+Language	B-language
+set	B-set
+to	B-to
+Russian	B-languageType
+
+Language	B-language
+set	B-set
+to	B-to
+Vietnamese	B-languageType
+
+Language	B-language
+set	B-set
+to	B-to
+Indonesian	B-languageType
+
+Language	B-language
+set	B-set
+to	B-to
+Malay	B-languageType
+
+Language	B-language
+set	B-set
+to	B-to
+Catalan	B-languageType
+
+Language	B-language
+set	B-set
+to	B-to
+Croatian	B-languageType
+
+Ta	B-napMode
+en	I-napMode
+pause	I-napMode
+i	B-prep
+én	B-offsetNumber
+time	B-hour
+og	B-and
+ti	B-offsetNumber
+minutter	B-minute
+
+Jeg	B-auxiliary_help
+vil	I-auxiliary_help
+sove	B-napMode
+én	B-offsetNumber
+time	B-hour
+og	B-and
+tretti	B-offsetNumber
+minutter	B-minute
+
+Jeg	B-auxiliary_help
+vil	I-auxiliary_help
+slappe	B-napMode
+av	I-napMode
+én	B-offsetNumber
+time	B-hour
+og	B-and
+tretti	B-offsetNumber
+minutter	B-minute
+
+Jeg	B-auxiliary_help
+vil	I-auxiliary_help
+hvile	B-napMode
+én	B-offsetNumber
+time	B-hour
+og	B-and
+tretti	B-offsetNumber
+minutter	B-minute
+
+Jeg	B-auxiliary_help
+vil	I-auxiliary_help
+ta	B-napMode
+en	I-napMode
+pause	I-napMode
+på	B-prep
+én	B-offsetNumber
+time	B-hour
+og	B-and
+tretti	B-offsetNumber
+minutter	B-minute
+
+Kjør	B-navigate
+til	B-prep
+en	B-article
+minibank	B-poiEnd
+
+Ta	B-navigate
+meg	I-navigate
+til	B-prep
+en	B-article
+bensinstasjon	B-poiEnd
+
+Sett	B-set
+navigasjon	B-navigation
+til	B-prep
+en	B-article
+ladestasjon	B-poiEnd
+for	I-poiEnd
+el-bil	I-poiEnd
+
+Start	B-start
+å	B-prep
+navigere	B-navigate
+til	B-prep
+ZEEKR	B-poiEnd
+
+Kan	B-auxiliary_help
+du	I-auxiliary_help
+navigere	B-navigate
+meg	B-me
+til	B-prep
+biltjenester	B-poiEnd
+
+Naviger	B-navigate
+meg	B-me
+til	B-prep
+en	B-article
+minibank	B-poiEnd
+på	B-prep
+Industriveien	B-poiLandmark
+
+Kjør	B-navigate
+meg	B-me
+til	B-prep
+en	B-article
+bensinstasjon	B-poiEnd
+på	B-prep
+Industriveien	B-poiLandmark
+
+Start	B-start
+å	B-prep
+navigere	B-navigate
+til	B-prep
+en	B-article
+ladestasjon	B-poiEnd
+for	I-poiEnd
+el-bil	I-poiEnd
+på	B-prep
+Industriveien	B-poiLandmark
+
+Start	B-start
+navigasjonen	B-navigation
+til	B-prep
+ZEEKR	B-poiEnd
+på	B-prep
+Industriveien	B-poiLandmark
+
+Naviger	B-navigate
+til	B-prep
+biltjenester	B-poiEnd
+på	B-prep
+Industriveien	B-poiLandmark
+er	B-auxiliary_help
+du	I-auxiliary_help
+snill	I-auxiliary_help
+
+Se	B-search
+etter	I-search
+et	B-article
+sykehus	B-poiEnd
+i	B-prep
+nærheten	B-nearby
+
+Let	B-search
+etter	I-search
+en	B-article
+rasteplass	B-poiEnd
+i	B-prep
+nærheten	B-nearby
+
+Sjekk	B-search
+om	B-prep
+det	B-isThere
+er	I-isThere
+en	B-article
+minibank	B-poiEnd
+i	B-prep
+nærheten	B-nearby
+
+Er	B-isThere
+det	I-isThere
+et	B-article
+varehus	B-poiEnd
+i	B-prep
+nærheten	B-nearby
+
+Finn	B-search
+hoteller	B-poiEnd
+på	B-prep
+nåværende	B-current
+sted	B-position
+
+Søk	B-search
+etter	I-search
+en	B-article
+rasteplass	B-poiEnd
+rundt	B-nearby
+Operahuset	B-poiLandmark
+
+Sjekk	B-search
+om	B-prep
+det	B-isThere
+er	I-isThere
+et	B-article
+hotell	B-poiEnd
+i	B-prep
+nærheten	B-nearby
+av	B-prep
+KIWI	B-poiLandmark
+
+Finn	B-search
+et	B-article
+varehus	B-poiEnd
+i	B-prep
+nærheten	B-nearby
+av	B-prep
+KIWI	B-poiLandmark
+
+Kan	B-auxiliary_help
+du	I-auxiliary_help
+søke	B-search
+om	B-prep
+det	B-isThere
+er	I-isThere
+en	B-article
+minibank	B-poiEnd
+i	B-prep
+nærheten	B-nearby
+av	B-prep
+KIWI	B-poiLandmark
+
+Bensinstasjoner	B-poiEnd
+i	B-prep
+nærheten	B-nearby
+av	B-prep
+KIWI	B-poiLandmark
+
+Sjekk	B-search
+om	B-prep
+det	B-isThere
+er	I-isThere
+en	B-article
+minibank	B-poiEnd
+nær	B-nearby
+destinasjonen	B-destination
+
+Sjekk	B-search
+om	B-prep
+det	B-isThere
+er	I-isThere
+bensinstasjoner	B-poiEnd
+i	B-prep
+nærheten	B-nearby
+av	B-prep
+reisemålet	B-destination
+
+Sjekk	B-search
+om	B-prep
+det	B-isThere
+er	I-isThere
+et	B-article
+sykehus	B-poiEnd
+nær	B-nearby
+destinasjonen	B-destination
+
+Finn	B-search
+en	B-article
+ladestasjon	B-poiEnd
+for	I-poiEnd
+el-bil	I-poiEnd
+nær	B-nearby
+destinasjonen	B-destination
+
+Finn	B-search
+ZEEKR	B-poiEnd
+nær	B-nearby
+destinasjonen	B-destination
+
+Jeg	B-i
+leter	B-search
+etter	I-search
+et	B-article
+varehus	B-poiEnd
+nær	B-nearby
+huset	B-home
+
+Minibanker	B-poiEnd
+rundt	B-nearby
+huset	B-home
+
+Jeg	B-auxiliary_help
+vil	I-auxiliary_help
+finne	B-search
+en	B-article
+bensinstasjon	B-poiEnd
+i	B-prep
+nærheten	B-nearby
+av	B-prep
+huset	B-home
+
+Søk	B-search
+etter	I-search
+en	B-article
+ladestasjon	B-poiEnd
+for	I-poiEnd
+el-bil	I-poiEnd
+rundt	B-nearby
+av	O
+huset	B-home
+
+Hjelp	B-auxiliary_help
+meg	I-auxiliary_help
+med	I-auxiliary_help
+å	I-auxiliary_help
+finne	B-search
+ZEEKR	B-poiEnd
+i	B-prep
+nærheten	B-nearby
+av	B-prep
+huset	B-home
+mitt	B-my
+
+Minibanker	B-poiEnd
+rundt	B-nearby
+selskapet	B-company
+mitt	B-my
+
+Jeg	B-auxiliary_help
+vil	I-auxiliary_help
+finne	B-search
+en	B-article
+bensinstasjon	B-poiEnd
+rundt	B-nearby
+selskapet	B-company
+mitt	B-my
+
+Søk	B-search
+etter	I-search
+en	B-article
+ladestasjon	B-poiEnd
+for	I-poiEnd
+el-bil	I-poiEnd
+rundt	B-nearby
+selskapet	B-company
+mitt	B-my
+
+Hjelp	B-auxiliary_help
+meg	I-auxiliary_help
+med	I-auxiliary_help
+å	I-auxiliary_help
+finne	B-search
+ZEEKR	B-poiEnd
+rundt	B-nearby
+selskapet	B-company
+mitt	B-my
+
+Sjekk	B-search
+om	B-prep
+det	B-isThere
+er	I-isThere
+biltjenester	B-poiEnd
+nær	B-nearby
+selskapet	B-company
+mitt	B-my
+
+Kan	B-auxiliary_help
+du	I-auxiliary_help
+finne	B-search
+et	B-article
+varehus	B-poiEnd
+langs	B-alongRoute
+ruten	I-alongRoute
+
+Finn	B-search
+et	B-article
+hotell	B-poiEnd
+på	B-alongRoute
+ruten	I-alongRoute
+min	B-my
+
+Søk	B-search
+etter	I-search
+en	B-article
+bensinstasjon	B-poiEnd
+på	B-alongRoute
+veien	I-alongRoute
+
+Se	B-search
+etter	I-search
+en	B-article
+ladestasjon	B-poiEnd
+for	I-poiEnd
+el-bil	I-poiEnd
+på	B-alongRoute
+veien	I-alongRoute
+
+Finn	B-search
+om	B-prep
+det	B-isThere
+er	I-isThere
+ZEEKR	B-poiEnd
+på	B-alongRoute
+veien	I-alongRoute
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+minibank	B-poiEnd
+og	B-and
+unngå	B-routePreferenceType
+trafikkveier	I-routePreferenceType
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+bensinstasjon	B-poiEnd
+og	B-and
+unngå	B-routePreferenceType
+trafikkork	I-routePreferenceType
+
+Start	B-start
+å	B-prep
+navigere	B-navigate
+til	B-prep
+en	B-article
+ladestasjon	B-poiEnd
+for	I-poiEnd
+el-bil	I-poiEnd
+og	B-and
+unngå	B-routePreferenceType
+trafikkork	I-routePreferenceType
+
+Begynn	B-start
+med	I-start
+å	B-prep
+navigere	B-navigate
+til	B-prep
+ZEEKR	B-poiEnd
+og	B-and
+unngå	B-routePreferenceType
+trafikkork	I-routePreferenceType
+
+Kan	B-auxiliary_help
+du	I-auxiliary_help
+navigere	B-navigate
+til	B-prep
+en	B-article
+biltjeneste	B-poiEnd
+og	B-and
+unngå	B-routePreferenceType
+trafikkork	I-routePreferenceType
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+minibank	B-poiEnd
+og	B-and
+unngå	B-routePreferenceType
+bomveier	I-routePreferenceType
+
+Start	B-start
+å	B-prep
+navigere	B-navigate
+til	B-prep
+en	B-article
+bensinstasjon	B-poiEnd
+og	B-and
+unngå	B-routePreferenceType
+bomveier	I-routePreferenceType
+
+Begynn	B-start
+med	I-start
+å	B-prep
+navigere	B-navigate
+til	B-prep
+en	B-article
+ladestasjon	B-poiEnd
+for	I-poiEnd
+el-bil	I-poiEnd
+og	B-and
+unngå	B-routePreferenceType
+bomveier	I-routePreferenceType
+
+Kan	B-auxiliary_help
+du	I-auxiliary_help
+navigere	B-navigate
+til	B-prep
+ZEEKR	B-poiEnd
+og	B-and
+unngå	B-routePreferenceType
+bomveier	I-routePreferenceType
+
+Navigasjon	B-navigation
+til	B-prep
+en	B-article
+biltjeneste	B-poiEnd
+og	B-and
+unngå	B-routePreferenceType
+bomveier	I-routePreferenceType
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+rasteplass	B-poiEnd
+med	B-routePreferenceType
+motorvei	I-routePreferenceType
+
+Start	B-start
+å	B-prep
+navigere	B-navigate
+til	B-prep
+et	B-article
+hotell	B-poiEnd
+med	B-routePreferenceType
+motorvei	I-routePreferenceType
+
+Begynn	B-start
+med	I-start
+å	B-prep
+navigere	B-navigate
+til	B-prep
+et	B-article
+varehus	B-poiEnd
+med	B-routePreferenceType
+motorvei	I-routePreferenceType
+
+Kan	B-auxiliary_help
+du	I-auxiliary_help
+navigere	B-navigate
+til	B-prep
+en	B-article
+minibank	B-poiEnd
+med	B-routePreferenceType
+motorvei	I-routePreferenceType
+
+Navigasjon	B-navigation
+til	B-prep
+en	B-article
+bensinstasjon	B-poiEnd
+med	B-routePreferenceType
+motorvei	I-routePreferenceType
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+minibank	B-poiEnd
+og	B-and
+unngå	B-routePreferenceType
+motorvei	I-routePreferenceType
+
+Start	B-start
+å	B-prep
+navigere	B-navigate
+til	B-prep
+en	B-article
+bensinstasjon	B-poiEnd
+og	B-and
+unngå	B-routePreferenceType
+motorvei	I-routePreferenceType
+
+Begynn	B-start
+å	B-prep
+navigere	B-navigate
+til	B-prep
+en	B-article
+ladestasjon	B-poiEnd
+for	I-poiEnd
+el-bil	I-poiEnd
+og	B-and
+unngå	B-routePreferenceType
+motorvei	I-routePreferenceType
+
+Kan	B-auxiliary_help
+du	I-auxiliary_help
+navigere	B-navigate
+til	B-prep
+ZEEKR	B-poiEnd
+og	B-and
+unngå	B-routePreferenceType
+motorvei	I-routePreferenceType
+
+Navigasjon	B-navigation
+til	B-prep
+en	B-article
+biltjeneste	B-poiEnd
+og	B-and
+unngå	B-routePreferenceType
+motorvei	I-routePreferenceType
+
+Legg	B-add
+til	I-add
+en	B-article
+restaurant	B-poiEnd
+som	B-as
+destinasjon	B-destination
+og	B-and
+kjør	B-via
+forbi	I-via
+en	B-article
+kaffe	B-poiWaypoint
+og	I-poiWaypoint
+te	I-poiWaypoint
+
+Legg	B-add
+til	I-add
+en	B-article
+rasteplass	B-poiEnd
+som	B-as
+destinasjon	B-destination
+og	B-and
+kjør	B-via
+forbi	I-via
+et	B-article
+hotell	B-poiWaypoint
+
+Sett	B-set
+et	B-article
+varehus	B-poiEnd
+som	B-as
+reisemål	B-destination
+og	B-and
+kjør	B-via
+forbi	I-via
+en	B-article
+minibank	B-poiWaypoint
+
+Add	B-add
+en	B-article
+bensinstasjon	B-poiEnd
+som	B-as
+reisemål	B-destination
+og	B-and
+kjør	B-via
+forbi	I-via
+en	B-article
+ladestasjon	B-poiWaypoint
+for	I-poiWaypoint
+el-bil	I-poiWaypoint
+
+Add	B-add
+ZEEKR	B-poiEnd
+som	B-as
+destinasjon	B-destination
+og	B-and
+kjør	B-via
+forbi	I-via
+en	B-article
+biltjeneste	B-poiWaypoint
+
+Legg	B-add
+til	I-add
+et	B-article
+varehus	B-poiWaypoint
+som	B-as
+mellomstopp	B-waypoint
+
+Legg	B-add
+til	I-add
+en	B-article
+minibank	B-poiWaypoint
+som	B-as
+forbipasserende	B-waypoint
+punkt	I-waypoint
+
+Add	B-add
+en	B-article
+bensinstasjon	B-poiWaypoint
+som	B-as
+forbipasserende	B-waypoint
+punkt	I-waypoint
+
+Lagre	B-add
+en	B-article
+ladestasjon	B-poiWaypoint
+for	I-poiWaypoint
+el-bil	I-poiWaypoint
+som	B-as
+forbipasserende	B-waypoint
+punkt	I-waypoint
+
+Legg	B-add
+til	I-add
+ZEEKR	B-poiWaypoint
+som	B-as
+mellom	B-waypoint
+destinasjon	I-waypoint
+
+Legg	B-add
+til	I-add
+en	B-article
+minibank	B-poiWaypoint
+i	B-prep
+nærheten	B-nearby
+som	B-as
+mellomstopp	B-waypoint
+
+Legg	B-add
+til	I-add
+en	B-article
+bensinstasjon	B-poiWaypoint
+i	B-prep
+nærheten	B-nearby
+som	B-as
+forbipasserende	B-waypoint
+punkt	I-waypoint
+
+Add	B-add
+en	B-article
+ladestasjon	B-poiWaypoint
+for	I-poiWaypoint
+el-bil	I-poiWaypoint
+i	B-prep
+nærheten	B-nearby
+som	B-as
+forbipasserende	B-waypoint
+punkt	I-waypoint
+
+Lagre	B-add
+ZEEKR	B-poiWaypoint
+i	B-prep
+nærheten	B-nearby
+som	B-as
+forbipasserende	B-waypoint
+punkt	I-waypoint
+
+Legg	B-add
+til	I-add
+en	B-article
+biltjeneste	B-poiWaypoint
+i	B-prep
+nærheten	B-nearby
+som	B-as
+forbipasserende	B-waypoint
+punkt	I-waypoint
+
+Legg	B-add
+til	I-add
+en	B-article
+minibank	B-poiWaypoint
+som	B-as
+ligger	B-locate
+to	B-offsetNumber
+hundre	I-offsetNumber
+meter	B-meter
+unna	B-within
+som	B-as
+mellomstopp	B-waypoint
+
+Add	B-add
+en	B-article
+bensinstasjon	B-poiWaypoint
+som	B-as
+ligger	B-locate
+to	B-offsetNumber
+hundre	I-offsetNumber
+meter	B-meter
+unna	B-within
+som	B-as
+mellomstopp	B-waypoint
+
+Lagre	B-add
+en	B-article
+ladestasjon	B-poiWaypoint
+for	I-poiWaypoint
+el-bil	I-poiWaypoint
+som	B-as
+ligger	B-locate
+to	B-offsetNumber
+hundre	I-offsetNumber
+meter	B-meter
+unna	B-within
+som	B-as
+mellomstopp	B-waypoint
+
+Legg	B-add
+til	I-add
+ZEEKR	B-poiWaypoint
+som	B-as
+ligger	B-locate
+to	B-offsetNumber
+hundre	I-offsetNumber
+meter	B-meter
+unna	B-within
+som	B-as
+forbipasserende	B-waypoint
+punkt	I-waypoint
+
+Add	B-add
+en	B-article
+biltjeneste	B-poiWaypoint
+som	B-as
+ligger	B-locate
+to	B-offsetNumber
+hundre	I-offsetNumber
+meter	B-meter
+unna	B-within
+som	B-as
+forbipasserende	B-waypoint
+punkt	I-waypoint
+
+Endre	B-change
+reisemålet	B-destination
+til	B-prep
+ZEEKR	B-poiEnd
+
+Bytt	B-change
+destinasjon	B-destination
+til	B-prep
+biltjenester	B-poiEnd
+
+Bytt	B-change
+reisemålet	B-destination
+til	B-prep
+en	B-article
+kaffe	B-poiEnd
+og	I-poiEnd
+te	I-poiEnd
+
+Skift	B-change
+reisemålet	B-destination
+til	B-prep
+en	B-article
+parkering	B-poiEnd
+
+Vennligst	B-auxiliary_help
+bytt	B-change
+destinasjonen	B-destination
+til	B-prep
+en	B-article
+offentlig	B-poiEnd
+toalett	I-poiEnd
+
+Hold	B-napMode
+hvile	I-napMode
+i	B-prep
+en	B-offsetNumber
+time	B-hour
+og	B-and
+tredive	B-offsetNumber
+minutter	B-minute
+
+Lad	B-auxiliary_help
+mig	I-auxiliary_help
+holde	B-napMode
+pause	I-napMode
+i	B-prep
+en	B-offsetNumber
+time	B-hour
+og	B-and
+tredive	B-offsetNumber
+minutter	B-minute
+
+Lad	B-auxiliary_help
+mig	I-auxiliary_help
+tage	B-napMode
+en	I-napMode
+pause	I-napMode
+i	B-prep
+en	B-offsetNumber
+time	B-hour
+og	B-and
+tredive	B-offsetNumber
+minutter	B-minute
+
+Lad	B-auxiliary_help
+mig	I-auxiliary_help
+hvile	B-napMode
+i	B-prep
+en	B-offsetNumber
+time	B-hour
+og	B-and
+tredive	B-offsetNumber
+minutter	B-minute
+
+Lad	B-auxiliary_help
+mig	I-auxiliary_help
+få	B-napMode
+en	I-napMode
+pause	I-napMode
+i	B-prep
+en	B-offsetNumber
+time	B-hour
+og	B-and
+tredive	B-offsetNumber
+minutter	B-minute
+
+Tag	B-navigate
+mig	I-navigate
+til	B-prep
+et	B-article
+stormagasin	B-poiEnd
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+ATM	B-poiEnd
+i	B-prep
+nærheden	B-nearby
+
+Kør	B-navigate
+til	B-prep
+en	B-article
+benzintank	B-poiEnd
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+
+Kør	B-navigate
+til	B-prep
+ZEEKR	B-poiEnd
+
+vis	B-navigate
+mig	I-navigate
+ruten	I-navigate
+til	B-prep
+stormagasin	B-poiEnd
+på	B-prep
+Gladsaxevej	B-poiLandmark
+
+Hvordan	B-how
+kommer	B-navigate
+jeg	B-i
+til	B-prep
+ATM	B-poiEnd
+på	B-prep
+Lyngbyvej	B-poiLandmark
+
+Naviger	B-navigate
+til	B-prep
+benzintank	B-poiEnd
+på	B-prep
+Jagtvej	B-poiLandmark
+
+Tag	B-navigate
+mig	I-navigate
+til	B-prep
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+på	B-prep
+Amager	B-poiLandmark
+Strandvej	I-poiLandmark
+
+vis	B-navigate
+mig	I-navigate
+vejen	I-navigate
+til	B-prep
+ZEEKR	B-poiEnd
+på	B-prep
+Bernstorffsvej	B-poiLandmark
+
+Led	B-search
+efter	I-search
+en	B-article
+nærliggende	B-nearby
+benzintank	B-poiEnd
+
+Er	B-isThere
+der	I-isThere
+en	B-article
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+i	B-prep
+nærheden	B-nearby
+
+Søg	B-search
+efter	I-search
+et	B-article
+nærliggende	B-nearby
+stormagasin	B-poiEnd
+
+Vis	B-showVerb
+mig	B-me
+en	B-article
+nærliggende	B-nearby
+parkeringsplads	B-poiEnd
+
+Er	B-isThere
+der	I-isThere
+nogen	B-some
+offentlige	B-poiEnd
+toiletter	I-poiEnd
+heromkring	B-nearby
+
+Stormagasin	B-poiEnd
+i	B-prep
+nærheden	B-nearby
+af	B-prep
+Odense	B-poiLandmark
+Banegård	I-poiLandmark
+
+ATM	B-poiEnd
+tæt	B-nearby
+på	I-nearby
+Nørreport	B-poiLandmark
+Station	I-poiLandmark
+
+Benzintank	B-poiEnd
+i	B-prep
+området	B-nearby
+omkring	I-nearby
+Viby	B-poiLandmark
+
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+i	B-prep
+nærheden	B-nearby
+af	B-prep
+Aarhus	B-poiLandmark
+Universitet	I-poiLandmark
+
+ZEEKR	B-poiEnd
+tæt	B-nearby
+på	I-nearby
+Hellerup	B-poiLandmark
+
+Søg	B-search
+efter	I-search
+et	B-article
+stormagasin	B-poiEnd
+tæt	B-nearby
+på	I-nearby
+min	B-my
+destination	B-destination
+
+Find	B-search
+en	B-article
+ATM	B-poiEnd
+nær	B-nearby
+min	B-my
+destination	B-destination
+
+Led	B-search
+efter	I-search
+en	B-article
+benzintank	B-poiEnd
+omkring	B-nearby
+min	B-my
+destination	B-destination
+
+Find	B-search
+en	B-article
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+tæt	B-nearby
+på	I-nearby
+min	B-my
+destination	B-destination
+
+Led	B-search
+efter	I-search
+en	B-article
+ZEEKR	B-poiEnd
+nær	B-nearby
+min	B-my
+destination	B-destination
+
+Led	B-search
+efter	I-search
+et	B-article
+stormagasin	B-poiEnd
+nær	B-nearby
+mit	B-my
+hjem	B-home
+
+Søg	B-search
+efter	I-search
+en	B-article
+ATM	B-poiEnd
+nær	B-nearby
+mit	B-my
+hjem	B-home
+
+Find	B-search
+en	B-article
+benzintank	B-poiEnd
+nær	B-nearby
+mit	B-my
+hjem	B-home
+
+Jeg	B-auxiliary_help
+skal	I-auxiliary_help
+finde	B-search
+en	B-article
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+nær	B-nearby
+mit	B-my
+hjem	B-home
+
+Jeg	B-i
+leder	B-search
+efter	I-search
+en	B-article
+ZEEKR	B-poiEnd
+nær	B-nearby
+mit	B-my
+hjem	B-home
+
+Led	B-search
+efter	I-search
+et	B-article
+stormagasin	B-poiEnd
+nær	B-nearby
+mit	B-my
+firma	B-company
+
+Søg	B-search
+efter	I-search
+en	B-article
+ATM	B-poiEnd
+nær	B-nearby
+mit	B-my
+firma	B-company
+
+Find	B-search
+en	B-article
+benzintank	B-poiEnd
+nær	B-nearby
+mit	B-my
+firma	B-company
+
+Jeg	B-auxiliary_help
+skal	I-auxiliary_help
+finde	B-search
+en	B-article
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+nær	B-nearby
+mit	B-my
+firma	B-company
+
+Jeg	B-i
+leder	B-search
+efter	I-search
+en	B-article
+ZEEKR	B-poiEnd
+nær	B-nearby
+mit	B-my
+firma	B-company
+
+Søg	B-search
+efter	I-search
+en	B-article
+restaurant	B-poiEnd
+på	B-alongRoute
+min	I-alongRoute
+rute	I-alongRoute
+
+Led	B-search
+efter	I-search
+en	B-article
+kaffe	B-poiEnd
+og	I-poiEnd
+te	I-poiEnd
+på	B-alongRoute
+vejen	I-alongRoute
+
+Find	B-search
+en	B-article
+rasteplads	B-poiEnd
+på	B-alongRoute
+min	I-alongRoute
+rute	I-alongRoute
+
+Søg	B-search
+efter	I-search
+et	B-article
+stormagasin	B-poiEnd
+på	B-alongRoute
+min	I-alongRoute
+rute	I-alongRoute
+
+Led	B-search
+efter	I-search
+en	B-article
+ATM	B-poiEnd
+på	B-alongRoute
+vejen	I-alongRoute
+
+Led	B-navigate
+mig	I-navigate
+til	B-prep
+et	B-article
+stormagasin	B-poiEnd
+og	B-and
+undgå	B-routePreferenceType
+eventuelle	I-routePreferenceType
+trafikforstyrrelser	I-routePreferenceType
+
+Find	B-search
+den	B-article
+hurtigste	B-route
+vej	I-route
+til	B-prep
+en	B-article
+ATM	B-poiEnd
+uden	B-routePreferenceType
+trafikpropper	I-routePreferenceType
+
+Tag	B-navigate
+mig	I-navigate
+til	B-prep
+en	B-article
+benzintank	B-poiEnd
+via	B-via
+en	B-article
+rute	B-route
+uden	B-routePreferenceType
+trafikpropper	I-routePreferenceType
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+og	B-and
+undgå	B-routePreferenceType
+trafikforstyrrelser	I-routePreferenceType
+
+Vælg	B-select
+en	B-article
+rute	B-route
+til	B-prep
+en	B-article
+ZEEKR	B-poiEnd
+uden	B-routePreferenceType
+trafikpropper	I-routePreferenceType
+
+Kom	B-navigate
+til	B-prep
+et	B-article
+stormagasin	B-poiEnd
+uden	B-routePreferenceType
+at	I-routePreferenceType
+tage	I-routePreferenceType
+nogen	I-routePreferenceType
+betalingsveje	I-routePreferenceType
+
+Find	B-search
+en	B-article
+ATM	B-poiEnd
+der	B-routePreferenceType
+ikke	I-routePreferenceType
+kræver	I-routePreferenceType
+betalingsvej	I-routePreferenceType
+
+Kør	B-navigate
+til	B-prep
+en	B-article
+benzintank	B-poiEnd
+uden	B-routePreferenceType
+at	I-routePreferenceType
+skulle	I-routePreferenceType
+betale	I-routePreferenceType
+vejafgift	I-routePreferenceType
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+og	B-and
+hold	B-routePreferenceType
+dig	I-routePreferenceType
+væk	I-routePreferenceType
+fra	I-routePreferenceType
+betalingsveje	I-routePreferenceType
+
+Tag	B-navigate
+mig	I-navigate
+til	B-prep
+ZEEKR	B-poiEnd
+uden	B-routePreferenceType
+at	I-routePreferenceType
+tage	I-routePreferenceType
+betalingsveje	I-routePreferenceType
+
+Jeg	B-auxiliary_help
+vil	I-auxiliary_help
+gerne	I-auxiliary_help
+nå	B-navigate
+et	B-article
+stormagasin	B-poiEnd
+og	B-and
+jeg	B-auxiliary_help
+vil	I-auxiliary_help
+gerne	I-auxiliary_help
+tage	B-routePreferenceType
+motorvejen	I-routePreferenceType
+
+Find	B-search
+en	B-article
+ATM	B-poiEnd
+og	B-and
+tag	B-routePreferenceType
+motorvejen	I-routePreferenceType
+dertil	B-there
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+benzintank	B-poiEnd
+via	B-via
+motorvejen	B-routePreferenceType
+
+Kør	B-navigate
+til	B-prep
+en	B-article
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+ad	B-routePreferenceType
+motorvejen	I-routePreferenceType
+
+Tag	B-navigate
+mig	I-navigate
+til	B-prep
+ZEEKR	B-poiEnd
+via	B-via
+motorvejen	B-routePreferenceType
+
+Find	B-navigate
+et	B-article
+stormagasin	B-poiEnd
+og	B-and
+undgå	B-routePreferenceType
+motorvej	I-routePreferenceType
+
+Tag	B-navigate
+mig	B-me
+til	B-prep
+en	B-article
+ATM	B-poiEnd
+uden	B-routePreferenceType
+at	I-routePreferenceType
+bruge	I-routePreferenceType
+motorvejen	I-routePreferenceType
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+benzintank	B-poiEnd
+uden	B-routePreferenceType
+motorvej	I-routePreferenceType
+
+Find	B-navigate
+en	B-article
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+og	B-and
+undgå	B-routePreferenceType
+motorvejen	I-routePreferenceType
+
+Led	B-navigate
+mig	B-me
+til	B-prep
+ZEEKR	B-poiEnd
+og	B-and
+tag	B-routePreferenceType
+ikke	I-routePreferenceType
+motorvejen	I-routePreferenceType
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+restaurant	B-poiEnd
+og	B-and
+passér	B-via
+en	B-article
+bank	B-poiWaypoint
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+kaffe	B-poiEnd
+og	I-poiEnd
+te	I-poiEnd
+og	B-and
+passér	B-via
+et	B-article
+hotel	B-poiWaypoint
+
+Kør	B-navigate
+til	B-prep
+en	B-article
+rasteplads	B-poiEnd
+og	B-and
+passér	B-via
+en	B-article
+benzintank	B-poiWaypoint
+
+Find	B-navigate
+rute	I-navigate
+til	I-navigate
+et	B-article
+stormagasin	B-poiEnd
+og	B-and
+passér	B-via
+en	B-article
+ATM	B-poiWaypoint
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+og	B-and
+passér	B-via
+ZEEKR	B-poiWaypoint
+
+Tilføj	B-add
+en	B-article
+restaurant	B-poiWaypoint
+som	B-as
+mellemliggende	B-waypoint
+stop	I-waypoint
+
+Indsæt	B-add
+en	B-article
+kaffe	B-poiWaypoint
+og	I-poiWaypoint
+te	I-poiWaypoint
+som	B-as
+vejpunkt	B-waypoint
+på	B-alongRoute
+ruten	I-alongRoute
+
+Inkluder	B-add
+en	B-article
+rasteplads	B-poiWaypoint
+som	B-as
+rutevejpunkt	B-waypoint
+
+Marker	B-add
+et	B-article
+stormagasin	B-poiWaypoint
+som	B-as
+mellemliggende	B-waypoint
+destination	B-destination
+
+Angiv	B-add
+en	B-article
+ATM	B-poiWaypoint
+som	B-as
+stop	B-waypoint
+på	B-alongRoute
+ruten	I-alongRoute
+
+Angiv	B-add
+et	B-article
+stormagasin	B-poiWaypoint
+i	B-prep
+nærheden	B-nearby
+som	B-as
+rutevejpunkt	B-waypoint
+
+Opret	B-add
+en	B-article
+ATM	B-poiWaypoint
+i	B-prep
+nærheden	B-nearby
+som	B-as
+vejpunkt	B-waypoint
+
+Føj	B-add
+en	B-article
+benzintank	B-poiWaypoint
+tæt	B-nearby
+på	I-nearby
+som	B-as
+mellemliggende	B-waypoint
+stop	I-waypoint
+
+Tilføj	B-add
+en	B-article
+EV	B-poiWaypoint
+opladningsstation	I-poiWaypoint
+der	B-prep
+er	I-prep
+i	I-prep
+nærheden	B-nearby
+som	B-as
+vejpunkt	B-waypoint
+
+Indsæt	B-add
+ZEEKR	B-poiWaypoint
+i	B-prep
+nærheden	B-nearby
+som	B-as
+waypoint	B-waypoint
+
+Tilføj	B-add
+et	B-article
+stormagasin	B-poiWaypoint
+inden	B-within
+for	I-within
+en	B-offsetNumber
+kilometer	B-km
+som	B-as
+et	B-article
+vejpunkt	B-waypoint
+
+Indsæt	B-add
+en	B-article
+ATM	B-poiWaypoint
+som	B-as
+ligger	B-prep
+fem	B-offsetNumber
+hundrede	I-offsetNumber
+meter	B-meter
+væk	B-within
+som	B-as
+et	B-article
+rutevejpunkt	B-waypoint
+
+Marker	B-add
+en	B-article
+benzintank	B-poiWaypoint
+der	B-prep
+er	I-prep
+tre	B-offsetNumber
+hundrede	I-offsetNumber
+meter	B-meter
+væk	B-within
+som	B-as
+et	B-article
+vejpunkt	B-waypoint
+
+Angiv	B-add
+en	B-article
+EV	B-poiWaypoint
+opladningsstation	I-poiWaypoint
+som	B-as
+befinder	B-prep
+sig	I-prep
+i	I-prep
+fem	B-offsetNumber
+hundrede	I-offsetNumber
+meter	B-meter
+som	B-as
+et	B-article
+waypoint	B-waypoint
+
+Tilføj	B-add
+ZEEKR	B-poiWaypoint
+der	B-prep
+ligger	I-prep
+en	B-offsetNumber
+kilometer	B-km
+væk	B-within
+som	B-as
+et	B-article
+vejpunkt	B-waypoint
+
+Skift	B-change
+destination	B-destination
+til	B-prep
+en	B-article
+kaffe	B-poiEnd
+og	I-poiEnd
+te	I-poiEnd
+
+Opdater	B-update
+min	B-my
+destination	B-destination
+til	B-prep
+en	B-article
+rasteplads	B-poiEnd
+i	B-nearby
+nærheden	I-nearby
+
+Ændr	B-change
+destinationen	B-destination
+så	B-auxiliary_help
+den	I-auxiliary_help
+er	I-auxiliary_help
+et	B-article
+stormagasin	B-poiEnd
+
+Justér	B-adjust
+min	B-my
+destination	B-destination
+til	B-prep
+en	B-article
+ATM	B-poiEnd
+tæt	B-nearby
+på	I-nearby
+
+Skift	B-change
+destination	B-destination
+til	B-prep
+en	B-article
+benzintank	B-poiEnd
+
+Hold	B-napMode
+hvile	I-napMode
+i	B-prep
+en	B-offsetNumber
+time	B-hour
+og	B-and
+tredive	B-offsetNumber
+minutter	B-minute
+
+Lad	B-auxiliary_help
+mig	I-auxiliary_help
+holde	B-napMode
+pause	I-napMode
+i	B-prep
+en	B-offsetNumber
+time	B-hour
+og	B-and
+tredive	B-offsetNumber
+minutter	B-minute
+
+Lad	B-auxiliary_help
+mig	I-auxiliary_help
+tage	B-napMode
+en	I-napMode
+pause	I-napMode
+i	B-prep
+en	B-offsetNumber
+time	B-hour
+og	B-and
+tredive	B-offsetNumber
+minutter	B-minute
+
+Lad	B-auxiliary_help
+mig	I-auxiliary_help
+hvile	B-napMode
+i	B-prep
+en	B-offsetNumber
+time	B-hour
+og	B-and
+tredive	B-offsetNumber
+minutter	B-minute
+
+Lad	B-auxiliary_help
+mig	I-auxiliary_help
+få	B-napMode
+en	I-napMode
+pause	I-napMode
+i	B-prep
+en	B-offsetNumber
+time	B-hour
+og	B-and
+tredive	B-offsetNumber
+minutter	B-minute
+
+Tag	B-navigate
+mig	I-navigate
+til	B-prep
+et	B-article
+stormagasin	B-poiEnd
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+ATM	B-poiEnd
+i	B-prep
+nærheden	B-nearby
+
+Kør	B-navigate
+til	B-prep
+en	B-article
+benzintank	B-poiEnd
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+
+Kør	B-navigate
+til	B-prep
+ZEEKR	B-poiEnd
+
+vis	B-navigate
+mig	I-navigate
+ruten	I-navigate
+til	B-prep
+stormagasin	B-poiEnd
+på	B-prep
+Gladsaxevej	B-poiLandmark
+
+Hvordan	B-how
+kommer	B-navigate
+jeg	B-i
+til	B-prep
+ATM	B-poiEnd
+på	B-prep
+Lyngbyvej	B-poiLandmark
+
+Naviger	B-navigate
+til	B-prep
+benzintank	B-poiEnd
+på	B-prep
+Jagtvej	B-poiLandmark
+
+Tag	B-navigate
+mig	I-navigate
+til	B-prep
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+på	B-prep
+Amager	B-poiLandmark
+Strandvej	I-poiLandmark
+
+vis	B-navigate
+mig	I-navigate
+vejen	I-navigate
+til	B-prep
+ZEEKR	B-poiEnd
+på	B-prep
+Bernstorffsvej	B-poiLandmark
+
+Led	B-search
+efter	I-search
+en	B-article
+nærliggende	B-nearby
+benzintank	B-poiEnd
+
+Er	B-isThere
+der	I-isThere
+en	B-article
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+i	B-prep
+nærheden	B-nearby
+
+Søg	B-search
+efter	I-search
+et	B-article
+nærliggende	B-nearby
+stormagasin	B-poiEnd
+
+Vis	B-showVerb
+mig	B-me
+en	B-article
+nærliggende	B-nearby
+parkeringsplads	B-poiEnd
+
+Er	B-isThere
+der	I-isThere
+nogen	B-some
+offentlige	B-poiEnd
+toiletter	I-poiEnd
+heromkring	B-nearby
+
+Stormagasin	B-poiEnd
+i	B-prep
+nærheden	B-nearby
+af	B-prep
+Odense	B-poiLandmark
+Banegård	I-poiLandmark
+
+ATM	B-poiEnd
+tæt	B-nearby
+på	I-nearby
+Nørreport	B-poiLandmark
+Station	I-poiLandmark
+
+Benzintank	B-poiEnd
+i	B-prep
+området	B-nearby
+omkring	I-nearby
+Viby	B-poiLandmark
+
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+i	B-prep
+nærheden	B-nearby
+af	B-prep
+Aarhus	B-poiLandmark
+Universitet	I-poiLandmark
+
+ZEEKR	B-poiEnd
+tæt	B-nearby
+på	I-nearby
+Hellerup	B-poiLandmark
+
+Søg	B-search
+efter	I-search
+et	B-article
+stormagasin	B-poiEnd
+tæt	B-nearby
+på	I-nearby
+min	B-my
+destination	B-destination
+
+Find	B-search
+en	B-article
+ATM	B-poiEnd
+nær	B-nearby
+min	B-my
+destination	B-destination
+
+Led	B-search
+efter	I-search
+en	B-article
+benzintank	B-poiEnd
+omkring	B-nearby
+min	B-my
+destination	B-destination
+
+Find	B-search
+en	B-article
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+tæt	B-nearby
+på	I-nearby
+min	B-my
+destination	B-destination
+
+Led	B-search
+efter	I-search
+en	B-article
+ZEEKR	B-poiEnd
+nær	B-nearby
+min	B-my
+destination	B-destination
+
+Led	B-search
+efter	I-search
+et	B-article
+stormagasin	B-poiEnd
+nær	B-nearby
+mit	B-my
+hjem	B-home
+
+Søg	B-search
+efter	I-search
+en	B-article
+ATM	B-poiEnd
+nær	B-nearby
+mit	B-my
+hjem	B-home
+
+Find	B-search
+en	B-article
+benzintank	B-poiEnd
+nær	B-nearby
+mit	B-my
+hjem	B-home
+
+Jeg	B-auxiliary_help
+skal	I-auxiliary_help
+finde	B-search
+en	B-article
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+nær	B-nearby
+mit	B-my
+hjem	B-home
+
+Jeg	B-i
+leder	B-search
+efter	I-search
+en	B-article
+ZEEKR	B-poiEnd
+nær	B-nearby
+mit	B-my
+hjem	B-home
+
+Led	B-search
+efter	I-search
+et	B-article
+stormagasin	B-poiEnd
+nær	B-nearby
+mit	B-my
+firma	B-company
+
+Søg	B-search
+efter	I-search
+en	B-article
+ATM	B-poiEnd
+nær	B-nearby
+mit	B-my
+firma	B-company
+
+Find	B-search
+en	B-article
+benzintank	B-poiEnd
+nær	B-nearby
+mit	B-my
+firma	B-company
+
+Jeg	B-auxiliary_help
+skal	I-auxiliary_help
+finde	B-search
+en	B-article
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+nær	B-nearby
+mit	B-my
+firma	B-company
+
+Jeg	B-i
+leder	B-search
+efter	I-search
+en	B-article
+ZEEKR	B-poiEnd
+nær	B-nearby
+mit	B-my
+firma	B-company
+
+Søg	B-search
+efter	I-search
+en	B-article
+restaurant	B-poiEnd
+på	B-alongRoute
+min	I-alongRoute
+rute	I-alongRoute
+
+Led	B-search
+efter	I-search
+en	B-article
+kaffe	B-poiEnd
+og	I-poiEnd
+te	I-poiEnd
+på	B-alongRoute
+vejen	I-alongRoute
+
+Find	B-search
+en	B-article
+rasteplads	B-poiEnd
+på	B-alongRoute
+min	I-alongRoute
+rute	I-alongRoute
+
+Søg	B-search
+efter	I-search
+et	B-article
+stormagasin	B-poiEnd
+på	B-alongRoute
+min	I-alongRoute
+rute	I-alongRoute
+
+Led	B-search
+efter	I-search
+en	B-article
+ATM	B-poiEnd
+på	B-alongRoute
+vejen	I-alongRoute
+
+Led	B-navigate
+mig	I-navigate
+til	B-prep
+et	B-article
+stormagasin	B-poiEnd
+og	B-and
+undgå	B-routePreferenceType
+eventuelle	I-routePreferenceType
+trafikforstyrrelser	I-routePreferenceType
+
+Find	B-search
+den	B-article
+hurtigste	B-route
+vej	I-route
+til	B-prep
+en	B-article
+ATM	B-poiEnd
+uden	B-routePreferenceType
+trafikpropper	I-routePreferenceType
+
+Tag	B-navigate
+mig	I-navigate
+til	B-prep
+en	B-article
+benzintank	B-poiEnd
+via	B-via
+en	B-article
+rute	B-route
+uden	B-routePreferenceType
+trafikpropper	I-routePreferenceType
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+og	B-and
+undgå	B-routePreferenceType
+trafikforstyrrelser	I-routePreferenceType
+
+Vælg	B-select
+en	B-article
+rute	B-route
+til	B-prep
+en	B-article
+ZEEKR	B-poiEnd
+uden	B-routePreferenceType
+trafikpropper	I-routePreferenceType
+
+Kom	B-navigate
+til	B-prep
+et	B-article
+stormagasin	B-poiEnd
+uden	B-routePreferenceType
+at	I-routePreferenceType
+tage	I-routePreferenceType
+nogen	I-routePreferenceType
+betalingsveje	I-routePreferenceType
+
+Find	B-search
+en	B-article
+ATM	B-poiEnd
+der	B-routePreferenceType
+ikke	I-routePreferenceType
+kræver	I-routePreferenceType
+betalingsvej	I-routePreferenceType
+
+Kør	B-navigate
+til	B-prep
+en	B-article
+benzintank	B-poiEnd
+uden	B-routePreferenceType
+at	I-routePreferenceType
+skulle	I-routePreferenceType
+betale	I-routePreferenceType
+vejafgift	I-routePreferenceType
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+og	B-and
+hold	B-routePreferenceType
+dig	I-routePreferenceType
+væk	I-routePreferenceType
+fra	I-routePreferenceType
+betalingsveje	I-routePreferenceType
+
+Tag	B-navigate
+mig	I-navigate
+til	B-prep
+ZEEKR	B-poiEnd
+uden	B-routePreferenceType
+at	I-routePreferenceType
+tage	I-routePreferenceType
+betalingsveje	I-routePreferenceType
+
+Jeg	B-auxiliary_help
+vil	I-auxiliary_help
+gerne	I-auxiliary_help
+nå	B-navigate
+et	B-article
+stormagasin	B-poiEnd
+og	B-and
+jeg	B-auxiliary_help
+vil	I-auxiliary_help
+gerne	I-auxiliary_help
+tage	B-routePreferenceType
+motorvejen	I-routePreferenceType
+
+Find	B-search
+en	B-article
+ATM	B-poiEnd
+og	B-and
+tag	B-routePreferenceType
+motorvejen	I-routePreferenceType
+dertil	B-there
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+benzintank	B-poiEnd
+via	B-via
+motorvejen	B-routePreferenceType
+
+Kør	B-navigate
+til	B-prep
+en	B-article
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+ad	B-routePreferenceType
+motorvejen	I-routePreferenceType
+
+Tag	B-navigate
+mig	I-navigate
+til	B-prep
+ZEEKR	B-poiEnd
+via	B-via
+motorvejen	B-routePreferenceType
+
+Find	B-navigate
+et	B-article
+stormagasin	B-poiEnd
+og	B-and
+undgå	B-routePreferenceType
+motorvej	I-routePreferenceType
+
+Tag	B-navigate
+mig	B-me
+til	B-prep
+en	B-article
+ATM	B-poiEnd
+uden	B-routePreferenceType
+at	I-routePreferenceType
+bruge	I-routePreferenceType
+motorvejen	I-routePreferenceType
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+benzintank	B-poiEnd
+uden	B-routePreferenceType
+motorvej	I-routePreferenceType
+
+Find	B-navigate
+en	B-article
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+og	B-and
+undgå	B-routePreferenceType
+motorvejen	I-routePreferenceType
+
+Led	B-navigate
+mig	B-me
+til	B-prep
+ZEEKR	B-poiEnd
+og	B-and
+tag	B-routePreferenceType
+ikke	I-routePreferenceType
+motorvejen	I-routePreferenceType
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+restaurant	B-poiEnd
+og	B-and
+passér	B-via
+en	B-article
+bank	B-poiWaypoint
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+kaffe	B-poiEnd
+og	I-poiEnd
+te	I-poiEnd
+og	B-and
+passér	B-via
+et	B-article
+hotel	B-poiWaypoint
+
+Kør	B-navigate
+til	B-prep
+en	B-article
+rasteplads	B-poiEnd
+og	B-and
+passér	B-via
+en	B-article
+benzintank	B-poiWaypoint
+
+Find	B-navigate
+rute	I-navigate
+til	I-navigate
+et	B-article
+stormagasin	B-poiEnd
+og	B-and
+passér	B-via
+en	B-article
+ATM	B-poiWaypoint
+
+Naviger	B-navigate
+til	B-prep
+en	B-article
+EV	B-poiEnd
+opladningsstation	I-poiEnd
+og	B-and
+passér	B-via
+ZEEKR	B-poiWaypoint
+
+Tilføj	B-add
+en	B-article
+restaurant	B-poiWaypoint
+som	B-as
+mellemliggende	B-waypoint
+stop	I-waypoint
+
+Indsæt	B-add
+en	B-article
+kaffe	B-poiWaypoint
+og	I-poiWaypoint
+te	I-poiWaypoint
+som	B-as
+vejpunkt	B-waypoint
+på	B-alongRoute
+ruten	I-alongRoute
+
+Inkluder	B-add
+en	B-article
+rasteplads	B-poiWaypoint
+som	B-as
+rutevejpunkt	B-waypoint
+
+Marker	B-add
+et	B-article
+stormagasin	B-poiWaypoint
+som	B-as
+mellemliggende	B-waypoint
+destination	B-destination
+
+Angiv	B-add
+en	B-article
+ATM	B-poiWaypoint
+som	B-as
+stop	B-waypoint
+på	B-alongRoute
+ruten	I-alongRoute
+
+Angiv	B-add
+et	B-article
+stormagasin	B-poiWaypoint
+i	B-prep
+nærheden	B-nearby
+som	B-as
+rutevejpunkt	B-waypoint
+
+Opret	B-add
+en	B-article
+ATM	B-poiWaypoint
+i	B-prep
+nærheden	B-nearby
+som	B-as
+vejpunkt	B-waypoint
+
+Føj	B-add
+en	B-article
+benzintank	B-poiWaypoint
+tæt	B-nearby
+på	I-nearby
+som	B-as
+mellemliggende	B-waypoint
+stop	I-waypoint
+
+Tilføj	B-add
+en	B-article
+EV	B-poiWaypoint
+opladningsstation	I-poiWaypoint
+der	B-prep
+er	I-prep
+i	I-prep
+nærheden	B-nearby
+som	B-as
+vejpunkt	B-waypoint
+
+Indsæt	B-add
+ZEEKR	B-poiWaypoint
+i	B-prep
+nærheden	B-nearby
+som	B-as
+waypoint	B-waypoint
+
+Tilføj	B-add
+et	B-article
+stormagasin	B-poiWaypoint
+inden	B-within
+for	I-within
+en	B-offsetNumber
+kilometer	B-km
+som	B-as
+et	B-article
+vejpunkt	B-waypoint
+
+Indsæt	B-add
+en	B-article
+ATM	B-poiWaypoint
+som	B-as
+ligger	B-prep
+fem	B-offsetNumber
+hundrede	I-offsetNumber
+meter	B-meter
+væk	B-within
+som	B-as
+et	B-article
+rutevejpunkt	B-waypoint
+
+Marker	B-add
+en	B-article
+benzintank	B-poiWaypoint
+der	B-prep
+er	I-prep
+tre	B-offsetNumber
+hundrede	I-offsetNumber
+meter	B-meter
+væk	B-within
+som	B-as
+et	B-article
+vejpunkt	B-waypoint
+
+Angiv	B-add
+en	B-article
+EV	B-poiWaypoint
+opladningsstation	I-poiWaypoint
+som	B-as
+befinder	B-prep
+sig	I-prep
+i	I-prep
+fem	B-offsetNumber
+hundrede	I-offsetNumber
+meter	B-meter
+som	B-as
+et	B-article
+waypoint	B-waypoint
+
+Tilføj	B-add
+ZEEKR	B-poiWaypoint
+der	B-prep
+ligger	I-prep
+en	B-offsetNumber
+kilometer	B-km
+væk	B-within
+som	B-as
+et	B-article
+vejpunkt	B-waypoint
+
+Skift	B-change
+destination	B-destination
+til	B-prep
+en	B-article
+kaffe	B-poiEnd
+og	I-poiEnd
+te	I-poiEnd
+
+Opdater	B-update
+min	B-my
+destination	B-destination
+til	B-prep
+en	B-article
+rasteplads	B-poiEnd
+i	B-nearby
+nærheden	I-nearby
+
+Ændr	B-change
+destinationen	B-destination
+så	B-auxiliary_help
+den	I-auxiliary_help
+er	I-auxiliary_help
+et	B-article
+stormagasin	B-poiEnd
+
+Justér	B-adjust
+min	B-my
+destination	B-destination
+til	B-prep
+en	B-article
+ATM	B-poiEnd
+tæt	B-nearby
+på	I-nearby
+
+Skift	B-change
+destination	B-destination
+til	B-prep
+en	B-article
+benzintank	B-poiEnd
+
+Disattiva	B-close
+il	B-article
+ricircolo	B-internalLoop
+dell'aria	I-internalLoop
+interna	I-internalLoop
+
+Metti	B-set
+la	B-article
+temperatura	B-temp
+del	B-prepArticle
+passeggero	B-airconPosition
+anteriore	I-airconPosition
+a	B-to
+venticinque	B-offsetNumber
+gradi	B-degree
+
+Aumenta	B-increase
+la	B-article
+temperatura	B-temp
+dell	B-prepArticle
+'	O
+aria	B-aircondition
+condizionata	I-aircondition
+del	B-prepArticle
+conducente	B-airconPosition
+
+Alza	B-increase
+la	B-article
+temperatura	B-temp
+dell	B-prepArticle
+'	O
+aria	B-aircondition
+condizionata	I-aircondition
+del	B-prepArticle
+conducente	B-airconPosition
+
+Aumenta	B-increase
+la	B-article
+temperatura	B-temp
+dell	B-prepArticle
+'	O
+aria	B-aircondition
+condizionata	I-aircondition
+del	B-prepArticle
+guidatore	B-airconPosition
+
+Fa	B-sentenceDecreaseAirTempMore
+troppo	I-sentenceDecreaseAirTempMore
+caldo	I-sentenceDecreaseAirTempMore
+lato	B-side
+guidatore	B-airconPosition
+
+Dal	B-prepArticle
+lato	B-side
+del	B-prepArticle
+passeggero	B-airconPosition
+fa	B-sentenceDecreaseAirTempMore
+troppo	I-sentenceDecreaseAirTempMore
+caldo	I-sentenceDecreaseAirTempMore
+
+Alza	B-increase
+la	B-article
+temperatura	B-temp
+del	B-prepArticle
+lato	B-side
+del	B-prepArticle
+conducente	B-airconPosition
+al	B-toArticle
+massimo	B-offsetMax
+
+Aumenta	B-increase
+la	B-article
+temperatura	B-temp
+del	B-prepArticle
+lato	B-side
+del	B-prepArticle
+conducente	B-airconPosition
+al	B-toArticle
+massimo	B-offsetMax
+
+Imposta	B-set
+la	B-article
+temperatura	B-temp
+del	B-prepArticle
+lato	B-side
+del	B-prepArticle
+conducente	B-airconPosition
+al	B-toArticle
+massimo	B-offsetMax
+
+Porta	B-adjust
+la	B-article
+temperatura	B-temp
+del	B-prepArticle
+lato	B-side
+del	B-prepArticle
+passeggero	B-airconPosition
+anteriore	I-airconPosition
+al	B-toArticle
+minimo	B-offsetMin
+
+Imposta	B-set
+la	B-article
+temperatura	B-temp
+del	B-prepArticle
+lato	B-side
+del	B-prepArticle
+passeggero	B-airconPosition
+anteriore	I-airconPosition
+al	B-toArticle
+minimo	B-offsetMin
+
+Abbassa	B-decrease
+il	B-article
+finestrino	B-window
+del	B-prepArticle
+conducente	B-airconPosition
+
+Apri	B-open
+il	B-article
+finestrino	B-window
+del	B-prepArticle
+conducente	B-airconPosition
+
+Metti	B-set
+il	B-article
+riscaldamento	B-heatNoun
+del	B-prepArticle
+sedile	B-seat
+al	B-toArticle
+livello	B-level
+tre	B-offsetNumber
+
+Rimuovi	B-close
+blocco	B-intelligentKeySensor
+e	I-intelligentKeySensor
+sblocco	I-intelligentKeySensor
+automatico	I-intelligentKeySensor
+
+Spegni	B-close
+la	B-article
+funzione	B-function
+di	B-prep
+blocco	B-intelligentKeySensor
+e	I-intelligentKeySensor
+sblocco	I-intelligentKeySensor
+con	I-intelligentKeySensor
+la	I-intelligentKeySensor
+chiave	I-intelligentKeySensor
+intelligente	I-intelligentKeySensor
+
+Attiva	B-open
+il	B-article
+suono	B-buttonSound
+del	I-buttonSound
+touch	I-buttonSound
+
+Spegni	B-close
+il	B-article
+suono	B-buttonSound
+del	I-buttonSound
+touch	I-buttonSound
+
+Disattiva	B-close
+il	B-article
+suono	B-buttonSound
+del	I-buttonSound
+touch	I-buttonSound
+
+Imposta	B-set
+la	B-article
+velocità	B-fanspeed
+della	I-fanspeed
+ventola	I-fanspeed
+al	B-toArticle
+minimo	B-offsetMin
+
+Diminuisci	B-decrease
+la	B-article
+velocità	B-speed
+dell	B-prepArticle
+'	O
+aria	B-air
+al	B-toArticle
+minimo	B-offsetMin
+
+Imposta	B-set
+la	B-article
+velocità	B-speed
+dell	B-prepArticle
+'	O
+aria	B-air
+ad	B-to
+un	B-offsetNumber
+livello	B-level
+medio	B-medium
+
+Direziona	B-lead
+il	B-article
+flusso	B-airDirection
+d'aria	I-airDirection
+verso	B-to
+i	B-artical
+piedi	B-airDirectionType
+
+Direziona	B-lead
+l	B-artical
+'	O
+aria	B-air
+verso	B-to
+i	B-artical
+piedi	B-airDirectionType
+
+Riduci	B-decrease
+la	B-article
+temperatura	B-temp
+del	B-prepArticle
+climatizzatore	B-aircondition
+
+Diminuisci	B-decrease
+la	B-article
+temperatura	B-temp
+del	B-prepArticle
+climatizzatore	B-aircondition
+
+Abbassa	B-decrease
+la	B-article
+temperatura	B-temp
+dell	B-prepArticle
+'	O
+aria	B-aircondition
+condizionata	I-aircondition
+
+Riduci	B-decrease
+la	B-article
+temperatura	B-temp
+dell	B-prepArticle
+'	O
+aria	B-aircondition
+condizionata	I-aircondition
+
+Alza	B-increase
+la	B-article
+temperatura	B-temp
+dell	B-prepArticle
+'	O
+aria	B-aircondition
+condizionata	I-aircondition
+del	B-prepArticle
+passeggero	B-airconPosition
+di	B-by
+due	B-offsetNumber
+gradi	B-degree
+
+Let	B-auxiliary_help
+me	I-auxiliary_help
+take	B-take
+a	B-auxiliary_help
+nap	B-napMode
+for	B-prep
+one	B-offsetNumber
+hour	B-hour
+and	B-and
+thirty	B-offsetNumber
+minutes	B-minute
+
+Let	B-auxiliary_help
+me	I-auxiliary_help
+have	B-adjust
+a	B-auxiliary_help
+rest	B-napMode
+for	B-prep
+one	B-offsetNumber
+hour	B-hour
+and	B-and
+thirty	B-offsetNumber
+minutes	B-minute
+
+I	B-auxiliary_help
+want	I-auxiliary_help
+to	B-prep
+rest	B-napMode
+for	B-prep
+one	B-offsetNumber
+hour	B-hour
+and	B-and
+thirty	B-offsetNumber
+minutes	B-minute
+
+I	B-auxiliary_help
+want	I-auxiliary_help
+to	B-prep
+take	B-take
+a	B-auxiliary_help
+nap	B-napMode
+for	B-prep
+one	B-offsetNumber
+hour	B-hour
+and	B-and
+thirty	B-offsetNumber
+minutes	B-minute
+
+I	B-auxiliary_help
+want	I-auxiliary_help
+to	B-prep
+have	B-adjust
+a	B-auxiliary_help
+rest	B-napMode
+for	B-prep
+one	B-offsetNumber
+hour	B-hour
+and	B-and
+thirty	B-offsetNumber
+minutes	B-minute
+
+Take	B-navigate
+me	I-navigate
+to	B-prep
+a	B-auxiliary_help
+restaurant	B-poiEnd
+
+Show	B-show
+me	B-me
+a	B-auxiliary_help
+route	B-route
+to	B-prep
+get	B-get
+a	B-poiEnd
+cup	I-poiEnd
+of	I-poiEnd
+coffee	I-poiEnd
+
+Show	B-show
+me	B-me
+a	B-auxiliary_help
+route	B-route
+to	B-prep
+get	B-get
+a	B-poiEnd
+cup	I-poiEnd
+of	I-poiEnd
+tea	I-poiEnd
+
+Take	B-navigate
+me	I-navigate
+to	B-prep
+a	B-auxiliary_help
+rest	B-poiEnd
+area	I-poiEnd
+
+Go	B-go
+to	B-prep
+a	B-auxiliary_help
+hotel	B-poiEnd
+
+Show	B-show
+me	B-me
+how	B-how
+to	B-prep
+get	B-get
+to	B-prep
+a	B-auxiliary_help
+public	B-poiEnd
+restroom	I-poiEnd
+
+Go	B-go
+to	B-prep
+a	B-auxiliary_help
+public	B-poiEnd
+toilet	I-poiEnd
+
+Show	B-show
+me	B-me
+route	B-route
+to	B-prep
+a	B-auxiliary_help
+public	B-poiEnd
+restroom	I-poiEnd
+of	B-prep
+Oxford	B-poiWaypoint
+Street	I-poiWaypoint
+
+Take	B-navigate
+me	I-navigate
+to	B-prep
+a	B-auxiliary_help
+hospital	B-poiEnd
+on	B-prep
+Changan	B-poiWaypoint
+Avenue	I-poiWaypoint
+
+Navigate	B-navigate
+to	B-prep
+a	B-auxiliary_help
+toilet	B-poiEnd
+on	B-prep
+Oxford	B-poiWaypoint
+Street	I-poiWaypoint
+
+Guide	B-navigate
+me	I-navigate
+to	B-prep
+rest	B-poiEnd
+area	I-poiEnd
+on	B-prep
+Oxford	B-poiWaypoint
+Street	I-poiWaypoint
+
+Start	B-start
+navigation	B-navigation
+to	B-prep
+a	B-auxiliary_help
+restaurant	B-poiEnd
+on	B-prep
+Oxford	B-poiWaypoint
+Street	I-poiWaypoint
+
+How	B-auxiliary_help
+can	I-auxiliary_help
+I	I-auxiliary_help
+get	B-get
+a	B-auxiliary_help
+cup	B-poiEnd
+of	I-poiEnd
+coffee	I-poiEnd
+on	B-prep
+Oxford	B-poiWaypoint
+Street	I-poiWaypoint
+
+How	B-auxiliary_help
+can	I-auxiliary_help
+I	I-auxiliary_help
+get	B-get
+a	B-auxiliary_help
+cup	B-poiEnd
+of	I-poiEnd
+tea	I-poiEnd
+on	B-prep
+Oxford	B-poiWaypoint
+Street	I-poiWaypoint
+
+Take	B-navigate
+me	I-navigate
+to	B-prep
+the	B-auxiliary_help
+nearest	B-nearest
+hotel	B-poiEnd
+
+Find	B-search
+a	B-auxiliary_help
+nearest	B-nearest
+auto	B-poiEnd
+service	I-poiEnd
+
+Map	B-mapVerb
+me	B-me
+a	B-auxiliary_help
+nearest	B-nearest
+route	B-route
+to	B-prep
+car	B-poiEnd
+wash	I-poiEnd
+
+Find	B-search
+a	B-auxiliary_help
+nearest	B-nearest
+car	B-poiEnd
+detailing	I-poiEnd
+shop	I-poiEnd
+
+Show	B-show
+me	B-me
+the	B-auxiliary_help
+nearest	B-nearest
+public	B-poiEnd
+restroom	I-poiEnd
+
+Go	B-go
+to	B-prep
+a	B-auxiliary_help
+nearest	B-nearest
+public	B-poiEnd
+toilet	I-poiEnd
+
+ZEEKR	B-poiEnd
+near	B-nearby
+London	B-poiWaypoint
+bridge	I-poiWaypoint
+
+Auto	B-poiEnd
+service	I-poiEnd
+near	B-nearby
+the	B-auxiliary_help
+London	B-poiWaypoint
+Eye	I-poiWaypoint
+
+Parking	B-poiEnd
+lot	I-poiEnd
+near	B-nearby
+London	B-poiWaypoint
+bridge	I-poiWaypoint
+
+Car	B-poiEnd
+wash	I-poiEnd
+near	B-nearby
+the	B-auxiliary_help
+London	B-poiWaypoint
+Eye	I-poiWaypoint
+
+Car	B-poiEnd
+detailing	I-poiEnd
+shop	I-poiEnd
+near	B-nearby
+the	B-auxiliary_help
+London	B-poiWaypoint
+Eye	I-poiWaypoint
+
+Gas	B-poiEnd
+station	I-poiEnd
+near	B-nearby
+destination	B-destination
+
+EV	B-poiEnd
+charging	I-poiEnd
+station	I-poiEnd
+near	B-nearby
+destination	B-destination
+
+ZEEKR	B-poiEnd
+around	B-nearby
+destination	B-destination
+
+Auto	B-poiEnd
+service	I-poiEnd
+near	B-nearby
+destination	B-destination
+
+Search	B-search
+for	B-prep
+parking	B-poiEnd
+lot	I-poiEnd
+near	B-nearby
+my	B-my
+destination	B-destination
+
+Search	B-search
+for	B-prep
+department	B-poiEnd
+store	I-poiEnd
+around	B-nearby
+my	B-my
+home	B-home
+
+Find	B-search
+an	B-auxiliary_help
+ATM	B-poiEnd
+near	B-nearby
+home	B-home
+
+Go	B-go
+to	B-prep
+a	B-auxiliary_help
+gas	B-poiEnd
+station	I-poiEnd
+near	B-nearby
+home	B-home
+
+Go	B-go
+to	B-prep
+an	B-auxiliary_help
+EV	B-poiEnd
+charging	I-poiEnd
+station	I-poiEnd
+near	B-nearby
+home	B-home
+
+Go	B-go
+to	B-prep
+ZEEKR	B-poiEnd
+near	B-nearby
+home	B-home
+
+Rest	B-poiEnd
+area	I-poiEnd
+around	B-nearby
+my	B-my
+office	B-company
+
+Take	B-navigate
+me	I-navigate
+to	B-prep
+a	B-auxiliary_help
+hotel	B-poiEnd
+close	B-nearby
+to	B-prep
+the	B-auxiliary_help
+office	B-company
+
+Take	B-navigate
+me	I-navigate
+to	B-prep
+a	B-auxiliary_help
+department	B-poiEnd
+store	I-poiEnd
+close	B-nearby
+to	B-prep
+the	B-auxiliary_help
+office	B-company
+
+Take	B-navigate
+me	I-navigate
+to	B-prep
+an	B-auxiliary_help
+ATM	B-poiEnd
+close	B-nearby
+to	B-prep
+the	B-auxiliary_help
+office	B-company
+
+Take	B-navigate
+me	I-navigate
+to	B-prep
+a	B-auxiliary_help
+gas	B-poiEnd
+station	I-poiEnd
+close	B-nearby
+to	B-prep
+the	B-auxiliary_help
+office	B-company
+
+Search	B-search
+for	B-prep
+a	B-auxiliary_help
+coffee	B-poiEnd
+shop	I-poiEnd
+along	B-along
+the	B-auxiliary_help
+way	B-route
+
+Find	B-search
+a	B-auxiliary_help
+tea	B-poiEnd
+house	I-poiEnd
+along	B-along
+the	B-auxiliary_help
+route	B-route
+
+Take	B-navigate
+me	I-navigate
+to	B-prep
+a	B-auxiliary_help
+rest	B-poiEnd
+area	I-poiEnd
+on	B-prep
+my	B-my
+route	B-route
+
+Search	B-search
+for	B-prep
+a	B-auxiliary_help
+hotel	B-poiEnd
+on	B-prep
+the	B-auxiliary_help
+way	B-route
+
+Take	B-navigate
+me	I-navigate
+to	B-prep
+a	B-auxiliary_help
+department	B-poiEnd
+store	I-poiEnd
+on	B-prep
+the	B-auxiliary_help
+way	B-route
+
+Find	B-search
+a	B-auxiliary_help
+public	B-poiEnd
+toilet	I-poiEnd
+on	B-prep
+my	B-my
+route	B-route
+
+Take	B-navigate
+me	I-navigate
+to	B-prep
+a	B-auxiliary_help
+restaurant	B-poiEnd
+while	B-routePreferenceType
+avoiding	I-routePreferenceType
+heavy	I-routePreferenceType
+traffic	I-routePreferenceType
+
+Navigate	B-navigate
+to	B-prep
+a	B-auxiliary_help
+coffee	B-poiEnd
+shop	I-poiEnd
+while	B-routePreferenceType
+avoiding	I-routePreferenceType
+congestion	I-routePreferenceType
+
+Drive	B-navigate
+me	I-navigate
+to	B-prep
+a	B-auxiliary_help
+tea	B-poiEnd
+house	I-poiEnd
+while	B-routePreferenceType
+avoiding	I-routePreferenceType
+heavy	I-routePreferenceType
+traffic	I-routePreferenceType
+
+Drive	B-drive
+to	B-prep
+a	B-auxiliary_help
+rest	B-poiEnd
+area	I-poiEnd
+while	B-routePreferenceType
+avoiding	I-routePreferenceType
+heavy	I-routePreferenceType
+traffic	I-routePreferenceType
+
+Find	B-search
+a	B-auxiliary_help
+hospital	B-poiEnd
+while	B-routePreferenceType
+avoiding	I-routePreferenceType
+heavy	I-routePreferenceType
+traffic	I-routePreferenceType
+
+Drive	B-drive
+to	B-prep
+a	B-auxiliary_help
+public	B-poiEnd
+restroom	I-poiEnd
+while	B-routePreferenceType
+avoiding	I-routePreferenceType
+heavy	I-routePreferenceType
+traffic	I-routePreferenceType
+
+Navigate	B-navigate
+to	B-prep
+a	B-auxiliary_help
+public	B-poiEnd
+toilet	I-poiEnd
+while	B-routePreferenceType
+avoiding	I-routePreferenceType
+congestion	I-routePreferenceType
+
+Go	B-go
+to	B-prep
+a	B-auxiliary_help
+restaurant	B-poiEnd
+while	B-routePreferenceType
+avoiding	I-routePreferenceType
+road	I-routePreferenceType
+charges	I-routePreferenceType
+
+Please	B-auxiliary_help
+take	B-navigate
+me	I-navigate
+to	B-prep
+a	B-auxiliary_help
+coffee	B-poiEnd
+shop	I-poiEnd
+without	B-routePreferenceType
+any	I-routePreferenceType
+tolls	I-routePreferenceType
+
+Drive	B-drive
+to	B-prep
+car	B-poiEnd
+wash	I-poiEnd
+while	B-routePreferenceType
+avoiding	I-routePreferenceType
+road	I-routePreferenceType
+charges	I-routePreferenceType
+
+Find	B-search
+a	B-auxiliary_help
+car	B-poiEnd
+detailing	I-poiEnd
+shop	I-poiEnd
+while	B-routePreferenceType
+avoiding	I-routePreferenceType
+road	I-routePreferenceType
+charges	I-routePreferenceType
+
+Go	B-go
+to	B-prep
+hospital	B-poiEnd
+while	B-routePreferenceType
+avoiding	I-routePreferenceType
+road	I-routePreferenceType
+charges	I-routePreferenceType
+
+Go	B-go
+to	B-prep
+public	B-poiEnd
+restroom	I-poiEnd
+while	B-routePreferenceType
+avoiding	I-routePreferenceType
+road	I-routePreferenceType
+charges	I-routePreferenceType
+
+Find	B-search
+a	B-auxiliary_help
+public	B-poiEnd
+toilet	I-poiEnd
+while	B-routePreferenceType
+avoiding	I-routePreferenceType
+road	I-routePreferenceType
+charges	I-routePreferenceType
+
+Take	B-navigate
+me	I-navigate
+to	B-prep
+auto	B-poiEnd
+service	I-poiEnd
+using	B-routePreferenceType
+motorways	I-routePreferenceType
+
+Navigate	B-navigate
+to	B-prep
+parking	B-poiEnd
+lot	I-poiEnd
+using	B-routePreferenceType
+motorways	I-routePreferenceType
+
+Drive	B-navigate
+me	I-navigate
+to	B-prep
+car	B-poiEnd
+wash	I-poiEnd
+using	B-routePreferenceType
+motorways	I-routePreferenceType
+
+Go	B-go
+to	B-prep
+car	B-poiEnd
+detailing	I-poiEnd
+shop	I-poiEnd
+using	B-routePreferenceType
+motorways	I-routePreferenceType
+
+Drive	B-drive
+to	B-prep
+hospital	B-poiEnd
+using	B-routePreferenceType
+motorways	I-routePreferenceType
+
+Go	B-go
+to	B-prep
+EV	B-poiEnd
+charging	I-poiEnd
+station	I-poiEnd
+avoiding	B-routePreferenceType
+motorways	I-routePreferenceType
+
+Drive	B-drive
+to	B-prep
+ZEEKR	B-poiEnd
+avoiding	B-routePreferenceType
+motorways	I-routePreferenceType
+
+Take	B-navigate
+me	I-navigate
+to	B-prep
+auto	B-poiEnd
+service	I-poiEnd
+avoiding	B-routePreferenceType
+motorways	I-routePreferenceType
+
+Navigate	B-navigate
+to	B-prep
+parking	B-poiEnd
+lot	I-poiEnd
+avoiding	B-routePreferenceType
+motorways	I-routePreferenceType
+
+Drive	B-navigate
+me	I-navigate
+to	B-prep
+car	B-poiEnd
+wash	I-poiEnd
+avoiding	B-routePreferenceType
+motorways	I-routePreferenceType
+
+Add	B-add
+an	B-auxiliary_help
+ATM	B-poiEnd
+as	B-as
+destination	B-destination
+passing	B-via
+by	B-prep
+a	B-auxiliary_help
+restaurant	B-poiWaypoint
+
+Add	B-add
+a	B-auxiliary_help
+gas	B-poiEnd
+station	I-poiEnd
+as	B-as
+destination	B-destination
+passing	B-via
+by	B-prep
+a	B-auxiliary_help
+bank	B-poiWaypoint
+
+Add	B-add
+an	B-auxiliary_help
+EV	B-poiEnd
+charging	I-poiEnd
+station	I-poiEnd
+as	B-as
+destination	B-destination
+passing	B-via
+by	B-prep
+a	B-auxiliary_help
+bank	B-poiWaypoint
+
+Add	B-add
+ZEEKR	B-poiEnd
+as	B-as
+destination	B-destination
+passing	B-via
+by	B-prep
+a	B-auxiliary_help
+bank	B-poiWaypoint
+
+Add	B-add
+an	B-auxiliary_help
+auto	B-poiEnd
+service	I-poiEnd
+as	B-as
+destination	B-destination
+passing	B-via
+by	B-prep
+a	B-auxiliary_help
+bank	B-poiWaypoint
+
+Add	B-add
+a	B-auxiliary_help
+hotel	B-poiWaypoint
+on	B-prep
+the	B-auxiliary_help
+way	B-route
+
+Add	B-add
+a	B-auxiliary_help
+department	B-poiWaypoint
+store	I-poiWaypoint
+as	B-as
+a	B-auxiliary_help
+waypoint	B-waypoint
+
+Add	B-add
+an	B-auxiliary_help
+ATM	B-poiWaypoint
+on	B-prep
+the	B-auxiliary_help
+way	B-route
+
+Add	B-add
+a	B-auxiliary_help
+gas	B-poiWaypoint
+station	I-poiWaypoint
+as	B-as
+a	B-auxiliary_help
+waypoint	B-waypoint
+
+Add	B-add
+an	B-auxiliary_help
+EV	B-poiWaypoint
+charging	I-poiWaypoint
+station	I-poiWaypoint
+on	B-prep
+the	B-auxiliary_help
+way	B-route
+
+Add	B-add
+a	B-auxiliary_help
+tea	B-poiWaypoint
+house	I-poiWaypoint
+near	B-nearby
+me	B-me
+as	B-as
+way	B-waypoint
+point	I-waypoint
+
+Stop	B-stop
+by	B-prep
+the	B-auxiliary_help
+nearby	B-nearby
+rest	B-poiWaypoint
+area	I-poiWaypoint
+
+Add	B-add
+a	B-auxiliary_help
+hotel	B-poiWaypoint
+near	B-nearby
+me	B-me
+as	B-as
+a	B-auxiliary_help
+waypoint	B-waypoint
+
+Set	B-set
+a	B-auxiliary_help
+department	B-poiWaypoint
+store	I-poiWaypoint
+near	B-nearby
+me	B-me
+as	B-as
+way	B-waypoint
+point	I-waypoint
+
+Set	B-set
+an	B-auxiliary_help
+ATM	B-poiWaypoint
+near	B-nearby
+me	B-me
+as	B-as
+waypoint	B-waypoint
+
+Add	B-add
+a	B-auxiliary_help
+restaurant	B-poiWaypoint
+within	B-within
+one	B-distance
+hundred	I-distance
+meters	I-distance
+as	B-as
+waypoint	B-waypoint
+passing	B-via
+by	B-prep
+London	B-poiWaypoint
+bridge	I-poiWaypoint
+
+Add	B-add
+a	B-auxiliary_help
+coffee	B-poiWaypoint
+shop	I-poiWaypoint
+within	B-within
+one	B-distance
+hundred	I-distance
+meters	I-distance
+as	B-as
+waypoint	B-waypoint
+passing	B-via
+by	B-prep
+London	B-poiWaypoint
+bridge	I-poiWaypoint
+
+Set	B-set
+a	B-auxiliary_help
+tea	B-poiWaypoint
+house	I-poiWaypoint
+within	B-within
+one	B-distance
+hundred	I-distance
+meters	I-distance
+as	B-as
+waypoint	B-waypoint
+passing	B-via
+by	B-prep
+London	B-poiWaypoint
+bridge	I-poiWaypoint
+
+Add	B-add
+a	B-auxiliary_help
+rest	B-poiWaypoint
+area	I-poiWaypoint
+within	B-within
+one	B-distance
+hundred	I-distance
+meters	I-distance
+as	B-as
+waypoint	B-waypoint
+passing	B-via
+by	B-prep
+London	B-poiWaypoint
+bridge	I-poiWaypoint
+
+Add	B-add
+a	B-auxiliary_help
+hotel	B-poiWaypoint
+within	B-within
+one	B-distance
+hundred	I-distance
+meters	I-distance
+as	B-as
+waypoint	B-waypoint
+passing	B-via
+by	B-prep
+London	B-poiWaypoint
+bridge	I-poiWaypoint
+
+Add	B-add
+a	B-auxiliary_help
+public	B-poiWaypoint
+restroom	I-poiWaypoint
+within	B-within
+one	B-distance
+hundred	I-distance
+meters	I-distance
+as	B-as
+waypoint	B-waypoint
+passing	B-via
+by	B-prep
+London	B-poiWaypoint
+bridge	I-poiWaypoint
+
+Set	B-set
+a	B-auxiliary_help
+public	B-poiWaypoint
+toilet	I-poiWaypoint
+within	B-within
+one	B-distance
+hundred	I-distance
+meters	I-distance
+as	B-as
+waypoint	B-waypoint
+passing	B-via
+by	B-prep
+London	B-poiWaypoint
+bridge	I-poiWaypoint
+
+Switch	B-adjust
+destination	B-destination
+to	B-prep
+a	B-auxiliary_help
+restaurant	B-poiEnd
+
+Change	B-adjust
+destination	B-destination
+to	B-prep
+a	B-auxiliary_help
+coffee	B-poiEnd
+shop	I-poiEnd
+
+Reset	B-reset
+the	B-auxiliary_help
+destination	B-destination
+to	B-prep
+a	B-auxiliary_help
+tea	B-poiEnd
+house	I-poiEnd
+
+Change	B-adjust
+destination	B-destination
+to	B-prep
+a	B-auxiliary_help
+car	B-poiEnd
+detailing	I-poiEnd
+shop	I-poiEnd
+
+Reset	B-reset
+the	B-auxiliary_help
+destination	B-destination
+to	B-prep
+a	B-auxiliary_help
+hospital	B-poiEnd
+
+Switch	B-adjust
+destination	B-destination
+to	B-prep
+a	B-auxiliary_help
+public	B-poiEnd
+restroom	I-poiEnd
+
+Change	B-adjust
+destination	B-destination
+to	B-prep
+a	B-auxiliary_help
+public	B-poiEnd
+toilet	I-poiEnd
+
+Stuur	B-guide
+me	B-me
+richting	B-towards
+het	B-article
+ziekenhuis	B-poiEnd
+op	B-prep
+Pietheinstraat	B-poiEnd
+drie	I-poiEnd
+
+Navigeer	B-navigate
+naar	B-prep
+de	B-article
+dichtstbijzijnde	B-nearest
+parkering	B-poiEnd
+
+Gids	B-guide
+me	B-me
+naar	B-prep
+autowasserette-detailing	B-poiEnd
+in	B-nearby
+de	I-nearby
+buurt	I-nearby
+
+Zoek	B-search
+de	B-article
+weg	B-route
+naar	B-prep
+het	B-article
+dichtstbijzijnde	B-nearest
+ziekenhuis	B-poiEnd
+
+Plan	B-planVerb
+een	B-auxiliary_help
+route	B-route
+naar	B-prep
+het	B-article
+dichtstbijzijnde	B-nearest
+openbare	B-poiEnd
+toilet	I-poiEnd
+
+Ga	B-go
+richting	B-towards
+het	B-article
+hotel	B-poiEnd
+in	B-nearby
+de	I-nearby
+buurt	I-nearby
+
+Leid	B-lead
+me	B-me
+naar	B-prep
+de	B-article
+parkering	B-poiEnd
+naast	B-nearby
+de	B-article
+KFC	B-poiLandmark
+
+Ga	B-go
+richting	B-towards
+de	B-article
+autowasserette-detailing	B-poiEnd
+naast	B-nearby
+de	B-article
+Mcdonald's	B-poiLandmark
+
+Stuur	B-guide
+me	B-me
+naar	B-prep
+het	B-article
+ziekenhuis	B-poiEnd
+in	B-nearby
+de	I-nearby
+buurt	I-nearby
+van	B-prep
+de	B-article
+Starbucks	B-poiLandmark
+
+Gids	B-guide
+me	B-me
+naar	B-prep
+het	B-article
+openbare	B-poiEnd
+toilet	I-poiEnd
+dichtbij	B-nearby
+de	B-article
+Burger	B-poiLandmark
+King	I-poiLandmark
+
+Plan	B-planVerb
+een	B-auxiliary_help
+route	B-route
+naar	B-prep
+het	B-article
+hotel	B-poiEnd
+dichtbij	B-nearby
+de	B-article
+Mcdonald's	B-poiLandmark
+
+Stuur	B-guide
+me	B-me
+naar	B-prep
+de	B-article
+parkering	B-poiEnd
+vlak	B-nearby
+bij	I-nearby
+het	B-article
+eindpunt	B-destination
+
+Leid	B-lead
+me	B-me
+naar	B-prep
+de	B-article
+autowasserette-detailing	B-poiEnd
+in	B-nearby
+de	I-nearby
+omgeving	I-nearby
+van	B-prep
+het	B-article
+eindpunt	B-destination
+
+Navigeer	B-navigate
+naar	B-prep
+het	B-article
+ziekenhuis	B-poiEnd
+in	B-nearby
+de	I-nearby
+buurt	I-nearby
+van	B-prep
+de	B-article
+bestemming	B-destination
+
+Vind	B-search
+de	B-article
+openbare	B-poiEnd
+toilet	I-poiEnd
+vanaf	B-prep
+het	B-article
+eindpunt	B-destination
+
+Gids	B-guide
+me	B-me
+naar	B-prep
+het	B-article
+ziekenhuis	B-poiEnd
+in	B-nearby
+de	I-nearby
+omgeving	I-nearby
+van	B-prep
+het	B-article
+eindpunt	B-destination
+
+Toon	B-showVerb
+de	B-article
+parkering	B-poiEnd
+in	B-nearby
+de	I-nearby
+buurt	I-nearby
+van	B-prep
+mijn	B-my
+huis	B-home
+
+Navigeer	B-navigate
+naar	B-prep
+de	B-article
+autowasserette-detailing	B-poiEnd
+dichtbij	B-nearby
+mijn	B-my
+huis	B-home
+
+Rij	B-drive
+naar	B-prep
+het	B-article
+ziekenhuis	B-poiEnd
+in	B-nearby
+de	I-nearby
+buurt	I-nearby
+van	B-prep
+mijn	B-my
+huis	B-home
+
+Leid	B-lead
+me	B-me
+naar	B-prep
+de	B-article
+openbare	B-poiEnd
+toilet	I-poiEnd
+in	B-nearby
+de	I-nearby
+buurt	I-nearby
+van	B-prep
+mijn	B-my
+huis	B-home
+
+Gids	B-guide
+me	B-me
+naar	B-prep
+het	B-article
+ziekenhuis	B-poiEnd
+bij	B-nearby
+mijn	B-my
+huis	B-home
+
+Ga	B-go
+naar	B-prep
+een	B-auxiliary_help
+parkering	B-poiEnd
+in	B-nearby
+de	I-nearby
+omgeving	I-nearby
+van	I-nearby
+mijn	B-my
+bedrijf	B-company
+
+Vind	B-search
+autowasserette-detailing	B-poiEnd
+nabij	B-nearby
+mijn	B-my
+bedrijf	B-company
+
+Rij	B-drive
+naar	B-prep
+het	B-article
+ziekenhuis	B-poiEnd
+dichtbij	B-nearby
+mijn	B-my
+bedrijf	B-company
+
+Rij	B-drive
+naar	B-prep
+het	B-article
+openbare	B-poiEnd
+toilet	I-poiEnd
+in	B-nearby
+de	I-nearby
+omgeving	I-nearby
+van	I-nearby
+mijn	B-my
+bedrijf	B-company
+
+Gids	B-guide
+me	B-me
+naar	B-prep
+het	B-article
+ziekenhuis	B-poiEnd
+bij	B-nearby
+mijn	B-my
+bedrijf	B-company
+
+Laat	B-lead
+parkering	B-poiEnd
+langs	B-alongRoute
+de	B-article
+route	B-route
+zien	B-showVerb
+
+Navigeer	B-navigate
+naar	B-prep
+de	B-article
+Autowasserette-Detailing	B-poiEnd
+onderweg	B-alongRoute
+
+Zoek	B-search
+een	B-auxiliary_help
+ziekenhuis	B-poiEnd
+langs	B-alongRoute
+mijn	B-my
+route	B-route
+
+Stuur	B-guide
+me	B-me
+naar	B-prep
+een	B-auxiliary_help
+openbare	B-poiEnd
+toilet	I-poiEnd
+langs	B-alongRoute
+mijn	B-my
+route	B-route
+
+Gids	B-guide
+me	B-me
+naar	B-prep
+een	B-auxiliary_help
+hotel	B-poiEnd
+langs	B-alongRoute
+mijn	B-my
+route	B-route
+
+Navigeer	B-navigate
+naar	B-prep
+de	B-article
+parkering	B-poiEnd
+en	B-and
+vermijd	B-routePreferenceType
+files	I-routePreferenceType
+
+Zoek	B-search
+een	B-auxiliary_help
+autowasserette-detailing	B-poiEnd
+zonder	B-routePreferenceType
+opstoppingen	I-routePreferenceType
+
+Navigeer	B-navigate
+naar	B-prep
+het	B-article
+ziekenhuis	B-poiEnd
+en	B-and
+ontwijk	B-routePreferenceType
+verkeersopstoppingen	I-routePreferenceType
+
+Stuur	B-guide
+me	B-me
+naar	B-prep
+het	B-article
+openbare	B-poiEnd
+toilet	I-poiEnd
+en	B-and
+ontwijk	B-routePreferenceType
+de	I-routePreferenceType
+spits	I-routePreferenceType
+
+Gids	B-guide
+me	B-me
+naar	B-prep
+het	B-article
+warenhuis	B-poiEnd
+en	B-and
+vermijd	B-routePreferenceType
+files	I-routePreferenceType
+
+Optimaliseer	B-auxiliary_help
+de	B-article
+route	B-route
+naar	B-prep
+de	B-article
+parkering	B-poiEnd
+voor	B-prep
+de	B-article
+laagste	B-routePreferenceType
+kosten	B-cost
+
+Plan	B-planVerb
+een	B-auxiliary_help
+route	B-route
+naar	B-prep
+de	B-article
+autowasserette-detailing	B-poiEnd
+die	B-prep
+tolwegen	B-routePreferenceType
+vermijdt	I-routePreferenceType
+
+Navigeer	B-navigate
+naar	B-prep
+het	B-article
+ziekenhuis	B-poiEnd
+en	B-and
+vermijd	B-routePreferenceType
+tolwegen	I-routePreferenceType
+
+Zoek	B-search
+een	B-auxiliary_help
+route	B-route
+naar	B-prep
+het	B-article
+openbare	B-poiEnd
+toilet	I-poiEnd
+die	B-prep
+niet	B-routePreferenceType
+duur	I-routePreferenceType
+is	I-routePreferenceType
+
+Stel	B-setIn
+alsjeblieft	B-auxiliary_help
+een	B-auxiliary_help
+route	B-route
+in	B-prep
+naar	B-prep
+de	B-article
+parkering	B-poiEnd
+die	B-prep
+geoptimaliseerd	B-auxiliary_help
+is	I-auxiliary_help
+voor	I-auxiliary_help
+lage	B-routePreferenceType
+kosten	I-routePreferenceType
+
+Plan	B-planVerb
+een	B-auxiliary_help
+route	B-route
+naar	B-prep
+de	B-article
+parkering	B-poiEnd
+waarbij	B-prep
+je	I-prep
+de	B-article
+snelweg	B-routePreferenceType
+gebruikt	B-use
+
+Optimaliseer	B-auxiliary_help
+de	B-article
+route	B-route
+naar	B-prep
+de	B-article
+autowasserette-detailing	B-poiEnd
+voor	B-prep
+snelweggebruik	B-routePreferenceType
+
+Ga	B-go
+naar	B-prep
+het	B-article
+ziekenhuis	B-poiEnd
+en	B-and
+pak	B-take
+de	B-article
+snelweg	B-routePreferenceType
+
+Zoek	B-search
+de	B-article
+route	B-route
+naar	B-prep
+het	B-article
+openbare	B-poiEnd
+toilet	I-poiEnd
+over	B-via
+de	B-article
+snelweg	B-routePreferenceType
+
+Geef	B-auxiliary_help
+me	I-auxiliary_help
+de	I-auxiliary_help
+instructies	I-auxiliary_help
+om	I-auxiliary_help
+naar	B-prep
+het	B-article
+hotel	B-poiEnd
+te	B-go
+gaan	I-go
+met	B-prep
+de	B-article
+opdracht	B-routePreferenceType
+om	I-routePreferenceType
+de	I-routePreferenceType
+snelweg	I-routePreferenceType
+te	B-take
+nemen	I-take
+
+Plan	B-planVerb
+een	B-auxiliary_help
+route	B-route
+naar	B-prep
+de	B-article
+parkering	B-poiEnd
+waarbij	B-auxiliary_help
+je	I-auxiliary_help
+de	B-article
+snelweg	B-routePreferenceType
+vermijdt	I-routePreferenceType
+
+Optimaliseer	B-auxiliary_help
+de	B-article
+route	B-route
+naar	B-prep
+de	B-article
+autowasserette-detailing	B-poiEnd
+om	B-prep
+snelwegen	B-routePreferenceType
+te	I-routePreferenceType
+vermijden	I-routePreferenceType
+
+Ga	B-auxiliary_help
+naar	B-prep
+het	B-article
+ziekenhuis	B-poiEnd
+maar	B-prep
+niet	B-routePreferenceType
+over	I-routePreferenceType
+de	I-routePreferenceType
+snelweg	I-routePreferenceType
+
+Zoek	B-search
+een	B-auxiliary_help
+route	B-route
+naar	B-prep
+het	B-article
+openbare	B-poiEnd
+toilet	I-poiEnd
+zonder	B-routePreferenceType
+snelwegen	I-routePreferenceType
+
+Geef	B-auxiliary_help
+me	I-auxiliary_help
+de	I-auxiliary_help
+instructies	I-auxiliary_help
+om	I-auxiliary_help
+naar	B-prep
+het	B-article
+restaurant	B-poiEnd
+te	B-auxiliary_help
+gaan	I-auxiliary_help
+met	B-prep
+de	B-article
+opdracht	B-auxiliary_help
+om	I-auxiliary_help
+snelwegen	B-routePreferenceType
+te	I-routePreferenceType
+vermijden	I-routePreferenceType
+
+Toon	B-showVerb
+mij	B-me
+de	B-article
+route	B-route
+naar	B-prep
+de	B-article
+parkering	B-poiEnd
+inclusief	B-within
+een	B-auxiliary_help
+stop	B-wayPoint
+bij	B-prep
+een	B-auxiliary_help
+restaurant	B-poiWaypoint
+
+Optimaliseer	B-auxiliary_help
+de	B-article
+route	B-route
+naar	B-prep
+de	B-article
+autowasserette-detailing	B-poiEnd
+met	B-prep
+een	B-auxiliary_help
+tussenstop	B-wayPoint
+voor	B-prep
+een	B-auxiliary_help
+hotel	B-poiWaypoint
+
+Een	B-auxiliary_help
+routebeschrijving	B-route
+naar	B-prep
+het	B-article
+ziekenhuis	B-poiEnd
+genereren	B-prep
+die	B-prep
+een	B-auxiliary_help
+restaurant	B-poiWaypoint
+als	B-as
+tussenstop	B-wayPoint
+omvat	B-within
+
+Geef	B-auxiliary_help
+me	I-auxiliary_help
+de	I-auxiliary_help
+instructies	I-auxiliary_help
+om	I-auxiliary_help
+naar	B-prep
+het	B-article
+openbare	B-poiEnd
+toilet	I-poiEnd
+te	B-auxiliary_help
+gaan	I-auxiliary_help
+met	B-prep
+de	B-article
+opdracht	B-auxiliary_help
+om	I-auxiliary_help
+een	B-auxiliary_help
+restaurant	B-poiWaypoint
+als	B-as
+tussenstop	B-wayPoint
+in	B-set
+te	I-set
+plannen	I-set
+
+Ik	B-auxiliary_help
+wil	I-auxiliary_help
+naar	B-prep
+het	B-article
+hotel	B-poiEnd
+en	B-and
+onderweg	B-alongRoute
+langs	B-via
+een	B-auxiliary_help
+restaurant	B-poiWaypoint
+
+Ik	B-auxiliary_help
+wil	I-auxiliary_help
+een	B-via
+stop	I-via
+bij	B-prep
+een	B-auxiliary_help
+parkering	B-poiWaypoint
+onderweg	B-alongRoute
+
+Ik	B-auxiliary_help
+wil	I-auxiliary_help
+de	B-article
+route	B-route
+aanpassen	B-adjust
+met	B-prep
+een	B-auxiliary_help
+autowasserette-detailing	B-poiWaypoint
+als	B-as
+tussenstop	B-wayPoint
+
+Ik	B-auxiliary_help
+wil	I-auxiliary_help
+een	B-auxiliary_help
+ziekenhuis	B-poiWaypoint
+aan	B-prep
+de	B-article
+route	B-route
+willen	B-auxiliary_help
+toevoegen	B-increase
+
+Gebruik	B-use
+een	B-auxiliary_help
+parkering	B-poiWaypoint
+als	B-as
+tussenstop	B-wayPoint
+
+Maak	B-auxiliary_help
+van	I-auxiliary_help
+de	B-article
+autoservice	B-poiWaypoint
+een	B-auxiliary_help
+tussenstop	B-wayPoint
+
+Zorg	B-auxiliary_help
+voor	I-auxiliary_help
+een	B-auxiliary_help
+tussenstop	B-wayPoint
+bij	B-prep
+een	B-auxiliary_help
+parkering	B-poiWaypoint
+dichtbij	B-nearby
+de	B-article
+route	B-route
+
+Rij	B-drive
+onderweg	B-alongRoute
+langs	B-via
+een	B-auxiliary_help
+autowasserette-detailing	B-poiWaypoint
+in	B-prep
+de	B-article
+nabije	B-nearby
+omgeving	I-nearby
+
+Ik	B-auxiliary_help
+wil	I-auxiliary_help
+onderweg	B-alongRoute
+even	B-auxiliary_help
+langs	B-via
+een	B-auxiliary_help
+ziekenhuis	B-poiWaypoint
+in	B-nearby
+de	I-nearby
+buurt	I-nearby
+
+stel	B-set
+de	B-article
+route	B-route
+in	B-prep
+met	B-prep
+een	B-auxiliary_help
+tussenstop	B-wayPoint
+bij	B-prep
+een	B-auxiliary_help
+nabije	B-nearby
+openbare	B-poiWaypoint
+toilet	I-poiWaypoint
+
+Pas	B-adjust
+de	B-article
+route	B-route
+aan	B-prep
+om	B-prep
+een	B-auxiliary_help
+nabijgelegen	B-nearby
+parkering	B-poiWaypoint
+aan	B-auxiliary_help
+te	I-auxiliary_help
+doen	I-auxiliary_help
+
+Ik	B-auxiliary_help
+wil	I-auxiliary_help
+binnen	B-within
+tweehonderd	B-offsetNumber
+meter	B-meter
+een	B-auxiliary_help
+parkering	B-poiWaypoint
+als	B-as
+tussenstop	B-wayPoint
+
+Zoek	B-search
+een	B-auxiliary_help
+autowasserette-detailing	B-poiWaypoint
+dichtbij	B-nearby
+binnen	B-within
+driehonderd	B-offsetNumber
+meter	B-meter
+
+Stel	B-setIn
+een	B-auxiliary_help
+route	B-route
+in	B-in
+met	B-prep
+een	B-auxiliary_help
+ziekenhuis	B-poiWaypoint
+als	B-as
+tussenstop	B-wayPoint
+binnen	B-within
+drie	B-offsetNumber
+kilometer	B-km
+
+Optimaliseer	B-auxiliary_help
+de	B-article
+route	B-route
+met	B-prep
+een	B-auxiliary_help
+openbare	B-poiWaypoint
+toilet	I-poiWaypoint
+binnen	B-within
+vijf	B-offsetNumber
+kilometer	B-km
+
+Mijn	B-my
+route	B-route
+moet	B-auxiliary_help
+een	B-auxiliary_help
+parkering	B-poiWaypoint
+als	B-as
+tussenstop	B-wayPoint
+binnen	B-within
+tien	B-offsetNumber
+kilometer	B-km
+
+De	B-article
+bestemming	B-destination
+moet	B-auxiliary_help
+een	B-auxiliary_help
+parkering	B-poiEnd
+worden	B-change
+
+Wijzig	B-change
+de	B-article
+huidige	B-current
+bestemming	B-destination
+in	B-prep
+een	B-auxiliary_help
+autowasserette-detailing	B-poiEnd
+
+Herrouteer	B-reRoute
+naar	B-prep
+het	B-article
+ziekenhuis	B-poiEnd
+
+Plan	B-planVerb
+de	B-article
+route	B-route
+opnieuw	B-reRoute
+naar	B-prep
+een	B-auxiliary_help
+openbare	B-poiEnd
+toilet	I-poiEnd
+
+Herbereken	B-reRoute
+de	B-article
+route	B-route
+met	B-prep
+de	B-article
+parkering	B-poiEnd
+als	B-as
+doel	B-destination
+
+Jeda	B-pause
+musik	B-music
+
+Telepon	B-dial
+113	B-code
+
+Telepon	B-dial
+ke	B-to
+nomor	B-number
+08111119833	B-code
+
+ที่สอง	B-offsetNumber
+
+ที่สาม	B-offsetNumber
+
+ไปที่	B-to
+ที่ห้า	B-offsetNumber
+
+เครื่องปรับอากาศ	B-aircondition
+ร้อน	B-hot
+ขึ้น	B-increase
+
+ออก	B-close
+
+ออก	B-close
+จาก	B-from
+คำสั่งเสียง	B-voiceAssistant
+
+ไล่ฝ้า	B-defog
+กระจกหน้า	B-defogDirection
+
+เปิด	B-thaiOpen
+การซิงค์อุณหภูมิ	B-sync
+
+ปิด	B-close
+โหมด	B-mode
+ซิงค์อากาศ	B-sync
+
+ความเร็วพัดลม	B-fanspeed
+แรงขึ้น	B-increase
+
+ความเร็วพัดลม	B-fanspeed
+ลดลง	B-decrease
+
+เปิดการใช้งาน	B-open
+เครื่องปรับอากาศ	B-aircondition
+สำหรับ	B-for
+ผู้โดยสาร	B-airconPosition
+
+เปลี่ยน	B-change
+แสงไฟบรรยากาศ	B-ambientLight
+เป็น	B-to
+สีขาว	B-atmosphereLampColor
+
+ตั้งค่า	B-set
+แสงไฟบรรยากาศ	B-ambientLight
+เป็น	B-to
+สีฟ้า	B-atmosphereLampColor
+
+ปรับ	B-adjust
+แสงไฟแวดล้อม	B-ambientLight
+เป็น	B-to
+สีแดง	B-atmosphereLampColor
+
+ปิด	B-close
+ไฟแวดล้อม	B-ambientLight
+สำหรับ	B-for
+แถวหลัง	B-atmosphereLampPosition
+
+เปิด	B-thaiOpen
+หน้าต่าง	B-window
+ครึ่งหนึ่ง	B-half
+
+เปิด	B-thaiOpen
+การถ่ายเทอากาศที่นั่ง	B-seatVentilation
+
+ปิด	B-close
+การถ่ายเทอากาศที่นั่ง	B-seatVentilation
+
+เปิด	B-thaiOpen
+การถ่ายเทอากาศที่นั่ง	B-seatVentilation
+คนขับ	B-seatPosition
+
+ปิด	B-close
+ฮีตเตอร์เบาะที่นั่ง	B-seatHeat
+คนขับ	B-seatPosition
+
+ปิดใช้งาน	B-close
+แอร์	B-aircondition
+โหมด	B-mode
+ความร้อน	B-heatNoun
+
+ปิด	B-close
+โหมด	B-mode
+ละลายน้ำแข็ง	B-defrost
+ด้านหน้า	B-defrostDirection
+
+เปิด	B-thaiOpen
+ระบบระบายอากาศที่นั่ง	B-seatVentilation
+ฝั่งคนขับ	B-seatPosition
+
+เปิด	B-thaiOpen
+ระบบระบายอากาศที่นั่ง	B-seatVentilation
+ของ	B-auxiliaryWord
+ผู้โดยสารด้านหน้า	B-seatPosition
+
+ตั้งค่า	B-set
+ความเร็วพัดลม	B-fanspeed
+ไว้ที่	B-to
+ระดับ	B-leve
+สอง	B-offsetNumber
+
+เปลี่ยน	B-change
+ระดับ	B-leve
+ความเร็วพัดลม	B-fanspeed
+ไปที่	B-to
+ระดับ	B-leve
+หก	B-offsetNumber
+
+เช็ค	B-viewVerb
+การโทรล่าสุด	B-callRecord
+
+เซ็ต	B-set
+ไฟแวดล้อม	B-ambientLight
+แถวหลัง	B-atmosphereLampPosition
+เป็น	B-to
+สีน้ำเงิน	B-atmosphereLampColor
+
+ตั้งค่า	B-set
+แสงไฟล้อมรอบ	B-ambientLight
+ไป	B-to
+ระดับ	B-level
+ห้า	B-offsetNumber
+
+ทำให้	B-adjust
+แดชบอร์ด	B-dashboard
+สว่าง	B-bright
+ขึ้น	B-increase
+
+Call	B-callVerb
+the	B-article
+same	B-same
+number	B-number
+
+Set	B-set
+ambient	B-ambientLight
+light	I-ambientLight
+color	B-color
+to	B-prep
+dark	B-atmosphereLampColor
+blue	I-atmosphereLampColor
+
+Set	B-set
+the	B-auxiliary_help
+color	B-color
+of	B-prep
+ambient	B-ambientLight
+light	I-ambientLight
+to	B-prep
+dark	B-atmosphereLampColor
+blue	I-atmosphereLampColor
+
+Set	B-set
+ambient	B-ambientLight
+light	I-ambientLight
+color	B-color
+to	B-prep
+red	B-atmosphereLampColor
+orange	I-atmosphereLampColor
+
+Set	B-set
+the	B-auxiliary_help
+color	B-color
+of	B-prep
+ambient	B-ambientLight
+light	I-ambientLight
+to	B-prep
+red	B-atmosphereLampColor
+orange	I-atmosphereLampColor
+
+Set	B-set
+ambient	B-ambientLight
+light	I-ambientLight
+color	B-color
+to	B-prep
+green	B-atmosphereLampColor
+
+I	B-auxiliary_help
+want	I-auxiliary_help
+to	I-auxiliary_help
+listen	B-listen
+to	B-prep
+favorite	B-favorite
+songs	B-song
+
+Minimize	B-minimize
+the	B-the
+brightness	B-brightness
+of	B-prep
+the	B-the
+dashboard	B-dashboard
+
+Minimum	B-minimize
+the	B-the
+brightness	B-brightness
+of	B-prep
+the	B-the
+dashboard	B-dashboard
+
+Minimize	B-minimize
+the	B-the
+dashboard	B-dashboard
+brightness	B-brightness
+
+Minimum	B-minimize
+the	B-the
+dashboard	B-dashboard
+brightness	B-brightness
+
+Set	B-set
+the	B-auxiliary_help
+passenger	B-airconPosition
+seat	I-airconPosition
+temperature	B-temp
+to	B-to
+22	B-offsetNumber
+degrees	B-degree
+
+Increase	B-increase
+the	B-auxiliary_help
+passenger	B-airconPosition
+temperature	B-temp
+by	B-by
+2	B-offsetNumber
+degrees	B-degree
+
+Increase	B-increase
+the	B-auxiliary_help
+passenger	B-airconPosition
+seat	I-airconPosition
+temperature	B-temp
+by	B-by
+one	B-offsetNumber
+degree	B-degree
+
+Increase	B-increase
+the	B-auxiliary_help
+driver	B-airconPosition
+seat	I-airconPosition
+temperature	B-temp
+by	B-by
+five	B-offsetNumber
+degrees	B-degree
+
+Decrease	B-decrease
+the	B-auxiliary_help
+passenger	B-airconPosition
+seat	I-airconPosition
+temperature	B-temp
+by	B-by
+five	B-offsetNumber
+degrees	B-degree
+
+Language	B-language
+set	B-set
+to	B-to
+Chinese	B-languageType
+
+Language	B-language
+set	B-set
+to	B-to
+English	B-languageType
+
+Language	B-language
+set	B-set
+to	B-to
+Norwegian	B-languageType
+
+Language	B-language
+set	B-set
+to	B-to
+Spanish	B-languageType
+
+Language	B-language
+set	B-set
+to	B-to
+Portuguese	B-languageType
+
+Language	B-language
+set	B-set
+to	B-to
+Hungarian	B-languageType
+
+Language	B-language
+set	B-set
+to	B-to
+Slovak	B-languageType
+
+Language	B-language
+set	B-set
+to	B-to
+Czech	B-languageType
+
+Language	B-language
+set	B-set
+to	B-to
+Polish	B-languageType
+
+Language	B-language
+set	B-set
+to	B-to
+Vietnamese	B-languageType
+
+Aktiviere	B-open
+automatisches	B-rmAutoAdjustmentWhenReserve
+Spiegelabsenken	I-rmAutoAdjustmentWhenReserve
+beim	I-rmAutoAdjustmentWhenReserve
+Rückwärtsgang	I-rmAutoAdjustmentWhenReserve
+
+Schalte	B-openEin
+die	B-the
+Rückfahrspiegelabsenkung	B-rmAutoAdjustmentWhenReserve
+ein	B-ein
+
+Spiegel	B-rmAutoAdjustmentWhenReserve
+bei	I-rmAutoAdjustmentWhenReserve
+Rückwärtsfahrt	I-rmAutoAdjustmentWhenReserve
+automatisch	I-rmAutoAdjustmentWhenReserve
+neigen	I-rmAutoAdjustmentWhenReserve
+
+Rückfahr-Spiegelneigung	B-rmAutoAdjustmentWhenReserve
+einschalten	B-open
+
+Spiegelabsenkung	B-rmAutoAdjustmentWhenReserve
+beim	I-rmAutoAdjustmentWhenReserve
+Rückwärtsfahren	I-rmAutoAdjustmentWhenReserve
+einschalten	B-open
+
+Deaktiviere	B-close
+automatisches	B-rmAutoAdjustmentWhenReserve
+Spiegelabsenken	I-rmAutoAdjustmentWhenReserve
+beim	I-rmAutoAdjustmentWhenReserve
+Rückwärtsgang	I-rmAutoAdjustmentWhenReserve
+
+Schalte	B-closeAus
+die	B-the
+Rückfahrspiegelabsenkung	B-rmAutoAdjustmentWhenReserve
+aus	B-aus
+
+Schalte	B-closeAus
+die	B-the
+Spiegelabsenkung	B-rmAutoAdjustmentWhenReserve
+im	I-rmAutoAdjustmentWhenReserve
+Rückwärtsgang	I-rmAutoAdjustmentWhenReserve
+aus	B-aus
+
+Rückfahr-Spiegelneigung	B-rmAutoAdjustmentWhenReserve
+ausschalten	B-close
+
+Spiegelabsenkung	B-rmAutoAdjustmentWhenReserve
+beim	I-rmAutoAdjustmentWhenReserve
+Rückwärtsfahren	I-rmAutoAdjustmentWhenReserve
+ausschalten	B-close
+
+Klappe	B-foldEin
+die	B-the
+Spiegel	B-rearviewMirror
+ein	B-ein
+
+Spiegel	B-rearviewMirror
+einfahren	B-fold
+
+Fahre	B-foldEin
+die	B-the
+Außenspiegel	B-rearviewMirror
+ein	B-ein
+
+Klappe	B-foldEin
+die	B-the
+Außenspiegel	B-rearviewMirror
+ein	B-ein
+
+Fahre	B-foldEin
+die	B-the
+Rückspiegel	B-rearviewMirror
+ein	B-ein
+
+Klappe	B-unfoldAus
+die	B-the
+Spiegel	B-rearviewMirror
+aus	B-aus
+
+Spiegel	B-rearviewMirror
+ausfahren	B-unfold
+
+Fahre	B-unfoldAus
+die	B-the
+Außenspiegel	B-rearviewMirror
+aus	B-aus
+
+Klappe	B-unfoldAus
+die	B-the
+Außenspiegel	B-rearviewMirror
+aus	B-aus
+
+Fahre	B-unfoldAus
+die	B-the
+Rückspiegel	B-rearviewMirror
+aus	B-aus
+
+Außenspiegel	B-rearviewMirror
+einstellen	B-adjust
+
+Außenspiegel	B-rearviewMirror
+justieren	B-adjust
+
+Seitenspiegeleinstellungen	B-rearviewMirrorSet
+öffnen	B-open
+
+Außenspiegelmenü	B-rearviewMirrorSet
+öffnen	B-open
+
+Ich	B-auxiliary_help
+möchte	I-auxiliary_help
+die	B-the
+Außenspiegel	B-rearviewMirror
+anpassen	B-adjust
+
+Öffne	B-open
+das	B-the
+elektronische	B-userManualName
+Handbuch	I-userManualName
+für	I-userManualName
+Fahrerassistenzsysteme	I-userManualName
+
+Fahrerassistenz-Handbuch	B-userManualName
+anzeigen	B-showVerb
+
+Zeige	B-showVerb
+das	B-the
+Fahrerassistenz-Handbuch	B-userManualName
+
+Öffne	B-open
+die	B-the
+Fahrassistenz-Dokumentation	B-userManualName
+
+Handbuch	B-userManualName
+für	I-userManualName
+Fahrerassistenz	I-userManualName
+öffnen	B-open
+
+Öffne	B-open
+die	B-the
+Schnelleinstellungen	B-minusOneScreen
+
+Zeige	B-showVerb
+das	B-the
+Kontrollzentrum	B-minusOneScreen
+
+Zeige	B-showVerb
+die	B-the
+Schnelleinstellungen	B-minusOneScreen
+
+Geh	B-switchVerb
+zum	B-toArticle
+Kontrollzentrum	B-minusOneScreen
+
+Öffne	B-open
+die	B-the
+Schnellzugriff-Ansicht	B-minusOneScreen
+
+Schließe	B-close
+die	B-the
+Schnelleinstellungen	B-minusOneScreen
+
+Verlasse	B-close
+das	B-the
+Kontrollzentrum	B-minusOneScreen
+
+Verlasse	B-close
+die	B-the
+Schnelleinstellungen	B-minusOneScreen
+
+Widget-Bildschirm	B-minusOneScreen
+schließen	B-close
+
+Schließe	B-close
+die	B-the
+Schnellzugriff-Ansicht	B-minusOneScreen
+
