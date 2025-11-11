@@ -2,6 +2,12 @@
 
 This repository trains an XLM-RoBERTa token-classification model that labels every word in a sentence with one of the pre-defined slot names from [`data/segments.xlsx`](data/segments.xlsx). Limited slots (column `C` marked `有限槽`) also require a canonical value from column `D`, which is appended to the annotated output as `##取值`.
 
+The project is organised as a three-stage pipeline:
+
+1. **Spreadsheet preprocessing** – convert the Excel catalogue into JSON metadata so labels and their limited values can be validated quickly.
+2. **Model training** – fine-tune XLM-RoBERTa on the token/label dataset while enforcing the spreadsheet catalogue.
+3. **Sentence annotation** – read raw sentences from `sentences.txt` and emit fully-labelled sequences using the trained model.
+
 ## Environment
 
 Install the required dependencies (PyTorch, 🤗 Transformers, Datasets, and SeqEval). Example using pip:
@@ -9,7 +15,7 @@ Install the required dependencies (PyTorch, 🤗 Transformers, Datasets, and Seq
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install torch transformers datasets seqeval
+pip install -r requirements.txt
 ```
 
 All project modules live inside `src/`, so add it to your `PYTHONPATH` when running the scripts:
@@ -18,11 +24,29 @@ All project modules live inside `src/`, so add it to your `PYTHONPATH` when runn
 export PYTHONPATH=src
 ```
 
-## Training
+## Pipeline
 
-Use the `train.py` script to fine-tune `xlm-roberta-base` on the processed CoNLL data:
+Follow these steps to reproduce the full workflow.
+
+### 1. Preprocess the spreadsheet
+
+`prepare_segments.py` reads the Excel file and writes two JSON artifacts:
+
+* `data/segments_metadata.json` – the raw rows from the spreadsheet with all supporting columns.
+* `data/segments_catalogue.json` – a compact catalogue that splits normal labels from limited (`有限槽`) labels and maps each limited label to its allowed `取值` values.
+
+Run the script whenever `segments.xlsx` changes:
 
 ```bash
+python prepare_segments.py
+```
+
+### 2. Train the model
+
+`train.py` fine-tunes `xlm-roberta-base` (configurable) on the processed dataset and persists the model plus helpful metadata (tokenizer, label maps, and `slot_value_map.json`).
+
+```bash
+export PYTHONPATH=src
 python train.py \
   --model-name xlm-roberta-base \
   --train-file data/processed/train.conll \
@@ -33,45 +57,31 @@ python train.py \
   --output-dir model
 ```
 
-Key features:
+Use `--no-eval` to skip validation, adjust optimisation hyperparameters through the CLI flags, and enable `--label-all-tokens` if you prefer to propagate labels across subword pieces. All paths default to the locations shown above, so you can omit flags when using the standard layout.
 
-* Validates that every label in the dataset is defined in `segments.xlsx`.
-* Aligns labels with subword tokens and trains with the Hugging Face `Trainer` API.
-* Saves the fine-tuned model, tokenizer, label metadata, and a `slot_value_map.json` file derived from the annotated training text so that limited slots can be rendered with the proper `##取值` values.
+### 3. Annotate sentences
 
-Use `--no-eval` to skip validation, adjust learning rate or batch sizes via CLI flags, and enable `--label-all-tokens` if you prefer to propagate labels across subword pieces.
-
-## Annotation
-
-After training, generate annotations for raw sentences with `annotate.py`:
+`annotate.py` loads the trained model and annotates every sentence in `sentences.txt`. Each line should contain one sentence to annotate, with blank lines ignored.
 
 ```bash
-python annotate.py \
-  --model-dir model \
-  --segments-file data/segments.xlsx \
-  "Åben siden for bruger manual nu"
+python annotate.py
 ```
 
-The script loads the trained model, enforces the slot/value constraints from the spreadsheet, and outputs bracketed annotations such as:
+The script prints bracketed annotations such as:
 
 ```
 [open:Åben] [page:siden] [prep:for] [userManual:bruger manual] [now:nu]
 ```
 
-If the model predicts a label that is not listed in `segments.xlsx`, or if it returns `O`, the token is emitted with the fallback label `other` so that no word is left unlabeled. Limited slots that lack a known value trigger a warning.
-
-You can also stream sentences from standard input:
-
-```bash
-echo "Sluk for apple carplay nu" | python annotate.py --model-dir model --segments-file data/segments.xlsx
-```
+If the model predicts a label that is not listed in `segments.xlsx`, or if it returns `O`, the token is emitted with the fallback label `other` so that no word is left unlabeled. Limited slots that lack a known value trigger a warning so you can update the slot value map or underlying data.
 
 ## Project Structure
 
 ```
 .
-├── annotate.py                  # CLI for inference
-├── train.py                     # CLI for fine-tuning XLM-RoBERTa
+├── annotate.py                  # Reads sentences.txt and prints annotations with the trained model
+├── prepare_segments.py          # Converts segments.xlsx into JSON metadata/catalogue
+├── train.py                     # Fine-tunes XLM-RoBERTa using the processed dataset
 ├── src/annotation_with_roberta/
 │   ├── __init__.py              # Lightweight package entry point
 │   ├── data.py                  # Spreadsheet & dataset utilities
