@@ -1,0 +1,6958 @@
+{
+  "12hours": {
+    "name": "12hours",
+    "limited": false,
+    "values": []
+  },
+  "24hOpen": {
+    "name": "24hOpen",
+    "limited": false,
+    "values": []
+  },
+  "24hours": {
+    "name": "24hours",
+    "limited": false,
+    "values": []
+  },
+  "2d": {
+    "name": "2d",
+    "limited": false,
+    "values": []
+  },
+  "3d": {
+    "name": "3d",
+    "limited": false,
+    "values": []
+  },
+  "English": {
+    "name": "English",
+    "limited": false,
+    "values": []
+  },
+  "MusicRhythmColor": {
+    "name": "MusicRhythmColor",
+    "limited": false,
+    "values": []
+  },
+  "MusicRhythmMode": {
+    "name": "MusicRhythmMode",
+    "limited": false,
+    "values": []
+  },
+  "MusicRhythmModeValue": {
+    "name": "MusicRhythmModeValue",
+    "limited": true,
+    "values": [
+      "宁静",
+      "柔和",
+      "热烈"
+    ]
+  },
+  "ab": {
+    "name": "ab",
+    "limited": false,
+    "values": []
+  },
+  "able": {
+    "name": "able",
+    "limited": false,
+    "values": []
+  },
+  "ac": {
+    "name": "ac",
+    "limited": false,
+    "values": []
+  },
+  "acLoopMode": {
+    "name": "acLoopMode",
+    "limited": false,
+    "values": []
+  },
+  "acLoopModeType": {
+    "name": "acLoopModeType",
+    "limited": true,
+    "values": [
+      "自动循环",
+      "内循环",
+      "外循环"
+    ]
+  },
+  "accelerate": {
+    "name": "accelerate",
+    "limited": false,
+    "values": []
+  },
+  "accelerationMode": {
+    "name": "accelerationMode",
+    "limited": true,
+    "values": [
+      "舒适模式",
+      "标准模式",
+      "运动模式"
+    ]
+  },
+  "acceleratorPedalAssistMode": {
+    "name": "acceleratorPedalAssistMode",
+    "limited": true,
+    "values": [
+      "舒适模式",
+      "标准模式",
+      "运动模式"
+    ]
+  },
+  "accent": {
+    "name": "accent",
+    "limited": false,
+    "values": []
+  },
+  "according": {
+    "name": "according",
+    "limited": false,
+    "values": []
+  },
+  "account": {
+    "name": "account",
+    "limited": false,
+    "values": []
+  },
+  "action": {
+    "name": "action",
+    "limited": false,
+    "values": []
+  },
+  "add": {
+    "name": "add",
+    "limited": false,
+    "values": []
+  },
+  "addAb": {
+    "name": "addAb",
+    "limited": false,
+    "values": []
+  },
+  "addEin": {
+    "name": "addEin",
+    "limited": false,
+    "values": []
+  },
+  "addHinzu": {
+    "name": "addHinzu",
+    "limited": false,
+    "values": []
+  },
+  "address": {
+    "name": "address",
+    "limited": false,
+    "values": []
+  },
+  "adjust": {
+    "name": "adjust",
+    "limited": false,
+    "values": []
+  },
+  "adjustAn": {
+    "name": "adjustAn",
+    "limited": false,
+    "values": []
+  },
+  "adjustAus": {
+    "name": "adjustAus",
+    "limited": false,
+    "values": []
+  },
+  "adjustEin": {
+    "name": "adjustEin",
+    "limited": false,
+    "values": []
+  },
+  "adjustFest": {
+    "name": "adjustFest",
+    "limited": false,
+    "values": []
+  },
+  "adjustUm": {
+    "name": "adjustUm",
+    "limited": false,
+    "values": []
+  },
+  "adjustment": {
+    "name": "adjustment",
+    "limited": false,
+    "values": []
+  },
+  "after": {
+    "name": "after",
+    "limited": false,
+    "values": []
+  },
+  "again": {
+    "name": "again",
+    "limited": false,
+    "values": []
+  },
+  "air": {
+    "name": "air",
+    "limited": false,
+    "values": []
+  },
+  "airClean": {
+    "name": "airClean",
+    "limited": false,
+    "values": []
+  },
+  "airCleanMode": {
+    "name": "airCleanMode",
+    "limited": true,
+    "values": [
+      "自动净化模式"
+    ]
+  },
+  "airDirection": {
+    "name": "airDirection",
+    "limited": false,
+    "values": []
+  },
+  "airDirectionType": {
+    "name": "airDirectionType",
+    "limited": true,
+    "values": [
+      "吹面",
+      "吹脚",
+      "吹面吹脚",
+      "吹脚吹前玻璃",
+      "吹面吹脚吹玻璃",
+      "up",
+      "down",
+      "front_window",
+      "down_front",
+      "up_down",
+      "吹面吹玻璃",
+      "吹脚吹玻璃"
+    ]
+  },
+  "airPurifier": {
+    "name": "airPurifier",
+    "limited": false,
+    "values": []
+  },
+  "airVolume": {
+    "name": "airVolume",
+    "limited": false,
+    "values": []
+  },
+  "airconPosition": {
+    "name": "airconPosition",
+    "limited": true,
+    "values": [
+      "主驾",
+      "副驾",
+      "前排",
+      "后排",
+      "左前",
+      "左后",
+      "右前",
+      "右后",
+      "左侧",
+      "右侧",
+      "全车",
+      "auxiliary_driver",
+      "main_driver",
+      "第一排",
+      "第二排",
+      "第三排",
+      "中央"
+    ]
+  },
+  "aircondition": {
+    "name": "aircondition",
+    "limited": false,
+    "values": []
+  },
+  "airconditionModeType": {
+    "name": "airconditionModeType",
+    "limited": true,
+    "values": [
+      "自动模式",
+      "节能模式",
+      "heat",
+      "cool",
+      "air_supply",
+      "temperature_zone_synchronization",
+      "air_purifier"
+    ]
+  },
+  "airconditionerMainPage": {
+    "name": "airconditionerMainPage",
+    "limited": false,
+    "values": []
+  },
+  "airflow": {
+    "name": "airflow",
+    "limited": false,
+    "values": []
+  },
+  "airsupply": {
+    "name": "airsupply",
+    "limited": false,
+    "values": []
+  },
+  "album": {
+    "name": "album",
+    "limited": false,
+    "values": []
+  },
+  "albumName": {
+    "name": "albumName",
+    "limited": false,
+    "values": []
+  },
+  "alert": {
+    "name": "alert",
+    "limited": false,
+    "values": []
+  },
+  "alertSoundType": {
+    "name": "alertSoundType",
+    "limited": true,
+    "values": [
+      "锁车提示音"
+    ]
+  },
+  "all": {
+    "name": "all",
+    "limited": false,
+    "values": []
+  },
+  "allWindow": {
+    "name": "allWindow",
+    "limited": false,
+    "values": []
+  },
+  "allow": {
+    "name": "allow",
+    "limited": false,
+    "values": []
+  },
+  "along": {
+    "name": "along",
+    "limited": false,
+    "values": []
+  },
+  "alongRoute": {
+    "name": "alongRoute",
+    "limited": false,
+    "values": []
+  },
+  "alternateCurrent": {
+    "name": "alternateCurrent",
+    "limited": false,
+    "values": []
+  },
+  "altitude": {
+    "name": "altitude",
+    "limited": false,
+    "values": []
+  },
+  "ambientLight": {
+    "name": "ambientLight",
+    "limited": false,
+    "values": []
+  },
+  "ambientLightModeType": {
+    "name": "ambientLightModeType",
+    "limited": true,
+    "values": [
+      "自动模式",
+      "音乐律动模式",
+      "安全联动模式",
+      "breathing",
+      "跟随系统设置模式",
+      "关联驾驶模式"
+    ]
+  },
+  "amplifier": {
+    "name": "amplifier",
+    "limited": false,
+    "values": []
+  },
+  "and": {
+    "name": "and",
+    "limited": false,
+    "values": []
+  },
+  "androidAuto": {
+    "name": "androidAuto",
+    "limited": false,
+    "values": []
+  },
+  "angle": {
+    "name": "angle",
+    "limited": false,
+    "values": []
+  },
+  "anion": {
+    "name": "anion",
+    "limited": false,
+    "values": []
+  },
+  "announce": {
+    "name": "announce",
+    "limited": false,
+    "values": []
+  },
+  "announcement": {
+    "name": "announcement",
+    "limited": false,
+    "values": []
+  },
+  "another": {
+    "name": "another",
+    "limited": false,
+    "values": []
+  },
+  "answer": {
+    "name": "answer",
+    "limited": false,
+    "values": []
+  },
+  "answerAn": {
+    "name": "answerAn",
+    "limited": false,
+    "values": []
+  },
+  "answerEntgegen": {
+    "name": "answerEntgegen",
+    "limited": false,
+    "values": []
+  },
+  "any": {
+    "name": "any",
+    "limited": false,
+    "values": []
+  },
+  "app": {
+    "name": "app",
+    "limited": false,
+    "values": []
+  },
+  "appManagementSet": {
+    "name": "appManagementSet",
+    "limited": false,
+    "values": []
+  },
+  "appName": {
+    "name": "appName",
+    "limited": true,
+    "values": [
+      "apple music",
+      "youtube",
+      "spotify",
+      "joox music",
+      "amazon music",
+      "tiktok",
+      "deezer",
+      "here地图",
+      "车辆升级",
+      "anghami",
+      "audible",
+      "candy blast",
+      "faurecia",
+      "the weather channel",
+      "tunein radio",
+      "multimedia",
+      "媒体中心",
+      "photos",
+      "相册",
+      "新能源",
+      "ISA",
+      "优化加速器",
+      "nabd",
+      "会员中心",
+      "系统管家",
+      "文件管理器",
+      "播放器",
+      "youtube music",
+      "karafun",
+      "chicken blast",
+      "squash the bed bugs",
+      "rally champion",
+      "ball drop",
+      "bbc world service",
+      "google news",
+      "prayer now",
+      "日历",
+      "mtc music",
+      "ivi",
+      "vk video",
+      "vk zen",
+      "升级服务",
+      "我的车辆",
+      "app store",
+      "系统清理",
+      "Android Auto",
+      "new_energytidal",
+      "vk music",
+      "radio fm",
+      "pocket casts",
+      "youtube music",
+      "third_space",
+      "yandex map",
+      "yandex music",
+      "yandex books",
+      "vk radio"
+    ]
+  },
+  "ar": {
+    "name": "ar",
+    "limited": false,
+    "values": []
+  },
+  "arm": {
+    "name": "arm",
+    "limited": false,
+    "values": []
+  },
+  "armrest": {
+    "name": "armrest",
+    "limited": false,
+    "values": []
+  },
+  "arrive": {
+    "name": "arrive",
+    "limited": false,
+    "values": []
+  },
+  "article": {
+    "name": "article",
+    "limited": false,
+    "values": []
+  },
+  "as": {
+    "name": "as",
+    "limited": false,
+    "values": []
+  },
+  "assist": {
+    "name": "assist",
+    "limited": false,
+    "values": []
+  },
+  "at": {
+    "name": "at",
+    "limited": false,
+    "values": []
+  },
+  "atmosphere": {
+    "name": "atmosphere",
+    "limited": false,
+    "values": []
+  },
+  "atmosphereLampColor": {
+    "name": "atmosphereLampColor",
+    "limited": true,
+    "values": [
+      "红色",
+      "黄色",
+      "绿色",
+      "蓝色",
+      "粉色",
+      "青色",
+      "橙色",
+      "紫色\nred",
+      "yellow",
+      "白色"
+    ]
+  },
+  "atmosphereLampPosition": {
+    "name": "atmosphereLampPosition",
+    "limited": true,
+    "values": [
+      "主驾",
+      "副驾",
+      "前排",
+      "后排",
+      "左前",
+      "左后",
+      "右前",
+      "右后",
+      "左侧",
+      "右侧",
+      "全车"
+    ]
+  },
+  "atmosphereLampSet": {
+    "name": "atmosphereLampSet",
+    "limited": false,
+    "values": []
+  },
+  "attraction": {
+    "name": "attraction",
+    "limited": false,
+    "values": []
+  },
+  "audioBook": {
+    "name": "audioBook",
+    "limited": false,
+    "values": []
+  },
+  "audioTag": {
+    "name": "audioTag",
+    "limited": true,
+    "values": [
+      "媒体"
+    ]
+  },
+  "auf": {
+    "name": "auf",
+    "limited": false,
+    "values": []
+  },
+  "aus": {
+    "name": "aus",
+    "limited": false,
+    "values": []
+  },
+  "auto": {
+    "name": "auto",
+    "limited": false,
+    "values": []
+  },
+  "autoDrivingSetting": {
+    "name": "autoDrivingSetting",
+    "limited": false,
+    "values": []
+  },
+  "autoHold": {
+    "name": "autoHold",
+    "limited": false,
+    "values": []
+  },
+  "autoVolumeReduceMode": {
+    "name": "autoVolumeReduceMode",
+    "limited": true,
+    "values": [
+      "导航自动降音",
+      "开门自动降音",
+      "倒车自动降音"
+    ]
+  },
+  "autoWindowClosingMode": {
+    "name": "autoWindowClosingMode",
+    "limited": true,
+    "values": [
+      "下雨"
+    ]
+  },
+  "auxiliaryBack": {
+    "name": "auxiliaryBack",
+    "limited": false,
+    "values": []
+  },
+  "auxiliaryWord": {
+    "name": "auxiliaryWord",
+    "limited": false,
+    "values": []
+  },
+  "auxiliary_help": {
+    "name": "auxiliary_help",
+    "limited": false,
+    "values": []
+  },
+  "available": {
+    "name": "available",
+    "limited": false,
+    "values": []
+  },
+  "average": {
+    "name": "average",
+    "limited": false,
+    "values": []
+  },
+  "avm": {
+    "name": "avm",
+    "limited": false,
+    "values": []
+  },
+  "avoid": {
+    "name": "avoid",
+    "limited": false,
+    "values": []
+  },
+  "bCall": {
+    "name": "bCall",
+    "limited": false,
+    "values": []
+  },
+  "back": {
+    "name": "back",
+    "limited": false,
+    "values": []
+  },
+  "backHome": {
+    "name": "backHome",
+    "limited": false,
+    "values": []
+  },
+  "backUp": {
+    "name": "backUp",
+    "limited": false,
+    "values": []
+  },
+  "backZuruck": {
+    "name": "backZuruck",
+    "limited": false,
+    "values": []
+  },
+  "backlight": {
+    "name": "backlight",
+    "limited": false,
+    "values": []
+  },
+  "backrest": {
+    "name": "backrest",
+    "limited": false,
+    "values": []
+  },
+  "backward": {
+    "name": "backward",
+    "limited": false,
+    "values": []
+  },
+  "bank": {
+    "name": "bank",
+    "limited": false,
+    "values": []
+  },
+  "battery": {
+    "name": "battery",
+    "limited": false,
+    "values": []
+  },
+  "batteryReamin": {
+    "name": "batteryReamin",
+    "limited": false,
+    "values": []
+  },
+  "behindWindow": {
+    "name": "behindWindow",
+    "limited": false,
+    "values": []
+  },
+  "bei": {
+    "name": "bei",
+    "limited": false,
+    "values": []
+  },
+  "belongTo": {
+    "name": "belongTo",
+    "limited": false,
+    "values": []
+  },
+  "bereit": {
+    "name": "bereit",
+    "limited": false,
+    "values": []
+  },
+  "bestListeningMode": {
+    "name": "bestListeningMode",
+    "limited": false,
+    "values": []
+  },
+  "bestListeningModeType": {
+    "name": "bestListeningModeType",
+    "limited": true,
+    "values": [
+      "默认模式",
+      "环绕模式",
+      "自定义模式"
+    ]
+  },
+  "bestListeningPosition": {
+    "name": "bestListeningPosition",
+    "limited": false,
+    "values": []
+  },
+  "bestListeningPositionValue": {
+    "name": "bestListeningPositionValue",
+    "limited": true,
+    "values": [
+      "主驾",
+      "副驾",
+      "后排",
+      "全车"
+    ]
+  },
+  "big": {
+    "name": "big",
+    "limited": false,
+    "values": []
+  },
+  "binding": {
+    "name": "binding",
+    "limited": false,
+    "values": []
+  },
+  "blind": {
+    "name": "blind",
+    "limited": false,
+    "values": []
+  },
+  "blindSpotDetection": {
+    "name": "blindSpotDetection",
+    "limited": false,
+    "values": []
+  },
+  "blindSpotDetectionModeType": {
+    "name": "blindSpotDetectionModeType",
+    "limited": true,
+    "values": [
+      "开门预警监测"
+    ]
+  },
+  "blow": {
+    "name": "blow",
+    "limited": false,
+    "values": []
+  },
+  "bluetooth": {
+    "name": "bluetooth",
+    "limited": false,
+    "values": []
+  },
+  "bluetoothCall": {
+    "name": "bluetoothCall",
+    "limited": false,
+    "values": []
+  },
+  "bluetoothMusic": {
+    "name": "bluetoothMusic",
+    "limited": false,
+    "values": []
+  },
+  "bluetoothPhone": {
+    "name": "bluetoothPhone",
+    "limited": false,
+    "values": []
+  },
+  "bluetoothSet": {
+    "name": "bluetoothSet",
+    "limited": false,
+    "values": []
+  },
+  "bodyStability": {
+    "name": "bodyStability",
+    "limited": false,
+    "values": []
+  },
+  "book": {
+    "name": "book",
+    "limited": false,
+    "values": []
+  },
+  "bookList": {
+    "name": "bookList",
+    "limited": false,
+    "values": []
+  },
+  "bottom": {
+    "name": "bottom",
+    "limited": false,
+    "values": []
+  },
+  "brake": {
+    "name": "brake",
+    "limited": false,
+    "values": []
+  },
+  "brakeAssistModeType": {
+    "name": "brakeAssistModeType",
+    "limited": true,
+    "values": [
+      "标准模式",
+      "运动模式",
+      "舒适模式"
+    ]
+  },
+  "brakePedalAssistModeType": {
+    "name": "brakePedalAssistModeType",
+    "limited": true,
+    "values": [
+      "标准模式",
+      "运动模式",
+      "舒适模式"
+    ]
+  },
+  "brand": {
+    "name": "brand",
+    "limited": false,
+    "values": []
+  },
+  "breathe": {
+    "name": "breathe",
+    "limited": false,
+    "values": []
+  },
+  "bright": {
+    "name": "bright",
+    "limited": false,
+    "values": []
+  },
+  "brighten": {
+    "name": "brighten",
+    "limited": false,
+    "values": []
+  },
+  "brightenAuf": {
+    "name": "brightenAuf",
+    "limited": false,
+    "values": []
+  },
+  "brighter": {
+    "name": "brighter",
+    "limited": false,
+    "values": []
+  },
+  "brightest": {
+    "name": "brightest",
+    "limited": false,
+    "values": []
+  },
+  "brightness": {
+    "name": "brightness",
+    "limited": false,
+    "values": []
+  },
+  "broadcast": {
+    "name": "broadcast",
+    "limited": false,
+    "values": []
+  },
+  "budget": {
+    "name": "budget",
+    "limited": false,
+    "values": []
+  },
+  "buffet": {
+    "name": "buffet",
+    "limited": false,
+    "values": []
+  },
+  "button": {
+    "name": "button",
+    "limited": false,
+    "values": []
+  },
+  "buttonSound": {
+    "name": "buttonSound",
+    "limited": false,
+    "values": []
+  },
+  "buy": {
+    "name": "buy",
+    "limited": false,
+    "values": []
+  },
+  "by": {
+    "name": "by",
+    "limited": false,
+    "values": []
+  },
+  "byd": {
+    "name": "byd",
+    "limited": false,
+    "values": []
+  },
+  "bye": {
+    "name": "bye",
+    "limited": false,
+    "values": []
+  },
+  "cabin": {
+    "name": "cabin",
+    "limited": false,
+    "values": []
+  },
+  "calculate": {
+    "name": "calculate",
+    "limited": false,
+    "values": []
+  },
+  "callAn": {
+    "name": "callAn",
+    "limited": false,
+    "values": []
+  },
+  "callBack": {
+    "name": "callBack",
+    "limited": false,
+    "values": []
+  },
+  "callNoun": {
+    "name": "callNoun",
+    "limited": false,
+    "values": []
+  },
+  "callRecord": {
+    "name": "callRecord",
+    "limited": false,
+    "values": []
+  },
+  "callVerb": {
+    "name": "callVerb",
+    "limited": false,
+    "values": []
+  },
+  "callZuruck": {
+    "name": "callZuruck",
+    "limited": false,
+    "values": []
+  },
+  "callbackZuruck": {
+    "name": "callbackZuruck",
+    "limited": false,
+    "values": []
+  },
+  "camera": {
+    "name": "camera",
+    "limited": false,
+    "values": []
+  },
+  "cancel": {
+    "name": "cancel",
+    "limited": false,
+    "values": []
+  },
+  "cancelAb": {
+    "name": "cancelAb",
+    "limited": false,
+    "values": []
+  },
+  "cancelAuf": {
+    "name": "cancelAuf",
+    "limited": false,
+    "values": []
+  },
+  "capacity": {
+    "name": "capacity",
+    "limited": false,
+    "values": []
+  },
+  "capture": {
+    "name": "capture",
+    "limited": false,
+    "values": []
+  },
+  "car": {
+    "name": "car",
+    "limited": false,
+    "values": []
+  },
+  "carDoor": {
+    "name": "carDoor",
+    "limited": false,
+    "values": []
+  },
+  "carDoorPosition": {
+    "name": "carDoorPosition",
+    "limited": false,
+    "values": []
+  },
+  "carPlay": {
+    "name": "carPlay",
+    "limited": false,
+    "values": []
+  },
+  "carWash": {
+    "name": "carWash",
+    "limited": false,
+    "values": []
+  },
+  "category": {
+    "name": "category",
+    "limited": false,
+    "values": []
+  },
+  "ceiling": {
+    "name": "ceiling",
+    "limited": false,
+    "values": []
+  },
+  "center": {
+    "name": "center",
+    "limited": false,
+    "values": []
+  },
+  "centralAircon": {
+    "name": "centralAircon",
+    "limited": false,
+    "values": []
+  },
+  "centralLock": {
+    "name": "centralLock",
+    "limited": false,
+    "values": []
+  },
+  "centralScreen": {
+    "name": "centralScreen",
+    "limited": false,
+    "values": []
+  },
+  "change": {
+    "name": "change",
+    "limited": false,
+    "values": []
+  },
+  "channel": {
+    "name": "channel",
+    "limited": false,
+    "values": []
+  },
+  "charge": {
+    "name": "charge",
+    "limited": false,
+    "values": []
+  },
+  "chargeLimit": {
+    "name": "chargeLimit",
+    "limited": false,
+    "values": []
+  },
+  "chargingCapacity": {
+    "name": "chargingCapacity",
+    "limited": false,
+    "values": []
+  },
+  "chargingGunHeatPreservation": {
+    "name": "chargingGunHeatPreservation",
+    "limited": false,
+    "values": []
+  },
+  "chargingLock": {
+    "name": "chargingLock",
+    "limited": false,
+    "values": []
+  },
+  "chargingMode": {
+    "name": "chargingMode",
+    "limited": false,
+    "values": []
+  },
+  "chargingModeType": {
+    "name": "chargingModeType",
+    "limited": true,
+    "values": [
+      "燃油补电模式"
+    ]
+  },
+  "chargingPile": {
+    "name": "chargingPile",
+    "limited": false,
+    "values": []
+  },
+  "chargingPort": {
+    "name": "chargingPort",
+    "limited": false,
+    "values": []
+  },
+  "chargingTimeRemain": {
+    "name": "chargingTimeRemain",
+    "limited": false,
+    "values": []
+  },
+  "chart": {
+    "name": "chart",
+    "limited": false,
+    "values": []
+  },
+  "chassisPower": {
+    "name": "chassisPower",
+    "limited": false,
+    "values": []
+  },
+  "chassisPowerSetting": {
+    "name": "chassisPowerSetting",
+    "limited": false,
+    "values": []
+  },
+  "chat": {
+    "name": "chat",
+    "limited": false,
+    "values": []
+  },
+  "cheapest": {
+    "name": "cheapest",
+    "limited": false,
+    "values": []
+  },
+  "check": {
+    "name": "check",
+    "limited": false,
+    "values": []
+  },
+  "child": {
+    "name": "child",
+    "limited": false,
+    "values": []
+  },
+  "childLock": {
+    "name": "childLock",
+    "limited": false,
+    "values": []
+  },
+  "childLockPosition": {
+    "name": "childLockPosition",
+    "limited": true,
+    "values": [
+      "左侧",
+      "右侧"
+    ]
+  },
+  "choice": {
+    "name": "choice",
+    "limited": false,
+    "values": []
+  },
+  "city": {
+    "name": "city",
+    "limited": false,
+    "values": []
+  },
+  "cityName": {
+    "name": "cityName",
+    "limited": false,
+    "values": []
+  },
+  "climate": {
+    "name": "climate",
+    "limited": false,
+    "values": []
+  },
+  "close": {
+    "name": "close",
+    "limited": false,
+    "values": []
+  },
+  "closeAb": {
+    "name": "closeAb",
+    "limited": false,
+    "values": []
+  },
+  "closeAn": {
+    "name": "closeAn",
+    "limited": false,
+    "values": []
+  },
+  "closeAus": {
+    "name": "closeAus",
+    "limited": false,
+    "values": []
+  },
+  "closeBack": {
+    "name": "closeBack",
+    "limited": false,
+    "values": []
+  },
+  "closeEin": {
+    "name": "closeEin",
+    "limited": false,
+    "values": []
+  },
+  "closeHeraus": {
+    "name": "closeHeraus",
+    "limited": false,
+    "values": []
+  },
+  "closeHoch": {
+    "name": "closeHoch",
+    "limited": false,
+    "values": []
+  },
+  "closeZu": {
+    "name": "closeZu",
+    "limited": false,
+    "values": []
+  },
+  "closing": {
+    "name": "closing",
+    "limited": false,
+    "values": []
+  },
+  "code": {
+    "name": "code",
+    "limited": false,
+    "values": []
+  },
+  "cold": {
+    "name": "cold",
+    "limited": false,
+    "values": []
+  },
+  "colder": {
+    "name": "colder",
+    "limited": false,
+    "values": []
+  },
+  "collect": {
+    "name": "collect",
+    "limited": false,
+    "values": []
+  },
+  "collectAb": {
+    "name": "collectAb",
+    "limited": false,
+    "values": []
+  },
+  "collectList": {
+    "name": "collectList",
+    "limited": false,
+    "values": []
+  },
+  "collectPoiRefer": {
+    "name": "collectPoiRefer",
+    "limited": false,
+    "values": []
+  },
+  "collection": {
+    "name": "collection",
+    "limited": false,
+    "values": []
+  },
+  "collision": {
+    "name": "collision",
+    "limited": false,
+    "values": []
+  },
+  "collisionAlert": {
+    "name": "collisionAlert",
+    "limited": false,
+    "values": []
+  },
+  "collisionDirection": {
+    "name": "collisionDirection",
+    "limited": true,
+    "values": [
+      "前",
+      "后"
+    ]
+  },
+  "collisionWarningDistanceType": {
+    "name": "collisionWarningDistanceType",
+    "limited": true,
+    "values": [
+      "FAR",
+      "STD",
+      "NEAR"
+    ]
+  },
+  "collisionWarningSoundType": {
+    "name": "collisionWarningSoundType",
+    "limited": true,
+    "values": [
+      "声音报警",
+      "声音加震动报警",
+      "声音加振动报警"
+    ]
+  },
+  "color": {
+    "name": "color",
+    "limited": false,
+    "values": []
+  },
+  "column": {
+    "name": "column",
+    "limited": false,
+    "values": []
+  },
+  "commands": {
+    "name": "commands",
+    "limited": false,
+    "values": []
+  },
+  "company": {
+    "name": "company",
+    "limited": false,
+    "values": []
+  },
+  "completely": {
+    "name": "completely",
+    "limited": false,
+    "values": []
+  },
+  "concentration": {
+    "name": "concentration",
+    "limited": false,
+    "values": []
+  },
+  "concert": {
+    "name": "concert",
+    "limited": false,
+    "values": []
+  },
+  "concision": {
+    "name": "concision",
+    "limited": false,
+    "values": []
+  },
+  "condition": {
+    "name": "condition",
+    "limited": false,
+    "values": []
+  },
+  "confirm": {
+    "name": "confirm",
+    "limited": false,
+    "values": []
+  },
+  "connect": {
+    "name": "connect",
+    "limited": false,
+    "values": []
+  },
+  "connection": {
+    "name": "connection",
+    "limited": false,
+    "values": []
+  },
+  "console": {
+    "name": "console",
+    "limited": false,
+    "values": []
+  },
+  "consumption_": {
+    "name": "consumption_",
+    "limited": false,
+    "values": []
+  },
+  "contact": {
+    "name": "contact",
+    "limited": false,
+    "values": []
+  },
+  "contactList": {
+    "name": "contactList",
+    "limited": false,
+    "values": []
+  },
+  "contactName": {
+    "name": "contactName",
+    "limited": false,
+    "values": []
+  },
+  "contactNumber": {
+    "name": "contactNumber",
+    "limited": false,
+    "values": []
+  },
+  "content": {
+    "name": "content",
+    "limited": false,
+    "values": []
+  },
+  "continue": {
+    "name": "continue",
+    "limited": false,
+    "values": []
+  },
+  "continueFort": {
+    "name": "continueFort",
+    "limited": false,
+    "values": []
+  },
+  "continuePlay": {
+    "name": "continuePlay",
+    "limited": false,
+    "values": []
+  },
+  "continueWeiter": {
+    "name": "continueWeiter",
+    "limited": false,
+    "values": []
+  },
+  "continuousConversation": {
+    "name": "continuousConversation",
+    "limited": false,
+    "values": []
+  },
+  "control": {
+    "name": "control",
+    "limited": false,
+    "values": []
+  },
+  "converse": {
+    "name": "converse",
+    "limited": false,
+    "values": []
+  },
+  "coolNoun": {
+    "name": "coolNoun",
+    "limited": false,
+    "values": []
+  },
+  "coolType": {
+    "name": "coolType",
+    "limited": true,
+    "values": [
+      "快速",
+      "最大"
+    ]
+  },
+  "cooling": {
+    "name": "cooling",
+    "limited": false,
+    "values": []
+  },
+  "cost": {
+    "name": "cost",
+    "limited": false,
+    "values": []
+  },
+  "cover": {
+    "name": "cover",
+    "limited": false,
+    "values": []
+  },
+  "crack": {
+    "name": "crack",
+    "limited": false,
+    "values": []
+  },
+  "create": {
+    "name": "create",
+    "limited": false,
+    "values": []
+  },
+  "cross": {
+    "name": "cross",
+    "limited": false,
+    "values": []
+  },
+  "crossAlert": {
+    "name": "crossAlert",
+    "limited": false,
+    "values": []
+  },
+  "crossAlertDirection": {
+    "name": "crossAlertDirection",
+    "limited": true,
+    "values": [
+      "后"
+    ]
+  },
+  "crossAssist": {
+    "name": "crossAssist",
+    "limited": false,
+    "values": []
+  },
+  "crossAssistMethod": {
+    "name": "crossAssistMethod",
+    "limited": false,
+    "values": []
+  },
+  "crossAssistMethodValue": {
+    "name": "crossAssistMethodValue",
+    "limited": true,
+    "values": [
+      "报警",
+      "制动"
+    ]
+  },
+  "crossAssistSoundValue": {
+    "name": "crossAssistSoundValue",
+    "limited": true,
+    "values": [
+      "声音报警"
+    ]
+  },
+  "crossBrake": {
+    "name": "crossBrake",
+    "limited": false,
+    "values": []
+  },
+  "cruise": {
+    "name": "cruise",
+    "limited": false,
+    "values": []
+  },
+  "cruiseMode": {
+    "name": "cruiseMode",
+    "limited": true,
+    "values": [
+      "acc",
+      "sacc"
+    ]
+  },
+  "current": {
+    "name": "current",
+    "limited": false,
+    "values": []
+  },
+  "cushion": {
+    "name": "cushion",
+    "limited": false,
+    "values": []
+  },
+  "custom": {
+    "name": "custom",
+    "limited": false,
+    "values": []
+  },
+  "dar": {
+    "name": "dar",
+    "limited": false,
+    "values": []
+  },
+  "dark": {
+    "name": "dark",
+    "limited": false,
+    "values": []
+  },
+  "darken": {
+    "name": "darken",
+    "limited": false,
+    "values": []
+  },
+  "darkenAb": {
+    "name": "darkenAb",
+    "limited": false,
+    "values": []
+  },
+  "darkenHerunter": {
+    "name": "darkenHerunter",
+    "limited": false,
+    "values": []
+  },
+  "darker": {
+    "name": "darker",
+    "limited": false,
+    "values": []
+  },
+  "darkest": {
+    "name": "darkest",
+    "limited": false,
+    "values": []
+  },
+  "dashboard": {
+    "name": "dashboard",
+    "limited": false,
+    "values": []
+  },
+  "dashboardVolumeType": {
+    "name": "dashboardVolumeType",
+    "limited": true,
+    "values": [
+      "通知"
+    ]
+  },
+  "dashcam": {
+    "name": "dashcam",
+    "limited": false,
+    "values": []
+  },
+  "data": {
+    "name": "data",
+    "limited": false,
+    "values": []
+  },
+  "date": {
+    "name": "date",
+    "limited": false,
+    "values": []
+  },
+  "dateDisplay": {
+    "name": "dateDisplay",
+    "limited": false,
+    "values": []
+  },
+  "dateTime": {
+    "name": "dateTime",
+    "limited": false,
+    "values": []
+  },
+  "day": {
+    "name": "day",
+    "limited": false,
+    "values": []
+  },
+  "daytimeRunLamp": {
+    "name": "daytimeRunLamp",
+    "limited": false,
+    "values": []
+  },
+  "de": {
+    "name": "de",
+    "limited": false,
+    "values": []
+  },
+  "decrease": {
+    "name": "decrease",
+    "limited": false,
+    "values": []
+  },
+  "decreaseAb": {
+    "name": "decreaseAb",
+    "limited": false,
+    "values": []
+  },
+  "decreaseBack": {
+    "name": "decreaseBack",
+    "limited": false,
+    "values": []
+  },
+  "decreaseEin": {
+    "name": "decreaseEin",
+    "limited": false,
+    "values": []
+  },
+  "decreaseHerab": {
+    "name": "decreaseHerab",
+    "limited": false,
+    "values": []
+  },
+  "decreaseHerunter": {
+    "name": "decreaseHerunter",
+    "limited": false,
+    "values": []
+  },
+  "decreaseRunter": {
+    "name": "decreaseRunter",
+    "limited": false,
+    "values": []
+  },
+  "decreaseScreenBrightMore": {
+    "name": "decreaseScreenBrightMore",
+    "limited": false,
+    "values": []
+  },
+  "default": {
+    "name": "default",
+    "limited": false,
+    "values": []
+  },
+  "defence": {
+    "name": "defence",
+    "limited": false,
+    "values": []
+  },
+  "defog": {
+    "name": "defog",
+    "limited": false,
+    "values": []
+  },
+  "defogDirection": {
+    "name": "defogDirection",
+    "limited": true,
+    "values": [
+      "前",
+      "后"
+    ]
+  },
+  "defogModeType": {
+    "name": "defogModeType",
+    "limited": true,
+    "values": [
+      "自动"
+    ]
+  },
+  "defrost": {
+    "name": "defrost",
+    "limited": false,
+    "values": []
+  },
+  "defrostDirection": {
+    "name": "defrostDirection",
+    "limited": true,
+    "values": [
+      "前",
+      "后",
+      "前后",
+      "front_window",
+      "rear_window"
+    ]
+  },
+  "degree": {
+    "name": "degree",
+    "limited": false,
+    "values": []
+  },
+  "degreeHalf": {
+    "name": "degreeHalf",
+    "limited": false,
+    "values": []
+  },
+  "delay": {
+    "name": "delay",
+    "limited": false,
+    "values": []
+  },
+  "delayOff": {
+    "name": "delayOff",
+    "limited": false,
+    "values": []
+  },
+  "delete": {
+    "name": "delete",
+    "limited": false,
+    "values": []
+  },
+  "density": {
+    "name": "density",
+    "limited": false,
+    "values": []
+  },
+  "departure": {
+    "name": "departure",
+    "limited": false,
+    "values": []
+  },
+  "desktop": {
+    "name": "desktop",
+    "limited": false,
+    "values": []
+  },
+  "desktopModeType": {
+    "name": "desktopModeType",
+    "limited": true,
+    "values": [
+      "壁纸",
+      "3d"
+    ]
+  },
+  "destination": {
+    "name": "destination",
+    "limited": false,
+    "values": []
+  },
+  "detail": {
+    "name": "detail",
+    "limited": false,
+    "values": []
+  },
+  "device": {
+    "name": "device",
+    "limited": false,
+    "values": []
+  },
+  "device360": {
+    "name": "device360",
+    "limited": false,
+    "values": []
+  },
+  "device540": {
+    "name": "device540",
+    "limited": false,
+    "values": []
+  },
+  "dial": {
+    "name": "dial",
+    "limited": false,
+    "values": []
+  },
+  "dialedList": {
+    "name": "dialedList",
+    "limited": false,
+    "values": []
+  },
+  "different": {
+    "name": "different",
+    "limited": false,
+    "values": []
+  },
+  "dim": {
+    "name": "dim",
+    "limited": false,
+    "values": []
+  },
+  "direct": {
+    "name": "direct",
+    "limited": false,
+    "values": []
+  },
+  "directCurrent": {
+    "name": "directCurrent",
+    "limited": false,
+    "values": []
+  },
+  "direction": {
+    "name": "direction",
+    "limited": false,
+    "values": []
+  },
+  "disabled": {
+    "name": "disabled",
+    "limited": false,
+    "values": []
+  },
+  "discharge": {
+    "name": "discharge",
+    "limited": false,
+    "values": []
+  },
+  "dischargeLimit": {
+    "name": "dischargeLimit",
+    "limited": false,
+    "values": []
+  },
+  "disconnect": {
+    "name": "disconnect",
+    "limited": false,
+    "values": []
+  },
+  "disconnectAb": {
+    "name": "disconnectAb",
+    "limited": false,
+    "values": []
+  },
+  "displayNoun": {
+    "name": "displayNoun",
+    "limited": false,
+    "values": []
+  },
+  "displaySetting": {
+    "name": "displaySetting",
+    "limited": false,
+    "values": []
+  },
+  "displayType": {
+    "name": "displayType",
+    "limited": false,
+    "values": []
+  },
+  "displayVerb": {
+    "name": "displayVerb",
+    "limited": false,
+    "values": []
+  },
+  "distance": {
+    "name": "distance",
+    "limited": false,
+    "values": []
+  },
+  "distanceRemain": {
+    "name": "distanceRemain",
+    "limited": false,
+    "values": []
+  },
+  "dmsCamera": {
+    "name": "dmsCamera",
+    "limited": false,
+    "values": []
+  },
+  "do": {
+    "name": "do",
+    "limited": false,
+    "values": []
+  },
+  "doDurch": {
+    "name": "doDurch",
+    "limited": false,
+    "values": []
+  },
+  "door": {
+    "name": "door",
+    "limited": false,
+    "values": []
+  },
+  "doorControlMode": {
+    "name": "doorControlMode",
+    "limited": false,
+    "values": []
+  },
+  "doorLock": {
+    "name": "doorLock",
+    "limited": false,
+    "values": []
+  },
+  "doorLockPosition": {
+    "name": "doorLockPosition",
+    "limited": true,
+    "values": [
+      "左侧",
+      "右侧",
+      "全车"
+    ]
+  },
+  "down": {
+    "name": "down",
+    "limited": false,
+    "values": []
+  },
+  "download": {
+    "name": "download",
+    "limited": false,
+    "values": []
+  },
+  "drive": {
+    "name": "drive",
+    "limited": false,
+    "values": []
+  },
+  "driveControlSetPage": {
+    "name": "driveControlSetPage",
+    "limited": false,
+    "values": []
+  },
+  "driving": {
+    "name": "driving",
+    "limited": false,
+    "values": []
+  },
+  "drivingEntertainmentRestriction": {
+    "name": "drivingEntertainmentRestriction",
+    "limited": false,
+    "values": []
+  },
+  "drivingGroup": {
+    "name": "drivingGroup",
+    "limited": false,
+    "values": []
+  },
+  "drivingMode": {
+    "name": "drivingMode",
+    "limited": false,
+    "values": []
+  },
+  "drivingModeType": {
+    "name": "drivingModeType",
+    "limited": true,
+    "values": [
+      "经济模式",
+      "泥地模式",
+      "沙地模式",
+      "岩石模式",
+      "涉水模式",
+      "雪地模式",
+      "自动模式",
+      "舒适模式",
+      "运动模式",
+      "长续航模式",
+      "全路况模式",
+      "越野模式",
+      "自定义模式",
+      "sport",
+      "economy",
+      "standard",
+      "智能模式",
+      "极致节能模式",
+      "极致模式",
+      "超级运动模式"
+    ]
+  },
+  "du": {
+    "name": "du",
+    "limited": false,
+    "values": []
+  },
+  "dual": {
+    "name": "dual",
+    "limited": false,
+    "values": []
+  },
+  "durch": {
+    "name": "durch",
+    "limited": false,
+    "values": []
+  },
+  "eCall": {
+    "name": "eCall",
+    "limited": false,
+    "values": []
+  },
+  "eagleEyeMap": {
+    "name": "eagleEyeMap",
+    "limited": false,
+    "values": []
+  },
+  "easyAccess": {
+    "name": "easyAccess",
+    "limited": false,
+    "values": []
+  },
+  "eat": {
+    "name": "eat",
+    "limited": false,
+    "values": []
+  },
+  "effect": {
+    "name": "effect",
+    "limited": false,
+    "values": []
+  },
+  "ein": {
+    "name": "ein",
+    "limited": false,
+    "values": []
+  },
+  "electric": {
+    "name": "electric",
+    "limited": false,
+    "values": []
+  },
+  "electricPolice": {
+    "name": "electricPolice",
+    "limited": false,
+    "values": []
+  },
+  "emergencyRecord": {
+    "name": "emergencyRecord",
+    "limited": false,
+    "values": []
+  },
+  "energyFlowDiagram": {
+    "name": "energyFlowDiagram",
+    "limited": false,
+    "values": []
+  },
+  "energyManagement": {
+    "name": "energyManagement",
+    "limited": false,
+    "values": []
+  },
+  "energyRecovery": {
+    "name": "energyRecovery",
+    "limited": false,
+    "values": []
+  },
+  "engine": {
+    "name": "engine",
+    "limited": false,
+    "values": []
+  },
+  "enjoy": {
+    "name": "enjoy",
+    "limited": false,
+    "values": []
+  },
+  "entertainment": {
+    "name": "entertainment",
+    "limited": false,
+    "values": []
+  },
+  "entertainmentScreen": {
+    "name": "entertainmentScreen",
+    "limited": false,
+    "values": []
+  },
+  "entgegen": {
+    "name": "entgegen",
+    "limited": false,
+    "values": []
+  },
+  "epb": {
+    "name": "epb",
+    "limited": false,
+    "values": []
+  },
+  "epsMode": {
+    "name": "epsMode",
+    "limited": true,
+    "values": [
+      "舒适模式",
+      "标准模式",
+      "运动模式"
+    ]
+  },
+  "equal": {
+    "name": "equal",
+    "limited": false,
+    "values": []
+  },
+  "equalizer": {
+    "name": "equalizer",
+    "limited": false,
+    "values": []
+  },
+  "events": {
+    "name": "events",
+    "limited": false,
+    "values": []
+  },
+  "exit": {
+    "name": "exit",
+    "limited": false,
+    "values": []
+  },
+  "exitHeraus": {
+    "name": "exitHeraus",
+    "limited": false,
+    "values": []
+  },
+  "exitRaus": {
+    "name": "exitRaus",
+    "limited": false,
+    "values": []
+  },
+  "exitWeg": {
+    "name": "exitWeg",
+    "limited": false,
+    "values": []
+  },
+  "external": {
+    "name": "external",
+    "limited": false,
+    "values": []
+  },
+  "extremeUTurn": {
+    "name": "extremeUTurn",
+    "limited": false,
+    "values": []
+  },
+  "eye": {
+    "name": "eye",
+    "limited": false,
+    "values": []
+  },
+  "face": {
+    "name": "face",
+    "limited": false,
+    "values": []
+  },
+  "faceVerb": {
+    "name": "faceVerb",
+    "limited": false,
+    "values": []
+  },
+  "factorySettings": {
+    "name": "factorySettings",
+    "limited": false,
+    "values": []
+  },
+  "fall": {
+    "name": "fall",
+    "limited": false,
+    "values": []
+  },
+  "fan": {
+    "name": "fan",
+    "limited": false,
+    "values": []
+  },
+  "fanspeed": {
+    "name": "fanspeed",
+    "limited": false,
+    "values": []
+  },
+  "fast": {
+    "name": "fast",
+    "limited": false,
+    "values": []
+  },
+  "fastForward": {
+    "name": "fastForward",
+    "limited": false,
+    "values": []
+  },
+  "faster": {
+    "name": "faster",
+    "limited": false,
+    "values": []
+  },
+  "fastest": {
+    "name": "fastest",
+    "limited": false,
+    "values": []
+  },
+  "fatigueDrive": {
+    "name": "fatigueDrive",
+    "limited": false,
+    "values": []
+  },
+  "favorite": {
+    "name": "favorite",
+    "limited": false,
+    "values": []
+  },
+  "feature": {
+    "name": "feature",
+    "limited": false,
+    "values": []
+  },
+  "fest": {
+    "name": "fest",
+    "limited": false,
+    "values": []
+  },
+  "fewer": {
+    "name": "fewer",
+    "limited": false,
+    "values": []
+  },
+  "file": {
+    "name": "file",
+    "limited": false,
+    "values": []
+  },
+  "filter": {
+    "name": "filter",
+    "limited": false,
+    "values": []
+  },
+  "finish": {
+    "name": "finish",
+    "limited": false,
+    "values": []
+  },
+  "flexible": {
+    "name": "flexible",
+    "limited": false,
+    "values": []
+  },
+  "flow": {
+    "name": "flow",
+    "limited": false,
+    "values": []
+  },
+  "fog": {
+    "name": "fog",
+    "limited": false,
+    "values": []
+  },
+  "fogLamp": {
+    "name": "fogLamp",
+    "limited": false,
+    "values": []
+  },
+  "fogLampRear": {
+    "name": "fogLampRear",
+    "limited": false,
+    "values": []
+  },
+  "fold": {
+    "name": "fold",
+    "limited": false,
+    "values": []
+  },
+  "foldEin": {
+    "name": "foldEin",
+    "limited": false,
+    "values": []
+  },
+  "foldZusammen": {
+    "name": "foldZusammen",
+    "limited": false,
+    "values": []
+  },
+  "food": {
+    "name": "food",
+    "limited": false,
+    "values": []
+  },
+  "for": {
+    "name": "for",
+    "limited": false,
+    "values": []
+  },
+  "forced": {
+    "name": "forced",
+    "limited": false,
+    "values": []
+  },
+  "forecast": {
+    "name": "forecast",
+    "limited": false,
+    "values": []
+  },
+  "format": {
+    "name": "format",
+    "limited": false,
+    "values": []
+  },
+  "fort": {
+    "name": "fort",
+    "limited": false,
+    "values": []
+  },
+  "forward": {
+    "name": "forward",
+    "limited": false,
+    "values": []
+  },
+  "fragrance": {
+    "name": "fragrance",
+    "limited": false,
+    "values": []
+  },
+  "fragranceSystem": {
+    "name": "fragranceSystem",
+    "limited": false,
+    "values": []
+  },
+  "fragranceType": {
+    "name": "fragranceType",
+    "limited": true,
+    "values": [
+      "小苍兰调",
+      "玫瑰调",
+      "东方调"
+    ]
+  },
+  "free": {
+    "name": "free",
+    "limited": false,
+    "values": []
+  },
+  "frei": {
+    "name": "frei",
+    "limited": false,
+    "values": []
+  },
+  "frequency": {
+    "name": "frequency",
+    "limited": false,
+    "values": []
+  },
+  "fresh": {
+    "name": "fresh",
+    "limited": false,
+    "values": []
+  },
+  "fridge": {
+    "name": "fridge",
+    "limited": false,
+    "values": []
+  },
+  "fridgeDoor": {
+    "name": "fridgeDoor",
+    "limited": false,
+    "values": []
+  },
+  "fridgeModeType": {
+    "name": "fridgeModeType",
+    "limited": true,
+    "values": [
+      "制冷模式",
+      "制热模式",
+      "cool",
+      "heat",
+      "sterilization",
+      "power_off_delay",
+      "smart"
+    ]
+  },
+  "fridgeSmartModeType": {
+    "name": "fridgeSmartModeType",
+    "limited": true,
+    "values": [
+      "ice_cream",
+      "cold_drinks",
+      "warm_milk",
+      "hot_drinks"
+    ]
+  },
+  "from": {
+    "name": "from",
+    "limited": false,
+    "values": []
+  },
+  "front": {
+    "name": "front",
+    "limited": false,
+    "values": []
+  },
+  "frontWindow": {
+    "name": "frontWindow",
+    "limited": false,
+    "values": []
+  },
+  "fuel": {
+    "name": "fuel",
+    "limited": false,
+    "values": []
+  },
+  "fuelChargeMode": {
+    "name": "fuelChargeMode",
+    "limited": false,
+    "values": []
+  },
+  "fuelChargeModeValue": {
+    "name": "fuelChargeModeValue",
+    "limited": true,
+    "values": [
+      "MAX",
+      "MIN"
+    ]
+  },
+  "fuelFlap": {
+    "name": "fuelFlap",
+    "limited": false,
+    "values": []
+  },
+  "full": {
+    "name": "full",
+    "limited": false,
+    "values": []
+  },
+  "fullScreen": {
+    "name": "fullScreen",
+    "limited": false,
+    "values": []
+  },
+  "fully": {
+    "name": "fully",
+    "limited": false,
+    "values": []
+  },
+  "function": {
+    "name": "function",
+    "limited": false,
+    "values": []
+  },
+  "game": {
+    "name": "game",
+    "limited": false,
+    "values": []
+  },
+  "gear": {
+    "name": "gear",
+    "limited": false,
+    "values": []
+  },
+  "generalSetting": {
+    "name": "generalSetting",
+    "limited": false,
+    "values": []
+  },
+  "genre": {
+    "name": "genre",
+    "limited": false,
+    "values": []
+  },
+  "gesture": {
+    "name": "gesture",
+    "limited": false,
+    "values": []
+  },
+  "get": {
+    "name": "get",
+    "limited": false,
+    "values": []
+  },
+  "glass": {
+    "name": "glass",
+    "limited": false,
+    "values": []
+  },
+  "global": {
+    "name": "global",
+    "limited": false,
+    "values": []
+  },
+  "gloveCompartment": {
+    "name": "gloveCompartment",
+    "limited": false,
+    "values": []
+  },
+  "go": {
+    "name": "go",
+    "limited": false,
+    "values": []
+  },
+  "groundLock": {
+    "name": "groundLock",
+    "limited": false,
+    "values": []
+  },
+  "guide": {
+    "name": "guide",
+    "limited": false,
+    "values": []
+  },
+  "half": {
+    "name": "half",
+    "limited": false,
+    "values": []
+  },
+  "handbook": {
+    "name": "handbook",
+    "limited": false,
+    "values": []
+  },
+  "hangup": {
+    "name": "hangup",
+    "limited": false,
+    "values": []
+  },
+  "headLight": {
+    "name": "headLight",
+    "limited": false,
+    "values": []
+  },
+  "headLightDelay": {
+    "name": "headLightDelay",
+    "limited": false,
+    "values": []
+  },
+  "headLightHeight": {
+    "name": "headLightHeight",
+    "limited": false,
+    "values": []
+  },
+  "headLightHeightLevel": {
+    "name": "headLightHeightLevel",
+    "limited": true,
+    "values": [
+      "MIN",
+      "LOW",
+      "LOWER",
+      "MIDDLE",
+      "HIGHER",
+      "HIGH",
+      "MAX"
+    ]
+  },
+  "headLightModeType": {
+    "name": "headLightModeType",
+    "limited": true,
+    "values": [
+      "大灯回家照明模式",
+      "远近光灯自动切换模式",
+      "远近光灯自动切换模式",
+      "近光灯模式",
+      "自适应近光灯模式",
+      "远光灯模式",
+      "low_beam_light",
+      "high_beam_light",
+      "近光灯自动开启模式"
+    ]
+  },
+  "headNumber": {
+    "name": "headNumber",
+    "limited": false,
+    "values": []
+  },
+  "headUP": {
+    "name": "headUP",
+    "limited": false,
+    "values": []
+  },
+  "heatNoun": {
+    "name": "heatNoun",
+    "limited": false,
+    "values": []
+  },
+  "heatType": {
+    "name": "heatType",
+    "limited": true,
+    "values": [
+      "快速",
+      "最大"
+    ]
+  },
+  "heatVerb": {
+    "name": "heatVerb",
+    "limited": false,
+    "values": []
+  },
+  "heating": {
+    "name": "heating",
+    "limited": false,
+    "values": []
+  },
+  "height": {
+    "name": "height",
+    "limited": false,
+    "values": []
+  },
+  "help": {
+    "name": "help",
+    "limited": false,
+    "values": []
+  },
+  "helpType": {
+    "name": "helpType",
+    "limited": true,
+    "values": [
+      "radio",
+      "music",
+      "weather",
+      "tracffic_info",
+      "schedule",
+      "news",
+      "map",
+      "telephone",
+      "voice_assist"
+    ]
+  },
+  "her": {
+    "name": "her",
+    "limited": false,
+    "values": []
+  },
+  "herab": {
+    "name": "herab",
+    "limited": false,
+    "values": []
+  },
+  "heraus": {
+    "name": "heraus",
+    "limited": false,
+    "values": []
+  },
+  "here": {
+    "name": "here",
+    "limited": false,
+    "values": []
+  },
+  "herunter": {
+    "name": "herunter",
+    "limited": false,
+    "values": []
+  },
+  "heruter": {
+    "name": "heruter",
+    "limited": false,
+    "values": []
+  },
+  "high": {
+    "name": "high",
+    "limited": false,
+    "values": []
+  },
+  "highBeam": {
+    "name": "highBeam",
+    "limited": false,
+    "values": []
+  },
+  "higher": {
+    "name": "higher",
+    "limited": false,
+    "values": []
+  },
+  "highest": {
+    "name": "highest",
+    "limited": false,
+    "values": []
+  },
+  "hin": {
+    "name": "hin",
+    "limited": false,
+    "values": []
+  },
+  "hinein": {
+    "name": "hinein",
+    "limited": false,
+    "values": []
+  },
+  "hinzu": {
+    "name": "hinzu",
+    "limited": false,
+    "values": []
+  },
+  "history": {
+    "name": "history",
+    "limited": false,
+    "values": []
+  },
+  "historyList": {
+    "name": "historyList",
+    "limited": false,
+    "values": []
+  },
+  "historyNaviRecord": {
+    "name": "historyNaviRecord",
+    "limited": false,
+    "values": []
+  },
+  "historyPlaylist": {
+    "name": "historyPlaylist",
+    "limited": false,
+    "values": []
+  },
+  "hoch": {
+    "name": "hoch",
+    "limited": false,
+    "values": []
+  },
+  "holidayName": {
+    "name": "holidayName",
+    "limited": true,
+    "values": [
+      "圣诞节",
+      "新年",
+      "劳动节"
+    ]
+  },
+  "home": {
+    "name": "home",
+    "limited": false,
+    "values": []
+  },
+  "homepage": {
+    "name": "homepage",
+    "limited": false,
+    "values": []
+  },
+  "horizontal": {
+    "name": "horizontal",
+    "limited": false,
+    "values": []
+  },
+  "hot": {
+    "name": "hot",
+    "limited": false,
+    "values": []
+  },
+  "hotSpot": {
+    "name": "hotSpot",
+    "limited": false,
+    "values": []
+  },
+  "hotel": {
+    "name": "hotel",
+    "limited": false,
+    "values": []
+  },
+  "hour": {
+    "name": "hour",
+    "limited": false,
+    "values": []
+  },
+  "how": {
+    "name": "how",
+    "limited": false,
+    "values": []
+  },
+  "howAreYou": {
+    "name": "howAreYou",
+    "limited": false,
+    "values": []
+  },
+  "howMany": {
+    "name": "howMany",
+    "limited": false,
+    "values": []
+  },
+  "howToUse": {
+    "name": "howToUse",
+    "limited": false,
+    "values": []
+  },
+  "hud": {
+    "name": "hud",
+    "limited": false,
+    "values": []
+  },
+  "hudDisplayModeType": {
+    "name": "hudDisplayModeType",
+    "limited": true,
+    "values": [
+      "雪地模式",
+      "标准模式"
+    ]
+  },
+  "if": {
+    "name": "if",
+    "limited": false,
+    "values": []
+  },
+  "ignore": {
+    "name": "ignore",
+    "limited": false,
+    "values": []
+  },
+  "immediately": {
+    "name": "immediately",
+    "limited": false,
+    "values": []
+  },
+  "inProgress": {
+    "name": "inProgress",
+    "limited": false,
+    "values": []
+  },
+  "inVehicleConnect": {
+    "name": "inVehicleConnect",
+    "limited": false,
+    "values": []
+  },
+  "inWard": {
+    "name": "inWard",
+    "limited": false,
+    "values": []
+  },
+  "incar": {
+    "name": "incar",
+    "limited": false,
+    "values": []
+  },
+  "inclusion": {
+    "name": "inclusion",
+    "limited": false,
+    "values": []
+  },
+  "increase": {
+    "name": "increase",
+    "limited": false,
+    "values": []
+  },
+  "increaseAn": {
+    "name": "increaseAn",
+    "limited": false,
+    "values": []
+  },
+  "increaseAuf": {
+    "name": "increaseAuf",
+    "limited": false,
+    "values": []
+  },
+  "increaseBack": {
+    "name": "increaseBack",
+    "limited": false,
+    "values": []
+  },
+  "increaseHoch": {
+    "name": "increaseHoch",
+    "limited": false,
+    "values": []
+  },
+  "increaseScreenBrightMore": {
+    "name": "increaseScreenBrightMore",
+    "limited": false,
+    "values": []
+  },
+  "information": {
+    "name": "information",
+    "limited": false,
+    "values": []
+  },
+  "infos": {
+    "name": "infos",
+    "limited": false,
+    "values": []
+  },
+  "input": {
+    "name": "input",
+    "limited": false,
+    "values": []
+  },
+  "inside": {
+    "name": "inside",
+    "limited": false,
+    "values": []
+  },
+  "instead": {
+    "name": "instead",
+    "limited": false,
+    "values": []
+  },
+  "instrument": {
+    "name": "instrument",
+    "limited": false,
+    "values": []
+  },
+  "intelligent": {
+    "name": "intelligent",
+    "limited": false,
+    "values": []
+  },
+  "intelligentKeySensor": {
+    "name": "intelligentKeySensor",
+    "limited": false,
+    "values": []
+  },
+  "intelligentOrientation": {
+    "name": "intelligentOrientation",
+    "limited": false,
+    "values": []
+  },
+  "intelligentSpeedLimitMode": {
+    "name": "intelligentSpeedLimitMode",
+    "limited": true,
+    "values": [
+      "显示报警",
+      "灯光报警",
+      "声音加灯光报警",
+      "自动模式"
+    ]
+  },
+  "intensity": {
+    "name": "intensity",
+    "limited": false,
+    "values": []
+  },
+  "interRadio": {
+    "name": "interRadio",
+    "limited": false,
+    "values": []
+  },
+  "interconnectionSetting": {
+    "name": "interconnectionSetting",
+    "limited": false,
+    "values": []
+  },
+  "intermittentSpeed": {
+    "name": "intermittentSpeed",
+    "limited": false,
+    "values": []
+  },
+  "internet": {
+    "name": "internet",
+    "limited": false,
+    "values": []
+  },
+  "internetNovel": {
+    "name": "internetNovel",
+    "limited": false,
+    "values": []
+  },
+  "internetRadio": {
+    "name": "internetRadio",
+    "limited": false,
+    "values": []
+  },
+  "intersection": {
+    "name": "intersection",
+    "limited": false,
+    "values": []
+  },
+  "into": {
+    "name": "into",
+    "limited": false,
+    "values": []
+  },
+  "introduction": {
+    "name": "introduction",
+    "limited": false,
+    "values": []
+  },
+  "isThere": {
+    "name": "isThere",
+    "limited": false,
+    "values": []
+  },
+  "it": {
+    "name": "it",
+    "limited": false,
+    "values": []
+  },
+  "join": {
+    "name": "join",
+    "limited": false,
+    "values": []
+  },
+  "joinAn": {
+    "name": "joinAn",
+    "limited": false,
+    "values": []
+  },
+  "joinBei": {
+    "name": "joinBei",
+    "limited": false,
+    "values": []
+  },
+  "joinTeil": {
+    "name": "joinTeil",
+    "limited": false,
+    "values": []
+  },
+  "justNow": {
+    "name": "justNow",
+    "limited": false,
+    "values": []
+  },
+  "keep": {
+    "name": "keep",
+    "limited": false,
+    "values": []
+  },
+  "keyBinding": {
+    "name": "keyBinding",
+    "limited": false,
+    "values": []
+  },
+  "khaki": {
+    "name": "khaki",
+    "limited": false,
+    "values": []
+  },
+  "kilohertz": {
+    "name": "kilohertz",
+    "limited": false,
+    "values": []
+  },
+  "km": {
+    "name": "km",
+    "limited": false,
+    "values": []
+  },
+  "kmh": {
+    "name": "kmh",
+    "limited": false,
+    "values": []
+  },
+  "kwAtmospherelamp": {
+    "name": "kwAtmospherelamp",
+    "limited": false,
+    "values": []
+  },
+  "landmark": {
+    "name": "landmark",
+    "limited": false,
+    "values": []
+  },
+  "laneAssist": {
+    "name": "laneAssist",
+    "limited": false,
+    "values": []
+  },
+  "laneDeparture": {
+    "name": "laneDeparture",
+    "limited": false,
+    "values": []
+  },
+  "laneKeep": {
+    "name": "laneKeep",
+    "limited": false,
+    "values": []
+  },
+  "laneKeepSensitivity": {
+    "name": "laneKeepSensitivity",
+    "limited": true,
+    "values": [
+      "HIGH",
+      "MIDDLE",
+      "LOW"
+    ]
+  },
+  "language": {
+    "name": "language",
+    "limited": false,
+    "values": []
+  },
+  "languageType": {
+    "name": "languageType",
+    "limited": true,
+    "values": [
+      "中文",
+      "英文",
+      "泰语",
+      "chinese",
+      "norwegian",
+      "spanish",
+      "portuguese",
+      "japanese",
+      "french",
+      "arabic",
+      "russian",
+      "thai",
+      "swedish",
+      "dutch",
+      "hebrew",
+      "italian",
+      "uzbek",
+      "hungarian",
+      "slovak",
+      "czech",
+      "polish",
+      "vietnamese",
+      "indonesian",
+      "malay",
+      "catalan",
+      "croatian",
+      "romanian",
+      "greek",
+      "ukrainian",
+      "kazakh",
+      "bulgarian"
+    ]
+  },
+  "last": {
+    "name": "last",
+    "limited": false,
+    "values": []
+  },
+  "lastDrivingGroup": {
+    "name": "lastDrivingGroup",
+    "limited": false,
+    "values": []
+  },
+  "ldwsAssistMode": {
+    "name": "ldwsAssistMode",
+    "limited": true,
+    "values": [
+      "报警",
+      "纠偏",
+      "报警加纠偏",
+      "紧急车道保持"
+    ]
+  },
+  "lead": {
+    "name": "lead",
+    "limited": false,
+    "values": []
+  },
+  "leavingLock": {
+    "name": "leavingLock",
+    "limited": false,
+    "values": []
+  },
+  "leg": {
+    "name": "leg",
+    "limited": false,
+    "values": []
+  },
+  "legRest": {
+    "name": "legRest",
+    "limited": false,
+    "values": []
+  },
+  "legSupportDirection": {
+    "name": "legSupportDirection",
+    "limited": true,
+    "values": [
+      "UP",
+      "DOWN"
+    ]
+  },
+  "level": {
+    "name": "level",
+    "limited": false,
+    "values": []
+  },
+  "light": {
+    "name": "light",
+    "limited": false,
+    "values": []
+  },
+  "lightSetting": {
+    "name": "lightSetting",
+    "limited": false,
+    "values": []
+  },
+  "lightShow": {
+    "name": "lightShow",
+    "limited": false,
+    "values": []
+  },
+  "lightShowSetting": {
+    "name": "lightShowSetting",
+    "limited": false,
+    "values": []
+  },
+  "lightShowType": {
+    "name": "lightShowType",
+    "limited": true,
+    "values": [
+      "摇滚不死",
+      "星空漫步",
+      "浩瀚征程"
+    ]
+  },
+  "like": {
+    "name": "like",
+    "limited": false,
+    "values": []
+  },
+  "likeVideo": {
+    "name": "likeVideo",
+    "limited": false,
+    "values": []
+  },
+  "limit": {
+    "name": "limit",
+    "limited": false,
+    "values": []
+  },
+  "line": {
+    "name": "line",
+    "limited": false,
+    "values": []
+  },
+  "linkingVerb": {
+    "name": "linkingVerb",
+    "limited": false,
+    "values": []
+  },
+  "list": {
+    "name": "list",
+    "limited": false,
+    "values": []
+  },
+  "listBook": {
+    "name": "listBook",
+    "limited": false,
+    "values": []
+  },
+  "listLoopPlay": {
+    "name": "listLoopPlay",
+    "limited": false,
+    "values": []
+  },
+  "listPoi": {
+    "name": "listPoi",
+    "limited": false,
+    "values": []
+  },
+  "listen": {
+    "name": "listen",
+    "limited": false,
+    "values": []
+  },
+  "little": {
+    "name": "little",
+    "limited": false,
+    "values": []
+  },
+  "live": {
+    "name": "live",
+    "limited": false,
+    "values": []
+  },
+  "liveTraffic": {
+    "name": "liveTraffic",
+    "limited": false,
+    "values": []
+  },
+  "local": {
+    "name": "local",
+    "limited": false,
+    "values": []
+  },
+  "localMusic": {
+    "name": "localMusic",
+    "limited": false,
+    "values": []
+  },
+  "localSet": {
+    "name": "localSet",
+    "limited": false,
+    "values": []
+  },
+  "locate": {
+    "name": "locate",
+    "limited": false,
+    "values": []
+  },
+  "locateFest": {
+    "name": "locateFest",
+    "limited": false,
+    "values": []
+  },
+  "location": {
+    "name": "location",
+    "limited": false,
+    "values": []
+  },
+  "lock": {
+    "name": "lock",
+    "limited": false,
+    "values": []
+  },
+  "lockCar": {
+    "name": "lockCar",
+    "limited": false,
+    "values": []
+  },
+  "lockMode": {
+    "name": "lockMode",
+    "limited": true,
+    "values": [
+      "离车自动上锁"
+    ]
+  },
+  "lockingAutomaticClean": {
+    "name": "lockingAutomaticClean",
+    "limited": false,
+    "values": []
+  },
+  "loop": {
+    "name": "loop",
+    "limited": false,
+    "values": []
+  },
+  "loud": {
+    "name": "loud",
+    "limited": false,
+    "values": []
+  },
+  "louder": {
+    "name": "louder",
+    "limited": false,
+    "values": []
+  },
+  "low": {
+    "name": "low",
+    "limited": false,
+    "values": []
+  },
+  "lowQualityAudioRepair": {
+    "name": "lowQualityAudioRepair",
+    "limited": false,
+    "values": []
+  },
+  "lowbeam": {
+    "name": "lowbeam",
+    "limited": false,
+    "values": []
+  },
+  "lowest": {
+    "name": "lowest",
+    "limited": false,
+    "values": []
+  },
+  "lyric": {
+    "name": "lyric",
+    "limited": false,
+    "values": []
+  },
+  "mainScreen": {
+    "name": "mainScreen",
+    "limited": false,
+    "values": []
+  },
+  "maintenanceMileage": {
+    "name": "maintenanceMileage",
+    "limited": false,
+    "values": []
+  },
+  "manage": {
+    "name": "manage",
+    "limited": false,
+    "values": []
+  },
+  "manual": {
+    "name": "manual",
+    "limited": false,
+    "values": []
+  },
+  "map": {
+    "name": "map",
+    "limited": false,
+    "values": []
+  },
+  "mapSetting": {
+    "name": "mapSetting",
+    "limited": false,
+    "values": []
+  },
+  "mapVerb": {
+    "name": "mapVerb",
+    "limited": false,
+    "values": []
+  },
+  "mapView": {
+    "name": "mapView",
+    "limited": false,
+    "values": []
+  },
+  "mapViewMode": {
+    "name": "mapViewMode",
+    "limited": true,
+    "values": [
+      "北向上",
+      "2D视图",
+      "3D视图",
+      "2D车头朝上",
+      "2D北朝上",
+      "2D北向上",
+      "2D车头向上",
+      "3D车头向上"
+    ]
+  },
+  "markVerb": {
+    "name": "markVerb",
+    "limited": false,
+    "values": []
+  },
+  "massage": {
+    "name": "massage",
+    "limited": false,
+    "values": []
+  },
+  "massageForceValue": {
+    "name": "massageForceValue",
+    "limited": true,
+    "values": [
+      "MAX",
+      "MIN",
+      "GENTLE",
+      "STANDARD",
+      "STRONG"
+    ]
+  },
+  "massageMode": {
+    "name": "massageMode",
+    "limited": false,
+    "values": []
+  },
+  "massageModeType": {
+    "name": "massageModeType",
+    "limited": true,
+    "values": [
+      "全身舒展模式",
+      "腰部释压模式",
+      "疲劳舒缓模式",
+      "背部按摩模式",
+      "上背部按摩模式",
+      "腰部按摩模式",
+      "single_row_type",
+      "海浪模式",
+      "曲线模式",
+      "环绕模式"
+    ]
+  },
+  "maxBrightness": {
+    "name": "maxBrightness",
+    "limited": false,
+    "values": []
+  },
+  "maxLevel": {
+    "name": "maxLevel",
+    "limited": false,
+    "values": []
+  },
+  "maxTemp": {
+    "name": "maxTemp",
+    "limited": false,
+    "values": []
+  },
+  "maximize": {
+    "name": "maximize",
+    "limited": false,
+    "values": []
+  },
+  "me": {
+    "name": "me",
+    "limited": false,
+    "values": []
+  },
+  "media": {
+    "name": "media",
+    "limited": false,
+    "values": []
+  },
+  "mediaCenter": {
+    "name": "mediaCenter",
+    "limited": false,
+    "values": []
+  },
+  "mediaSourceType": {
+    "name": "mediaSourceType",
+    "limited": true,
+    "values": [
+      "usb",
+      "蓝牙",
+      "本地",
+      "local",
+      "bluetooth",
+      "amazon music",
+      "youtube music"
+    ]
+  },
+  "meditation": {
+    "name": "meditation",
+    "limited": false,
+    "values": []
+  },
+  "medium": {
+    "name": "medium",
+    "limited": false,
+    "values": []
+  },
+  "meeting": {
+    "name": "meeting",
+    "limited": false,
+    "values": []
+  },
+  "meetingPoint": {
+    "name": "meetingPoint",
+    "limited": false,
+    "values": []
+  },
+  "megahertz": {
+    "name": "megahertz",
+    "limited": false,
+    "values": []
+  },
+  "memo": {
+    "name": "memo",
+    "limited": false,
+    "values": []
+  },
+  "menu": {
+    "name": "menu",
+    "limited": false,
+    "values": []
+  },
+  "message": {
+    "name": "message",
+    "limited": false,
+    "values": []
+  },
+  "messageCenter": {
+    "name": "messageCenter",
+    "limited": false,
+    "values": []
+  },
+  "meter": {
+    "name": "meter",
+    "limited": false,
+    "values": []
+  },
+  "method": {
+    "name": "method",
+    "limited": false,
+    "values": []
+  },
+  "mhz": {
+    "name": "mhz",
+    "limited": false,
+    "values": []
+  },
+  "mid": {
+    "name": "mid",
+    "limited": false,
+    "values": []
+  },
+  "mild": {
+    "name": "mild",
+    "limited": false,
+    "values": []
+  },
+  "mile": {
+    "name": "mile",
+    "limited": false,
+    "values": []
+  },
+  "minAmbientLightBrightness": {
+    "name": "minAmbientLightBrightness",
+    "limited": false,
+    "values": []
+  },
+  "minLevel": {
+    "name": "minLevel",
+    "limited": false,
+    "values": []
+  },
+  "minTemp": {
+    "name": "minTemp",
+    "limited": false,
+    "values": []
+  },
+  "minimize": {
+    "name": "minimize",
+    "limited": false,
+    "values": []
+  },
+  "minus": {
+    "name": "minus",
+    "limited": false,
+    "values": []
+  },
+  "minusOneScreen": {
+    "name": "minusOneScreen",
+    "limited": false,
+    "values": []
+  },
+  "minute": {
+    "name": "minute",
+    "limited": false,
+    "values": []
+  },
+  "mirror": {
+    "name": "mirror",
+    "limited": false,
+    "values": []
+  },
+  "missed": {
+    "name": "missed",
+    "limited": false,
+    "values": []
+  },
+  "mit": {
+    "name": "mit",
+    "limited": false,
+    "values": []
+  },
+  "mobileData": {
+    "name": "mobileData",
+    "limited": false,
+    "values": []
+  },
+  "mobileNetwork": {
+    "name": "mobileNetwork",
+    "limited": false,
+    "values": []
+  },
+  "mode": {
+    "name": "mode",
+    "limited": false,
+    "values": []
+  },
+  "modify": {
+    "name": "modify",
+    "limited": false,
+    "values": []
+  },
+  "module": {
+    "name": "module",
+    "limited": false,
+    "values": []
+  },
+  "momentarily": {
+    "name": "momentarily",
+    "limited": false,
+    "values": []
+  },
+  "monitor": {
+    "name": "monitor",
+    "limited": false,
+    "values": []
+  },
+  "more": {
+    "name": "more",
+    "limited": false,
+    "values": []
+  },
+  "mostExpensive": {
+    "name": "mostExpensive",
+    "limited": false,
+    "values": []
+  },
+  "move": {
+    "name": "move",
+    "limited": false,
+    "values": []
+  },
+  "much": {
+    "name": "much",
+    "limited": false,
+    "values": []
+  },
+  "multimedia": {
+    "name": "multimedia",
+    "limited": false,
+    "values": []
+  },
+  "multiple": {
+    "name": "multiple",
+    "limited": false,
+    "values": []
+  },
+  "music": {
+    "name": "music",
+    "limited": false,
+    "values": []
+  },
+  "musicAppName": {
+    "name": "musicAppName",
+    "limited": true,
+    "values": [
+      "amazon",
+      "spotify",
+      "deezer"
+    ]
+  },
+  "musicGenre": {
+    "name": "musicGenre",
+    "limited": true,
+    "values": [
+      "POP",
+      "ROCK",
+      "COUNTRY",
+      "R&B",
+      "HIP HOP",
+      "LATIN",
+      "STANDARD&SHOWTUNE",
+      "SPECIALTY",
+      "CHILDREN",
+      "CHRISTINE",
+      "DISNEY",
+      "HOLIDAY",
+      "爵士"
+    ]
+  },
+  "musicList": {
+    "name": "musicList",
+    "limited": false,
+    "values": []
+  },
+  "musicNameRefer": {
+    "name": "musicNameRefer",
+    "limited": false,
+    "values": []
+  },
+  "mute": {
+    "name": "mute",
+    "limited": false,
+    "values": []
+  },
+  "muteStumm": {
+    "name": "muteStumm",
+    "limited": false,
+    "values": []
+  },
+  "my": {
+    "name": "my",
+    "limited": false,
+    "values": []
+  },
+  "nGearTouchReminder": {
+    "name": "nGearTouchReminder",
+    "limited": false,
+    "values": []
+  },
+  "nach": {
+    "name": "nach",
+    "limited": false,
+    "values": []
+  },
+  "name": {
+    "name": "name",
+    "limited": false,
+    "values": []
+  },
+  "napMode": {
+    "name": "napMode",
+    "limited": false,
+    "values": []
+  },
+  "naviInfo": {
+    "name": "naviInfo",
+    "limited": false,
+    "values": []
+  },
+  "navigate": {
+    "name": "navigate",
+    "limited": false,
+    "values": []
+  },
+  "navigateAuf": {
+    "name": "navigateAuf",
+    "limited": false,
+    "values": []
+  },
+  "navigation": {
+    "name": "navigation",
+    "limited": false,
+    "values": []
+  },
+  "nearby": {
+    "name": "nearby",
+    "limited": false,
+    "values": []
+  },
+  "nearbyRefer": {
+    "name": "nearbyRefer",
+    "limited": false,
+    "values": []
+  },
+  "nearest": {
+    "name": "nearest",
+    "limited": false,
+    "values": []
+  },
+  "need": {
+    "name": "need",
+    "limited": false,
+    "values": []
+  },
+  "nev": {
+    "name": "nev",
+    "limited": false,
+    "values": []
+  },
+  "new": {
+    "name": "new",
+    "limited": false,
+    "values": []
+  },
+  "news": {
+    "name": "news",
+    "limited": false,
+    "values": []
+  },
+  "newsCategory": {
+    "name": "newsCategory",
+    "limited": true,
+    "values": [
+      "热门新闻",
+      "热门流行",
+      "新闻",
+      "娱乐",
+      "运动",
+      "生活",
+      "技术",
+      "政治",
+      "商业",
+      "美食",
+      "健康"
+    ]
+  },
+  "next": {
+    "name": "next",
+    "limited": false,
+    "values": []
+  },
+  "nextPage": {
+    "name": "nextPage",
+    "limited": false,
+    "values": []
+  },
+  "night": {
+    "name": "night",
+    "limited": false,
+    "values": []
+  },
+  "nightOperation": {
+    "name": "nightOperation",
+    "limited": false,
+    "values": []
+  },
+  "nightVision": {
+    "name": "nightVision",
+    "limited": false,
+    "values": []
+  },
+  "no": {
+    "name": "no",
+    "limited": false,
+    "values": []
+  },
+  "noiseVolumeCompensation": {
+    "name": "noiseVolumeCompensation",
+    "limited": false,
+    "values": []
+  },
+  "noiseVolumeCompensationLevel": {
+    "name": "noiseVolumeCompensationLevel",
+    "limited": false,
+    "values": [
+      "LOW",
+      "MIDDLE",
+      "HIGH"
+    ]
+  },
+  "northup": {
+    "name": "northup",
+    "limited": false,
+    "values": []
+  },
+  "notThese": {
+    "name": "notThese",
+    "limited": false,
+    "values": []
+  },
+  "now": {
+    "name": "now",
+    "limited": false,
+    "values": []
+  },
+  "nozzleHeat": {
+    "name": "nozzleHeat",
+    "limited": false,
+    "values": []
+  },
+  "nozzlePosition": {
+    "name": "nozzlePosition",
+    "limited": true,
+    "values": [
+      "前"
+    ]
+  },
+  "number": {
+    "name": "number",
+    "limited": false,
+    "values": []
+  },
+  "ofHindi": {
+    "name": "ofHindi",
+    "limited": false,
+    "values": []
+  },
+  "offAb": {
+    "name": "offAb",
+    "limited": false,
+    "values": []
+  },
+  "offAuf": {
+    "name": "offAuf",
+    "limited": false,
+    "values": []
+  },
+  "offsetHour": {
+    "name": "offsetHour",
+    "limited": false,
+    "values": []
+  },
+  "offsetMax": {
+    "name": "offsetMax",
+    "limited": false,
+    "values": []
+  },
+  "offsetMin": {
+    "name": "offsetMin",
+    "limited": false,
+    "values": []
+  },
+  "offsetMinute": {
+    "name": "offsetMinute",
+    "limited": false,
+    "values": []
+  },
+  "offsetNumber": {
+    "name": "offsetNumber",
+    "limited": false,
+    "values": []
+  },
+  "ok": {
+    "name": "ok",
+    "limited": false,
+    "values": []
+  },
+  "onBridge": {
+    "name": "onBridge",
+    "limited": false,
+    "values": []
+  },
+  "oneClick": {
+    "name": "oneClick",
+    "limited": false,
+    "values": []
+  },
+  "oneClickStandby": {
+    "name": "oneClickStandby",
+    "limited": false,
+    "values": []
+  },
+  "oneClickVentilation": {
+    "name": "oneClickVentilation",
+    "limited": false,
+    "values": []
+  },
+  "oneShot": {
+    "name": "oneShot",
+    "limited": false,
+    "values": []
+  },
+  "online": {
+    "name": "online",
+    "limited": false,
+    "values": []
+  },
+  "onlineMusic": {
+    "name": "onlineMusic",
+    "limited": false,
+    "values": []
+  },
+  "onlineVideo": {
+    "name": "onlineVideo",
+    "limited": false,
+    "values": []
+  },
+  "only": {
+    "name": "only",
+    "limited": false,
+    "values": []
+  },
+  "opaque": {
+    "name": "opaque",
+    "limited": false,
+    "values": []
+  },
+  "open": {
+    "name": "open",
+    "limited": false,
+    "values": []
+  },
+  "openAb": {
+    "name": "openAb",
+    "limited": false,
+    "values": []
+  },
+  "openAn": {
+    "name": "openAn",
+    "limited": false,
+    "values": []
+  },
+  "openAuf": {
+    "name": "openAuf",
+    "limited": false,
+    "values": []
+  },
+  "openAus": {
+    "name": "openAus",
+    "limited": false,
+    "values": []
+  },
+  "openBack": {
+    "name": "openBack",
+    "limited": false,
+    "values": []
+  },
+  "openBereit": {
+    "name": "openBereit",
+    "limited": false,
+    "values": []
+  },
+  "openDurch": {
+    "name": "openDurch",
+    "limited": false,
+    "values": []
+  },
+  "openEin": {
+    "name": "openEin",
+    "limited": false,
+    "values": []
+  },
+  "openFrei": {
+    "name": "openFrei",
+    "limited": false,
+    "values": []
+  },
+  "openHalf": {
+    "name": "openHalf",
+    "limited": false,
+    "values": []
+  },
+  "openHer": {
+    "name": "openHer",
+    "limited": false,
+    "values": []
+  },
+  "openHerunter": {
+    "name": "openHerunter",
+    "limited": false,
+    "values": []
+  },
+  "openPreis": {
+    "name": "openPreis",
+    "limited": false,
+    "values": []
+  },
+  "openZu": {
+    "name": "openZu",
+    "limited": false,
+    "values": []
+  },
+  "opening": {
+    "name": "opening",
+    "limited": false,
+    "values": []
+  },
+  "operation": {
+    "name": "operation",
+    "limited": false,
+    "values": []
+  },
+  "option": {
+    "name": "option",
+    "limited": false,
+    "values": []
+  },
+  "order": {
+    "name": "order",
+    "limited": false,
+    "values": []
+  },
+  "organism": {
+    "name": "organism",
+    "limited": false,
+    "values": []
+  },
+  "orientationMap": {
+    "name": "orientationMap",
+    "limited": false,
+    "values": []
+  },
+  "other": {
+    "name": "other",
+    "limited": false,
+    "values": []
+  },
+  "others": {
+    "name": "others",
+    "limited": false,
+    "values": []
+  },
+  "outside": {
+    "name": "outside",
+    "limited": false,
+    "values": []
+  },
+  "overheatProtect": {
+    "name": "overheatProtect",
+    "limited": false,
+    "values": []
+  },
+  "overview": {
+    "name": "overview",
+    "limited": false,
+    "values": []
+  },
+  "owner": {
+    "name": "owner",
+    "limited": false,
+    "values": []
+  },
+  "page": {
+    "name": "page",
+    "limited": false,
+    "values": []
+  },
+  "pageOne": {
+    "name": "pageOne",
+    "limited": false,
+    "values": []
+  },
+  "pannel": {
+    "name": "pannel",
+    "limited": false,
+    "values": []
+  },
+  "park": {
+    "name": "park",
+    "limited": false,
+    "values": []
+  },
+  "parkEin": {
+    "name": "parkEin",
+    "limited": false,
+    "values": []
+  },
+  "parkHinein": {
+    "name": "parkHinein",
+    "limited": false,
+    "values": []
+  },
+  "parkingAssist": {
+    "name": "parkingAssist",
+    "limited": false,
+    "values": []
+  },
+  "parkingAutomatic": {
+    "name": "parkingAutomatic",
+    "limited": false,
+    "values": []
+  },
+  "parkingSpot": {
+    "name": "parkingSpot",
+    "limited": false,
+    "values": []
+  },
+  "parkingUnlock": {
+    "name": "parkingUnlock",
+    "limited": false,
+    "values": []
+  },
+  "part": {
+    "name": "part",
+    "limited": false,
+    "values": []
+  },
+  "party": {
+    "name": "party",
+    "limited": false,
+    "values": []
+  },
+  "passAway": {
+    "name": "passAway",
+    "limited": false,
+    "values": []
+  },
+  "passaway": {
+    "name": "passaway",
+    "limited": false,
+    "values": []
+  },
+  "passenger": {
+    "name": "passenger",
+    "limited": false,
+    "values": []
+  },
+  "password": {
+    "name": "password",
+    "limited": false,
+    "values": []
+  },
+  "pause": {
+    "name": "pause",
+    "limited": false,
+    "values": []
+  },
+  "pauseAn": {
+    "name": "pauseAn",
+    "limited": false,
+    "values": []
+  },
+  "pauseAuf": {
+    "name": "pauseAuf",
+    "limited": false,
+    "values": []
+  },
+  "pedestrianProtectionSound": {
+    "name": "pedestrianProtectionSound",
+    "limited": false,
+    "values": []
+  },
+  "people": {
+    "name": "people",
+    "limited": false,
+    "values": []
+  },
+  "per": {
+    "name": "per",
+    "limited": false,
+    "values": []
+  },
+  "percent": {
+    "name": "percent",
+    "limited": false,
+    "values": []
+  },
+  "personalization": {
+    "name": "personalization",
+    "limited": false,
+    "values": []
+  },
+  "phone": {
+    "name": "phone",
+    "limited": false,
+    "values": []
+  },
+  "photo": {
+    "name": "photo",
+    "limited": false,
+    "values": []
+  },
+  "photoAlbum": {
+    "name": "photoAlbum",
+    "limited": false,
+    "values": []
+  },
+  "pickUp": {
+    "name": "pickUp",
+    "limited": false,
+    "values": []
+  },
+  "picture": {
+    "name": "picture",
+    "limited": false,
+    "values": []
+  },
+  "piece": {
+    "name": "piece",
+    "limited": false,
+    "values": []
+  },
+  "place": {
+    "name": "place",
+    "limited": false,
+    "values": []
+  },
+  "plan": {
+    "name": "plan",
+    "limited": false,
+    "values": []
+  },
+  "planVerb": {
+    "name": "planVerb",
+    "limited": false,
+    "values": []
+  },
+  "play": {
+    "name": "play",
+    "limited": false,
+    "values": []
+  },
+  "playAb": {
+    "name": "playAb",
+    "limited": false,
+    "values": []
+  },
+  "playSetting": {
+    "name": "playSetting",
+    "limited": false,
+    "values": []
+  },
+  "playWeiter": {
+    "name": "playWeiter",
+    "limited": false,
+    "values": []
+  },
+  "playlist": {
+    "name": "playlist",
+    "limited": false,
+    "values": []
+  },
+  "plus": {
+    "name": "plus",
+    "limited": false,
+    "values": []
+  },
+  "pm25": {
+    "name": "pm25",
+    "limited": false,
+    "values": []
+  },
+  "poem": {
+    "name": "poem",
+    "limited": false,
+    "values": []
+  },
+  "poiCollectList": {
+    "name": "poiCollectList",
+    "limited": false,
+    "values": []
+  },
+  "poiEnd": {
+    "name": "poiEnd",
+    "limited": false,
+    "values": []
+  },
+  "poiEndRefer": {
+    "name": "poiEndRefer",
+    "limited": false,
+    "values": []
+  },
+  "poiLandmark": {
+    "name": "poiLandmark",
+    "limited": false,
+    "values": []
+  },
+  "poiLandmarkRefer": {
+    "name": "poiLandmarkRefer",
+    "limited": false,
+    "values": []
+  },
+  "poiRefer": {
+    "name": "poiRefer",
+    "limited": false,
+    "values": []
+  },
+  "poiWaypoint": {
+    "name": "poiWaypoint",
+    "limited": false,
+    "values": []
+  },
+  "popular": {
+    "name": "popular",
+    "limited": false,
+    "values": []
+  },
+  "position": {
+    "name": "position",
+    "limited": false,
+    "values": []
+  },
+  "positionLight": {
+    "name": "positionLight",
+    "limited": false,
+    "values": []
+  },
+  "positionLightPosition": {
+    "name": "positionLightPosition",
+    "limited": true,
+    "values": [
+      "全车"
+    ]
+  },
+  "possible": {
+    "name": "possible",
+    "limited": false,
+    "values": []
+  },
+  "power": {
+    "name": "power",
+    "limited": false,
+    "values": []
+  },
+  "powerConsumption": {
+    "name": "powerConsumption",
+    "limited": false,
+    "values": []
+  },
+  "powerMode": {
+    "name": "powerMode",
+    "limited": false,
+    "values": []
+  },
+  "powerModeType": {
+    "name": "powerModeType",
+    "limited": true,
+    "values": [
+      "纯电优先模式",
+      "强制纯电模式",
+      "燃油优先模式",
+      "混动模式"
+    ]
+  },
+  "powerRetention": {
+    "name": "powerRetention",
+    "limited": false,
+    "values": []
+  },
+  "powerSupply": {
+    "name": "powerSupply",
+    "limited": false,
+    "values": []
+  },
+  "prefer": {
+    "name": "prefer",
+    "limited": false,
+    "values": []
+  },
+  "preference": {
+    "name": "preference",
+    "limited": false,
+    "values": []
+  },
+  "preis": {
+    "name": "preis",
+    "limited": false,
+    "values": []
+  },
+  "prep": {
+    "name": "prep",
+    "limited": false,
+    "values": []
+  },
+  "prepArticle": {
+    "name": "prepArticle",
+    "limited": false,
+    "values": []
+  },
+  "prepare": {
+    "name": "prepare",
+    "limited": false,
+    "values": []
+  },
+  "previous": {
+    "name": "previous",
+    "limited": false,
+    "values": []
+  },
+  "previousPage": {
+    "name": "previousPage",
+    "limited": false,
+    "values": []
+  },
+  "previousSong": {
+    "name": "previousSong",
+    "limited": false,
+    "values": []
+  },
+  "price": {
+    "name": "price",
+    "limited": false,
+    "values": []
+  },
+  "priority": {
+    "name": "priority",
+    "limited": false,
+    "values": []
+  },
+  "privateRoom": {
+    "name": "privateRoom",
+    "limited": false,
+    "values": []
+  },
+  "proactiveCare": {
+    "name": "proactiveCare",
+    "limited": false,
+    "values": []
+  },
+  "proceed": {
+    "name": "proceed",
+    "limited": false,
+    "values": []
+  },
+  "process": {
+    "name": "process",
+    "limited": false,
+    "values": []
+  },
+  "program": {
+    "name": "program",
+    "limited": false,
+    "values": []
+  },
+  "pull": {
+    "name": "pull",
+    "limited": false,
+    "values": []
+  },
+  "put": {
+    "name": "put",
+    "limited": false,
+    "values": []
+  },
+  "qualification": {
+    "name": "qualification",
+    "limited": false,
+    "values": []
+  },
+  "quality": {
+    "name": "quality",
+    "limited": false,
+    "values": []
+  },
+  "quantity": {
+    "name": "quantity",
+    "limited": false,
+    "values": []
+  },
+  "query": {
+    "name": "query",
+    "limited": false,
+    "values": []
+  },
+  "queryDate": {
+    "name": "queryDate",
+    "limited": false,
+    "values": []
+  },
+  "queryDistance": {
+    "name": "queryDistance",
+    "limited": false,
+    "values": []
+  },
+  "queryDistanceRemain": {
+    "name": "queryDistanceRemain",
+    "limited": false,
+    "values": []
+  },
+  "queryTimeRemain": {
+    "name": "queryTimeRemain",
+    "limited": false,
+    "values": []
+  },
+  "queryTrafficInfo": {
+    "name": "queryTrafficInfo",
+    "limited": false,
+    "values": []
+  },
+  "queryVolume": {
+    "name": "queryVolume",
+    "limited": false,
+    "values": []
+  },
+  "queryWeek": {
+    "name": "queryWeek",
+    "limited": false,
+    "values": []
+  },
+  "quickCool": {
+    "name": "quickCool",
+    "limited": false,
+    "values": []
+  },
+  "quickHeat": {
+    "name": "quickHeat",
+    "limited": false,
+    "values": []
+  },
+  "quieter": {
+    "name": "quieter",
+    "limited": false,
+    "values": []
+  },
+  "radarAlarm": {
+    "name": "radarAlarm",
+    "limited": false,
+    "values": []
+  },
+  "radio": {
+    "name": "radio",
+    "limited": false,
+    "values": []
+  },
+  "radioAm": {
+    "name": "radioAm",
+    "limited": false,
+    "values": []
+  },
+  "radioCategoryName": {
+    "name": "radioCategoryName",
+    "limited": true,
+    "values": [
+      "紧急广播",
+      "儿童节目",
+      "乡村音乐",
+      "文艺",
+      "时事纪录片",
+      "轻音乐",
+      "教育",
+      "经济"
+    ]
+  },
+  "radioCollect": {
+    "name": "radioCollect",
+    "limited": false,
+    "values": []
+  },
+  "radioDab": {
+    "name": "radioDab",
+    "limited": false,
+    "values": []
+  },
+  "radioFm": {
+    "name": "radioFm",
+    "limited": false,
+    "values": []
+  },
+  "radioHimalaya": {
+    "name": "radioHimalaya",
+    "limited": false,
+    "values": []
+  },
+  "radioList": {
+    "name": "radioList",
+    "limited": false,
+    "values": []
+  },
+  "radioRds": {
+    "name": "radioRds",
+    "limited": false,
+    "values": []
+  },
+  "rain": {
+    "name": "rain",
+    "limited": false,
+    "values": []
+  },
+  "rainy": {
+    "name": "rainy",
+    "limited": false,
+    "values": []
+  },
+  "random": {
+    "name": "random",
+    "limited": false,
+    "values": []
+  },
+  "range": {
+    "name": "range",
+    "limited": false,
+    "values": []
+  },
+  "rangeDisplayModeType": {
+    "name": "rangeDisplayModeType",
+    "limited": true,
+    "values": [
+      "综合模式",
+      "WLTP模式"
+    ]
+  },
+  "rangeInformationCalculationStandard": {
+    "name": "rangeInformationCalculationStandard",
+    "limited": false,
+    "values": []
+  },
+  "rate": {
+    "name": "rate",
+    "limited": false,
+    "values": []
+  },
+  "raus": {
+    "name": "raus",
+    "limited": false,
+    "values": []
+  },
+  "rdsType": {
+    "name": "rdsType",
+    "limited": true,
+    "values": [
+      "交通公告识别",
+      "交通节目识别",
+      "自动切换频率"
+    ]
+  },
+  "reRoute": {
+    "name": "reRoute",
+    "limited": false,
+    "values": []
+  },
+  "read": {
+    "name": "read",
+    "limited": false,
+    "values": []
+  },
+  "readLightModeType": {
+    "name": "readLightModeType",
+    "limited": true,
+    "values": [
+      "自动模式",
+      "auto"
+    ]
+  },
+  "readLightPosition": {
+    "name": "readLightPosition",
+    "limited": true,
+    "values": [
+      "主驾",
+      "副驾",
+      "后排",
+      "前排",
+      "第二排",
+      "第二排左",
+      "第二排右",
+      "全车",
+      "右后"
+    ]
+  },
+  "readVor": {
+    "name": "readVor",
+    "limited": false,
+    "values": []
+  },
+  "readlight": {
+    "name": "readlight",
+    "limited": false,
+    "values": []
+  },
+  "rear": {
+    "name": "rear",
+    "limited": false,
+    "values": []
+  },
+  "rearviewMirror": {
+    "name": "rearviewMirror",
+    "limited": false,
+    "values": []
+  },
+  "rearviewMirrorModeType": {
+    "name": "rearviewMirrorModeType",
+    "limited": true,
+    "values": [
+      "倒车自动下翻模式",
+      "自动折叠模式",
+      "rm_auto_adjustment_when_reserve",
+      "heat"
+    ]
+  },
+  "rearviewMirrorSet": {
+    "name": "rearviewMirrorSet",
+    "limited": false,
+    "values": []
+  },
+  "recall": {
+    "name": "recall",
+    "limited": false,
+    "values": []
+  },
+  "received": {
+    "name": "received",
+    "limited": false,
+    "values": []
+  },
+  "receivedList": {
+    "name": "receivedList",
+    "limited": false,
+    "values": []
+  },
+  "recent": {
+    "name": "recent",
+    "limited": false,
+    "values": []
+  },
+  "rechargeMileage": {
+    "name": "rechargeMileage",
+    "limited": false,
+    "values": []
+  },
+  "recommend": {
+    "name": "recommend",
+    "limited": false,
+    "values": []
+  },
+  "record": {
+    "name": "record",
+    "limited": false,
+    "values": []
+  },
+  "redial": {
+    "name": "redial",
+    "limited": false,
+    "values": []
+  },
+  "regular": {
+    "name": "regular",
+    "limited": false,
+    "values": []
+  },
+  "reject": {
+    "name": "reject",
+    "limited": false,
+    "values": []
+  },
+  "related": {
+    "name": "related",
+    "limited": false,
+    "values": []
+  },
+  "release": {
+    "name": "release",
+    "limited": false,
+    "values": []
+  },
+  "remainingMileage": {
+    "name": "remainingMileage",
+    "limited": false,
+    "values": []
+  },
+  "remind": {
+    "name": "remind",
+    "limited": false,
+    "values": []
+  },
+  "remove": {
+    "name": "remove",
+    "limited": false,
+    "values": []
+  },
+  "removeBack": {
+    "name": "removeBack",
+    "limited": false,
+    "values": []
+  },
+  "repeat": {
+    "name": "repeat",
+    "limited": false,
+    "values": []
+  },
+  "replay": {
+    "name": "replay",
+    "limited": false,
+    "values": []
+  },
+  "reproduction": {
+    "name": "reproduction",
+    "limited": false,
+    "values": []
+  },
+  "reserve": {
+    "name": "reserve",
+    "limited": false,
+    "values": []
+  },
+  "reserved": {
+    "name": "reserved",
+    "limited": false,
+    "values": []
+  },
+  "reset": {
+    "name": "reset",
+    "limited": false,
+    "values": []
+  },
+  "resetZuruck": {
+    "name": "resetZuruck",
+    "limited": false,
+    "values": []
+  },
+  "resource": {
+    "name": "resource",
+    "limited": false,
+    "values": []
+  },
+  "restaurant": {
+    "name": "restaurant",
+    "limited": false,
+    "values": []
+  },
+  "resume": {
+    "name": "resume",
+    "limited": false,
+    "values": []
+  },
+  "retreat": {
+    "name": "retreat",
+    "limited": false,
+    "values": []
+  },
+  "retry": {
+    "name": "retry",
+    "limited": false,
+    "values": []
+  },
+  "return": {
+    "name": "return",
+    "limited": false,
+    "values": []
+  },
+  "returnZuruck": {
+    "name": "returnZuruck",
+    "limited": false,
+    "values": []
+  },
+  "reverse": {
+    "name": "reverse",
+    "limited": false,
+    "values": []
+  },
+  "rewind": {
+    "name": "rewind",
+    "limited": false,
+    "values": []
+  },
+  "rhythm": {
+    "name": "rhythm",
+    "limited": false,
+    "values": []
+  },
+  "rmAutoAdjustmentWhenReserve": {
+    "name": "rmAutoAdjustmentWhenReserve",
+    "limited": false,
+    "values": []
+  },
+  "road": {
+    "name": "road",
+    "limited": false,
+    "values": []
+  },
+  "room": {
+    "name": "room",
+    "limited": false,
+    "values": []
+  },
+  "rotate": {
+    "name": "rotate",
+    "limited": false,
+    "values": []
+  },
+  "rotation": {
+    "name": "rotation",
+    "limited": false,
+    "values": []
+  },
+  "route": {
+    "name": "route",
+    "limited": false,
+    "values": []
+  },
+  "routeOverview": {
+    "name": "routeOverview",
+    "limited": false,
+    "values": []
+  },
+  "routePreference": {
+    "name": "routePreference",
+    "limited": false,
+    "values": []
+  },
+  "routePreferenceType": {
+    "name": "routePreferenceType",
+    "limited": true,
+    "values": [
+      "AVOID_ROUND",
+      "NOT_HIGH_FIRST",
+      "AVOID_FERRY",
+      "FREE",
+      "INTELLECT_RECOMMEND",
+      "FASTEST",
+      "SHORTEST",
+      "ECO",
+      "HIGH_FIRST",
+      "AVOID_REPAIR_ROAD",
+      "CHEAPEST"
+    ]
+  },
+  "row": {
+    "name": "row",
+    "limited": false,
+    "values": []
+  },
+  "runter": {
+    "name": "runter",
+    "limited": false,
+    "values": []
+  },
+  "sad": {
+    "name": "sad",
+    "limited": false,
+    "values": []
+  },
+  "safetyAlert": {
+    "name": "safetyAlert",
+    "limited": false,
+    "values": []
+  },
+  "same": {
+    "name": "same",
+    "limited": false,
+    "values": []
+  },
+  "sandstorm": {
+    "name": "sandstorm",
+    "limited": false,
+    "values": []
+  },
+  "save": {
+    "name": "save",
+    "limited": false,
+    "values": []
+  },
+  "saveAb": {
+    "name": "saveAb",
+    "limited": false,
+    "values": []
+  },
+  "sayHi": {
+    "name": "sayHi",
+    "limited": false,
+    "values": []
+  },
+  "scale": {
+    "name": "scale",
+    "limited": false,
+    "values": []
+  },
+  "scan": {
+    "name": "scan",
+    "limited": false,
+    "values": []
+  },
+  "sceneMode": {
+    "name": "sceneMode",
+    "limited": false,
+    "values": []
+  },
+  "sceneModeSet": {
+    "name": "sceneModeSet",
+    "limited": false,
+    "values": []
+  },
+  "sceneModeType": {
+    "name": "sceneModeType",
+    "limited": true,
+    "values": [
+      "雨雪模式",
+      "辅助通过模式",
+      "露营模式",
+      "宝宝模式",
+      "拖车模式",
+      "座椅功能一键全关模式",
+      "蟹行模式",
+      "猛士掉头模式",
+      "宠物模式",
+      "洗车模式",
+      "小憩模式",
+      "暴雨模式",
+      "睡眠模式",
+      "影院模式",
+      "尊享模式"
+    ]
+  },
+  "schedule": {
+    "name": "schedule",
+    "limited": false,
+    "values": []
+  },
+  "scheduledCharging": {
+    "name": "scheduledCharging",
+    "limited": false,
+    "values": []
+  },
+  "screen": {
+    "name": "screen",
+    "limited": false,
+    "values": []
+  },
+  "screenBrightnessMode": {
+    "name": "screenBrightnessMode",
+    "limited": true,
+    "values": [
+      "亮度自动调节"
+    ]
+  },
+  "screenBrightnessSetting": {
+    "name": "screenBrightnessSetting",
+    "limited": false,
+    "values": []
+  },
+  "screenClean": {
+    "name": "screenClean",
+    "limited": false,
+    "values": []
+  },
+  "screenDisplay": {
+    "name": "screenDisplay",
+    "limited": false,
+    "values": []
+  },
+  "screenDisplayType": {
+    "name": "screenDisplayType",
+    "limited": true,
+    "values": [
+      "自动模式",
+      "黑夜模式",
+      "白天模式"
+    ]
+  },
+  "screenRotationDirection": {
+    "name": "screenRotationDirection",
+    "limited": true,
+    "values": [
+      "主驾",
+      "左",
+      "副驾",
+      "右"
+    ]
+  },
+  "screenRotationMode": {
+    "name": "screenRotationMode",
+    "limited": true,
+    "values": [
+      "手动优先模式",
+      "主驾优先模式",
+      "语音召唤模式"
+    ]
+  },
+  "screenSaver": {
+    "name": "screenSaver",
+    "limited": false,
+    "values": []
+  },
+  "search": {
+    "name": "search",
+    "limited": false,
+    "values": []
+  },
+  "searchHeraus": {
+    "name": "searchHeraus",
+    "limited": false,
+    "values": []
+  },
+  "searchNach": {
+    "name": "searchNach",
+    "limited": false,
+    "values": []
+  },
+  "seat": {
+    "name": "seat",
+    "limited": false,
+    "values": []
+  },
+  "seatBackrestDirection": {
+    "name": "seatBackrestDirection",
+    "limited": true,
+    "values": [
+      "FORWARD",
+      "BACK",
+      "rear"
+    ]
+  },
+  "seatBeltReminder": {
+    "name": "seatBeltReminder",
+    "limited": false,
+    "values": []
+  },
+  "seatCushionDirection": {
+    "name": "seatCushionDirection",
+    "limited": true,
+    "values": [
+      "UP",
+      "MIDDLE"
+    ]
+  },
+  "seatDirection": {
+    "name": "seatDirection",
+    "limited": true,
+    "values": [
+      "FORWARD",
+      "BACK",
+      "UP",
+      "DOWN",
+      "up"
+    ]
+  },
+  "seatHeat": {
+    "name": "seatHeat",
+    "limited": false,
+    "values": []
+  },
+  "seatHeatValue": {
+    "name": "seatHeatValue",
+    "limited": true,
+    "values": [
+      "MAX",
+      "MIN"
+    ]
+  },
+  "seatMassage": {
+    "name": "seatMassage",
+    "limited": false,
+    "values": []
+  },
+  "seatMemory": {
+    "name": "seatMemory",
+    "limited": false,
+    "values": []
+  },
+  "seatModeValue": {
+    "name": "seatModeValue",
+    "limited": true,
+    "values": [
+      "位置1",
+      "位置2",
+      "位置3",
+      "主驾位置",
+      "休息位置",
+      "备用位置"
+    ]
+  },
+  "seatPosition": {
+    "name": "seatPosition",
+    "limited": true,
+    "values": [
+      "主驾",
+      "副驾",
+      "前排",
+      "后排",
+      "左前",
+      "左后",
+      "右前",
+      "右后",
+      "左侧",
+      "右侧",
+      "全车",
+      "auxiliary_driver",
+      "main_driver",
+      "第三排",
+      "第二排"
+    ]
+  },
+  "seatVentilation": {
+    "name": "seatVentilation",
+    "limited": false,
+    "values": []
+  },
+  "seatVentilationValue": {
+    "name": "seatVentilationValue",
+    "limited": true,
+    "values": [
+      "MAX",
+      "MIN"
+    ]
+  },
+  "second": {
+    "name": "second",
+    "limited": false,
+    "values": []
+  },
+  "securityVolume": {
+    "name": "securityVolume",
+    "limited": false,
+    "values": []
+  },
+  "see": {
+    "name": "see",
+    "limited": false,
+    "values": []
+  },
+  "select": {
+    "name": "select",
+    "limited": false,
+    "values": []
+  },
+  "selectAb": {
+    "name": "selectAb",
+    "limited": false,
+    "values": []
+  },
+  "selectAus": {
+    "name": "selectAus",
+    "limited": false,
+    "values": []
+  },
+  "selfCleaning": {
+    "name": "selfCleaning",
+    "limited": false,
+    "values": []
+  },
+  "selfHelp": {
+    "name": "selfHelp",
+    "limited": false,
+    "values": []
+  },
+  "selfVentilation": {
+    "name": "selfVentilation",
+    "limited": false,
+    "values": []
+  },
+  "sensitivity": {
+    "name": "sensitivity",
+    "limited": false,
+    "values": []
+  },
+  "sentenceAveragePowerConsumption": {
+    "name": "sentenceAveragePowerConsumption",
+    "limited": false,
+    "values": []
+  },
+  "sentenceAverageSpeed": {
+    "name": "sentenceAverageSpeed",
+    "limited": false,
+    "values": []
+  },
+  "sentenceBatteryDead": {
+    "name": "sentenceBatteryDead",
+    "limited": false,
+    "values": []
+  },
+  "sentenceChargingTimeRemain": {
+    "name": "sentenceChargingTimeRemain",
+    "limited": false,
+    "values": []
+  },
+  "sentenceDecreaseAirTempLittle": {
+    "name": "sentenceDecreaseAirTempLittle",
+    "limited": false,
+    "values": []
+  },
+  "sentenceDecreaseAirTempMore": {
+    "name": "sentenceDecreaseAirTempMore",
+    "limited": false,
+    "values": []
+  },
+  "sentenceDecreaseVoiceVolume": {
+    "name": "sentenceDecreaseVoiceVolume",
+    "limited": false,
+    "values": []
+  },
+  "sentenceDistanceTraveled": {
+    "name": "sentenceDistanceTraveled",
+    "limited": false,
+    "values": []
+  },
+  "sentenceHungry": {
+    "name": "sentenceHungry",
+    "limited": false,
+    "values": []
+  },
+  "sentenceIncreaseAirTempLittle": {
+    "name": "sentenceIncreaseAirTempLittle",
+    "limited": false,
+    "values": []
+  },
+  "sentenceIncreaseAirTempMore": {
+    "name": "sentenceIncreaseAirTempMore",
+    "limited": false,
+    "values": []
+  },
+  "sentenceIncreaseVoiceVolume": {
+    "name": "sentenceIncreaseVoiceVolume",
+    "limited": false,
+    "values": []
+  },
+  "sentenceOpenReadlight": {
+    "name": "sentenceOpenReadlight",
+    "limited": false,
+    "values": []
+  },
+  "sentenceOpenSkillCenter": {
+    "name": "sentenceOpenSkillCenter",
+    "limited": false,
+    "values": []
+  },
+  "sentenceQueryRemainMileage": {
+    "name": "sentenceQueryRemainMileage",
+    "limited": false,
+    "values": []
+  },
+  "sentenceRest": {
+    "name": "sentenceRest",
+    "limited": false,
+    "values": []
+  },
+  "sentenceShopping": {
+    "name": "sentenceShopping",
+    "limited": false,
+    "values": []
+  },
+  "sentenceThirsty": {
+    "name": "sentenceThirsty",
+    "limited": false,
+    "values": []
+  },
+  "sentenceTimeElapsed": {
+    "name": "sentenceTimeElapsed",
+    "limited": false,
+    "values": []
+  },
+  "sentenceWeatherQuery": {
+    "name": "sentenceWeatherQuery",
+    "limited": false,
+    "values": []
+  },
+  "sequential": {
+    "name": "sequential",
+    "limited": false,
+    "values": []
+  },
+  "sequentialPlay": {
+    "name": "sequentialPlay",
+    "limited": false,
+    "values": []
+  },
+  "service": {
+    "name": "service",
+    "limited": false,
+    "values": []
+  },
+  "set": {
+    "name": "set",
+    "limited": false,
+    "values": []
+  },
+  "setAn": {
+    "name": "setAn",
+    "limited": false,
+    "values": []
+  },
+  "setEin": {
+    "name": "setEin",
+    "limited": false,
+    "values": []
+  },
+  "setFest": {
+    "name": "setFest",
+    "limited": false,
+    "values": []
+  },
+  "setInterfaceType": {
+    "name": "setInterfaceType",
+    "limited": false,
+    "values": [
+      "底盘动力设置",
+      "车身附件设置",
+      "rearview_mirror_adjustment"
+    ]
+  },
+  "setting": {
+    "name": "setting",
+    "limited": false,
+    "values": []
+  },
+  "showAn": {
+    "name": "showAn",
+    "limited": false,
+    "values": []
+  },
+  "showAus": {
+    "name": "showAus",
+    "limited": false,
+    "values": []
+  },
+  "showDar": {
+    "name": "showDar",
+    "limited": false,
+    "values": []
+  },
+  "showMit": {
+    "name": "showMit",
+    "limited": false,
+    "values": []
+  },
+  "showNoun": {
+    "name": "showNoun",
+    "limited": false,
+    "values": []
+  },
+  "showVerb": {
+    "name": "showVerb",
+    "limited": false,
+    "values": []
+  },
+  "showVor": {
+    "name": "showVor",
+    "limited": false,
+    "values": []
+  },
+  "shuffle": {
+    "name": "shuffle",
+    "limited": false,
+    "values": []
+  },
+  "shufflePlay": {
+    "name": "shufflePlay",
+    "limited": false,
+    "values": []
+  },
+  "side": {
+    "name": "side",
+    "limited": false,
+    "values": []
+  },
+  "sign": {
+    "name": "sign",
+    "limited": false,
+    "values": []
+  },
+  "signalLamp": {
+    "name": "signalLamp",
+    "limited": false,
+    "values": []
+  },
+  "similar": {
+    "name": "similar",
+    "limited": false,
+    "values": []
+  },
+  "sing": {
+    "name": "sing",
+    "limited": false,
+    "values": []
+  },
+  "singer": {
+    "name": "singer",
+    "limited": false,
+    "values": []
+  },
+  "singerName": {
+    "name": "singerName",
+    "limited": false,
+    "values": []
+  },
+  "single": {
+    "name": "single",
+    "limited": false,
+    "values": []
+  },
+  "singleLoopPlay": {
+    "name": "singleLoopPlay",
+    "limited": false,
+    "values": []
+  },
+  "situation": {
+    "name": "situation",
+    "limited": false,
+    "values": []
+  },
+  "slide": {
+    "name": "slide",
+    "limited": false,
+    "values": []
+  },
+  "slideDoor": {
+    "name": "slideDoor",
+    "limited": false,
+    "values": []
+  },
+  "slow": {
+    "name": "slow",
+    "limited": false,
+    "values": []
+  },
+  "slower": {
+    "name": "slower",
+    "limited": false,
+    "values": []
+  },
+  "small": {
+    "name": "small",
+    "limited": false,
+    "values": []
+  },
+  "smartPilot": {
+    "name": "smartPilot",
+    "limited": false,
+    "values": []
+  },
+  "smartSpeedLimit": {
+    "name": "smartSpeedLimit",
+    "limited": false,
+    "values": []
+  },
+  "smartStartStop": {
+    "name": "smartStartStop",
+    "limited": false,
+    "values": []
+  },
+  "smell": {
+    "name": "smell",
+    "limited": false,
+    "values": []
+  },
+  "smoking": {
+    "name": "smoking",
+    "limited": false,
+    "values": []
+  },
+  "snow": {
+    "name": "snow",
+    "limited": false,
+    "values": []
+  },
+  "so": {
+    "name": "so",
+    "limited": false,
+    "values": []
+  },
+  "soc": {
+    "name": "soc",
+    "limited": false,
+    "values": []
+  },
+  "socMode": {
+    "name": "socMode",
+    "limited": false,
+    "values": []
+  },
+  "socModeType": {
+    "name": "socModeType",
+    "limited": true,
+    "values": [
+      "强制保电模式",
+      "保电模式"
+    ]
+  },
+  "softDownhill": {
+    "name": "softDownhill",
+    "limited": false,
+    "values": []
+  },
+  "some": {
+    "name": "some",
+    "limited": false,
+    "values": []
+  },
+  "song": {
+    "name": "song",
+    "limited": false,
+    "values": []
+  },
+  "songName": {
+    "name": "songName",
+    "limited": false,
+    "values": []
+  },
+  "sota": {
+    "name": "sota",
+    "limited": false,
+    "values": []
+  },
+  "sound": {
+    "name": "sound",
+    "limited": false,
+    "values": []
+  },
+  "soundEffect": {
+    "name": "soundEffect",
+    "limited": false,
+    "values": []
+  },
+  "soundEffectMode": {
+    "name": "soundEffectMode",
+    "limited": false,
+    "values": []
+  },
+  "soundEffectModeType": {
+    "name": "soundEffectModeType",
+    "limited": true,
+    "values": [
+      "柔和",
+      "原声",
+      "动感",
+      "演说",
+      "默认",
+      "自定义",
+      "低音",
+      "中音",
+      "高音"
+    ]
+  },
+  "soundSourceLocation": {
+    "name": "soundSourceLocation",
+    "limited": false,
+    "values": []
+  },
+  "soundSourcePosition": {
+    "name": "soundSourcePosition",
+    "limited": true,
+    "values": [
+      "主驾",
+      "副驾",
+      "左后",
+      "右后"
+    ]
+  },
+  "soundType": {
+    "name": "soundType",
+    "limited": true,
+    "values": [
+      "关门提示音"
+    ]
+  },
+  "soundZone": {
+    "name": "soundZone",
+    "limited": false,
+    "values": []
+  },
+  "source": {
+    "name": "source",
+    "limited": false,
+    "values": []
+  },
+  "space": {
+    "name": "space",
+    "limited": false,
+    "values": []
+  },
+  "speak": {
+    "name": "speak",
+    "limited": false,
+    "values": []
+  },
+  "speaker": {
+    "name": "speaker",
+    "limited": false,
+    "values": []
+  },
+  "speakerTone": {
+    "name": "speakerTone",
+    "limited": false,
+    "values": []
+  },
+  "speakerToneType": {
+    "name": "speakerToneType",
+    "limited": true,
+    "values": [
+      "男声",
+      "女声"
+    ]
+  },
+  "specialDate": {
+    "name": "specialDate",
+    "limited": true,
+    "values": [
+      "今天",
+      "明天",
+      "后天",
+      "today"
+    ]
+  },
+  "speed": {
+    "name": "speed",
+    "limited": false,
+    "values": []
+  },
+  "speedLimit": {
+    "name": "speedLimit",
+    "limited": false,
+    "values": []
+  },
+  "splitScreen": {
+    "name": "splitScreen",
+    "limited": false,
+    "values": []
+  },
+  "standby": {
+    "name": "standby",
+    "limited": false,
+    "values": []
+  },
+  "start": {
+    "name": "start",
+    "limited": false,
+    "values": []
+  },
+  "startAn": {
+    "name": "startAn",
+    "limited": false,
+    "values": []
+  },
+  "state": {
+    "name": "state",
+    "limited": false,
+    "values": []
+  },
+  "station": {
+    "name": "station",
+    "limited": false,
+    "values": []
+  },
+  "steepDescent": {
+    "name": "steepDescent",
+    "limited": false,
+    "values": []
+  },
+  "steering": {
+    "name": "steering",
+    "limited": false,
+    "values": []
+  },
+  "steeringWheel": {
+    "name": "steeringWheel",
+    "limited": false,
+    "values": []
+  },
+  "steeringWheelAssistMode": {
+    "name": "steeringWheelAssistMode",
+    "limited": true,
+    "values": [
+      "舒适模式",
+      "标准模式",
+      "运动模式"
+    ]
+  },
+  "stepless": {
+    "name": "stepless",
+    "limited": false,
+    "values": []
+  },
+  "stock": {
+    "name": "stock",
+    "limited": false,
+    "values": []
+  },
+  "stop": {
+    "name": "stop",
+    "limited": false,
+    "values": []
+  },
+  "stopAuf": {
+    "name": "stopAuf",
+    "limited": false,
+    "values": []
+  },
+  "stopBack": {
+    "name": "stopBack",
+    "limited": false,
+    "values": []
+  },
+  "stopTime": {
+    "name": "stopTime",
+    "limited": false,
+    "values": []
+  },
+  "stronger": {
+    "name": "stronger",
+    "limited": false,
+    "values": []
+  },
+  "stumm": {
+    "name": "stumm",
+    "limited": false,
+    "values": []
+  },
+  "style": {
+    "name": "style",
+    "limited": false,
+    "values": []
+  },
+  "sun": {
+    "name": "sun",
+    "limited": false,
+    "values": []
+  },
+  "sunroof": {
+    "name": "sunroof",
+    "limited": false,
+    "values": []
+  },
+  "sunshade": {
+    "name": "sunshade",
+    "limited": false,
+    "values": []
+  },
+  "supply": {
+    "name": "supply",
+    "limited": false,
+    "values": []
+  },
+  "suspension": {
+    "name": "suspension",
+    "limited": false,
+    "values": []
+  },
+  "suspensionAdjust": {
+    "name": "suspensionAdjust",
+    "limited": false,
+    "values": []
+  },
+  "suspensionMode": {
+    "name": "suspensionMode",
+    "limited": false,
+    "values": []
+  },
+  "suspensionModeType": {
+    "name": "suspensionModeType",
+    "limited": true,
+    "values": [
+      "维修模式",
+      "悬架随速调节模式"
+    ]
+  },
+  "sweep": {
+    "name": "sweep",
+    "limited": false,
+    "values": []
+  },
+  "sweepMode": {
+    "name": "sweepMode",
+    "limited": true,
+    "values": [
+      "避人吹风",
+      "对人吹风"
+    ]
+  },
+  "switchAn": {
+    "name": "switchAn",
+    "limited": false,
+    "values": []
+  },
+  "switchNoun": {
+    "name": "switchNoun",
+    "limited": false,
+    "values": []
+  },
+  "switchUm": {
+    "name": "switchUm",
+    "limited": false,
+    "values": []
+  },
+  "switchVerb": {
+    "name": "switchVerb",
+    "limited": false,
+    "values": []
+  },
+  "switchZuruck": {
+    "name": "switchZuruck",
+    "limited": false,
+    "values": []
+  },
+  "sync": {
+    "name": "sync",
+    "limited": false,
+    "values": []
+  },
+  "synchronize": {
+    "name": "synchronize",
+    "limited": false,
+    "values": []
+  },
+  "system": {
+    "name": "system",
+    "limited": false,
+    "values": []
+  },
+  "systemInfo": {
+    "name": "systemInfo",
+    "limited": false,
+    "values": []
+  },
+  "systemLanguage": {
+    "name": "systemLanguage",
+    "limited": false,
+    "values": []
+  },
+  "systemSetting": {
+    "name": "systemSetting",
+    "limited": false,
+    "values": []
+  },
+  "systemUpdate": {
+    "name": "systemUpdate",
+    "limited": false,
+    "values": []
+  },
+  "tag": {
+    "name": "tag",
+    "limited": false,
+    "values": []
+  },
+  "tailNumber": {
+    "name": "tailNumber",
+    "limited": false,
+    "values": []
+  },
+  "tailgate": {
+    "name": "tailgate",
+    "limited": false,
+    "values": []
+  },
+  "tailgateSet": {
+    "name": "tailgateSet",
+    "limited": false,
+    "values": []
+  },
+  "take": {
+    "name": "take",
+    "limited": false,
+    "values": []
+  },
+  "takePhoto": {
+    "name": "takePhoto",
+    "limited": false,
+    "values": []
+  },
+  "takeVideo": {
+    "name": "takeVideo",
+    "limited": false,
+    "values": []
+  },
+  "teil": {
+    "name": "teil",
+    "limited": false,
+    "values": []
+  },
+  "tell": {
+    "name": "tell",
+    "limited": false,
+    "values": []
+  },
+  "temp": {
+    "name": "temp",
+    "limited": false,
+    "values": []
+  },
+  "tempF": {
+    "name": "tempF",
+    "limited": false,
+    "values": []
+  },
+  "temporarily": {
+    "name": "temporarily",
+    "limited": false,
+    "values": []
+  },
+  "tencentNavigation": {
+    "name": "tencentNavigation",
+    "limited": false,
+    "values": []
+  },
+  "thaiOpen": {
+    "name": "thaiOpen",
+    "limited": false,
+    "values": []
+  },
+  "thaiPlay": {
+    "name": "thaiPlay",
+    "limited": false,
+    "values": []
+  },
+  "thanks": {
+    "name": "thanks",
+    "limited": false,
+    "values": []
+  },
+  "the": {
+    "name": "the",
+    "limited": false,
+    "values": []
+  },
+  "them": {
+    "name": "them",
+    "limited": false,
+    "values": []
+  },
+  "theme": {
+    "name": "theme",
+    "limited": false,
+    "values": []
+  },
+  "themeMode": {
+    "name": "themeMode",
+    "limited": true,
+    "values": [
+      "浅色",
+      "深色",
+      "自动"
+    ]
+  },
+  "there": {
+    "name": "there",
+    "limited": false,
+    "values": []
+  },
+  "thermostatic": {
+    "name": "thermostatic",
+    "limited": false,
+    "values": []
+  },
+  "thick": {
+    "name": "thick",
+    "limited": false,
+    "values": []
+  },
+  "this": {
+    "name": "this",
+    "limited": false,
+    "values": []
+  },
+  "tilt": {
+    "name": "tilt",
+    "limited": false,
+    "values": []
+  },
+  "time": {
+    "name": "time",
+    "limited": false,
+    "values": []
+  },
+  "timeRemain": {
+    "name": "timeRemain",
+    "limited": false,
+    "values": []
+  },
+  "times": {
+    "name": "times",
+    "limited": false,
+    "values": []
+  },
+  "tirePressure": {
+    "name": "tirePressure",
+    "limited": false,
+    "values": []
+  },
+  "to": {
+    "name": "to",
+    "limited": false,
+    "values": []
+  },
+  "toArticle": {
+    "name": "toArticle",
+    "limited": false,
+    "values": []
+  },
+  "today": {
+    "name": "today",
+    "limited": false,
+    "values": []
+  },
+  "together": {
+    "name": "together",
+    "limited": false,
+    "values": []
+  },
+  "toning": {
+    "name": "toning",
+    "limited": false,
+    "values": []
+  },
+  "too": {
+    "name": "too",
+    "limited": false,
+    "values": []
+  },
+  "top": {
+    "name": "top",
+    "limited": false,
+    "values": []
+  },
+  "topList": {
+    "name": "topList",
+    "limited": false,
+    "values": []
+  },
+  "touristArea": {
+    "name": "touristArea",
+    "limited": false,
+    "values": []
+  },
+  "towards": {
+    "name": "towards",
+    "limited": false,
+    "values": []
+  },
+  "traffic": {
+    "name": "traffic",
+    "limited": false,
+    "values": []
+  },
+  "trafficInfo": {
+    "name": "trafficInfo",
+    "limited": false,
+    "values": []
+  },
+  "transparent": {
+    "name": "transparent",
+    "limited": false,
+    "values": []
+  },
+  "trunk": {
+    "name": "trunk",
+    "limited": false,
+    "values": []
+  },
+  "trunkLamp": {
+    "name": "trunkLamp",
+    "limited": false,
+    "values": []
+  },
+  "tune": {
+    "name": "tune",
+    "limited": false,
+    "values": []
+  },
+  "tunnel": {
+    "name": "tunnel",
+    "limited": false,
+    "values": []
+  },
+  "twoDegrees": {
+    "name": "twoDegrees",
+    "limited": false,
+    "values": []
+  },
+  "twohalfDegrees": {
+    "name": "twohalfDegrees",
+    "limited": false,
+    "values": []
+  },
+  "type": {
+    "name": "type",
+    "limited": false,
+    "values": []
+  },
+  "typeDefault": {
+    "name": "typeDefault",
+    "limited": false,
+    "values": []
+  },
+  "um": {
+    "name": "um",
+    "limited": false,
+    "values": []
+  },
+  "uncollect": {
+    "name": "uncollect",
+    "limited": false,
+    "values": []
+  },
+  "underBridge": {
+    "name": "underBridge",
+    "limited": false,
+    "values": []
+  },
+  "unfold": {
+    "name": "unfold",
+    "limited": false,
+    "values": []
+  },
+  "unfoldAuf": {
+    "name": "unfoldAuf",
+    "limited": false,
+    "values": []
+  },
+  "unfoldAus": {
+    "name": "unfoldAus",
+    "limited": false,
+    "values": []
+  },
+  "unit": {
+    "name": "unit",
+    "limited": false,
+    "values": []
+  },
+  "unlimited": {
+    "name": "unlimited",
+    "limited": false,
+    "values": []
+  },
+  "unlimitedDrink": {
+    "name": "unlimitedDrink",
+    "limited": false,
+    "values": []
+  },
+  "unlock": {
+    "name": "unlock",
+    "limited": false,
+    "values": []
+  },
+  "unlockMode": {
+    "name": "unlockMode",
+    "limited": true,
+    "values": [
+      "钥匙感应解锁"
+    ]
+  },
+  "unmute": {
+    "name": "unmute",
+    "limited": false,
+    "values": []
+  },
+  "unprotection": {
+    "name": "unprotection",
+    "limited": false,
+    "values": []
+  },
+  "up": {
+    "name": "up",
+    "limited": false,
+    "values": []
+  },
+  "update": {
+    "name": "update",
+    "limited": false,
+    "values": []
+  },
+  "usb": {
+    "name": "usb",
+    "limited": false,
+    "values": []
+  },
+  "usbVideo": {
+    "name": "usbVideo",
+    "limited": false,
+    "values": []
+  },
+  "use": {
+    "name": "use",
+    "limited": false,
+    "values": []
+  },
+  "user": {
+    "name": "user",
+    "limited": false,
+    "values": []
+  },
+  "userManual": {
+    "name": "userManual",
+    "limited": false,
+    "values": []
+  },
+  "userManualName": {
+    "name": "userManualName",
+    "limited": true,
+    "values": [
+      "新能源使用手册",
+      "能量流使用手册",
+      "电量管理使用手册",
+      "充放电管理使用手册",
+      "其他设置使用手册",
+      "语音功能使用手册",
+      "文件列表使用手册",
+      "图片操作说明手册",
+      "热点设置使用手册",
+      "基础信息使用手册",
+      "语音设置使用手册",
+      "语音指令使用手册",
+      "畅听使用手册",
+      "车模模式使用手册",
+      "辅助驾驶使用手册",
+      "manual_driving_assist"
+    ]
+  },
+  "valid": {
+    "name": "valid",
+    "limited": false,
+    "values": []
+  },
+  "value": {
+    "name": "value",
+    "limited": false,
+    "values": []
+  },
+  "vehicleAccessorie": {
+    "name": "vehicleAccessorie",
+    "limited": false,
+    "values": []
+  },
+  "vehicleAccessorieSetting": {
+    "name": "vehicleAccessorieSetting",
+    "limited": false,
+    "values": []
+  },
+  "vehicleSetting": {
+    "name": "vehicleSetting",
+    "limited": false,
+    "values": []
+  },
+  "vent": {
+    "name": "vent",
+    "limited": false,
+    "values": []
+  },
+  "ventilate": {
+    "name": "ventilate",
+    "limited": false,
+    "values": []
+  },
+  "ventilation": {
+    "name": "ventilation",
+    "limited": false,
+    "values": []
+  },
+  "version": {
+    "name": "version",
+    "limited": false,
+    "values": []
+  },
+  "vertical": {
+    "name": "vertical",
+    "limited": false,
+    "values": []
+  },
+  "veteran": {
+    "name": "veteran",
+    "limited": false,
+    "values": []
+  },
+  "via": {
+    "name": "via",
+    "limited": false,
+    "values": []
+  },
+  "video": {
+    "name": "video",
+    "limited": false,
+    "values": []
+  },
+  "view": {
+    "name": "view",
+    "limited": false,
+    "values": []
+  },
+  "view2d": {
+    "name": "view2d",
+    "limited": false,
+    "values": []
+  },
+  "view3d": {
+    "name": "view3d",
+    "limited": false,
+    "values": []
+  },
+  "viewAus": {
+    "name": "viewAus",
+    "limited": false,
+    "values": []
+  },
+  "viewVerb": {
+    "name": "viewVerb",
+    "limited": false,
+    "values": []
+  },
+  "vip": {
+    "name": "vip",
+    "limited": false,
+    "values": []
+  },
+  "virtualLive": {
+    "name": "virtualLive",
+    "limited": false,
+    "values": []
+  },
+  "visual": {
+    "name": "visual",
+    "limited": false,
+    "values": []
+  },
+  "visualAngle": {
+    "name": "visualAngle",
+    "limited": false,
+    "values": []
+  },
+  "voice": {
+    "name": "voice",
+    "limited": false,
+    "values": []
+  },
+  "voiceAssistant": {
+    "name": "voiceAssistant",
+    "limited": false,
+    "values": []
+  },
+  "voiceFunction": {
+    "name": "voiceFunction",
+    "limited": false,
+    "values": []
+  },
+  "voiceGuide": {
+    "name": "voiceGuide",
+    "limited": false,
+    "values": []
+  },
+  "voiceGuideModeType": {
+    "name": "voiceGuideModeType",
+    "limited": true,
+    "values": [
+      "标准模式",
+      "简洁模式",
+      "female_voice",
+      "male_voice",
+      "concision",
+      "detail",
+      "remind_sound",
+      "no_broadcast",
+      "broadcast_content"
+    ]
+  },
+  "voiceSetting": {
+    "name": "voiceSetting",
+    "limited": false,
+    "values": []
+  },
+  "voiceWake": {
+    "name": "voiceWake",
+    "limited": false,
+    "values": []
+  },
+  "volume": {
+    "name": "volume",
+    "limited": false,
+    "values": []
+  },
+  "volumeLevel": {
+    "name": "volumeLevel",
+    "limited": true,
+    "values": [
+      "LOW",
+      "MIDDLE",
+      "HIGH",
+      "MIN",
+      "MAX"
+    ]
+  },
+  "volumeType": {
+    "name": "volumeType",
+    "limited": true,
+    "values": [
+      "TTS",
+      "来电铃声",
+      "仪表",
+      "仪表屏",
+      "雷达报警音",
+      "导航",
+      "媒体",
+      "语音",
+      "蓝牙电话",
+      "开机背景音乐",
+      "仪表屏报警音",
+      "音乐"
+    ]
+  },
+  "vor": {
+    "name": "vor",
+    "limited": false,
+    "values": []
+  },
+  "wakeupFree": {
+    "name": "wakeupFree",
+    "limited": false,
+    "values": []
+  },
+  "wakeupFreeDuration": {
+    "name": "wakeupFreeDuration",
+    "limited": false,
+    "values": []
+  },
+  "wakeupSpeed": {
+    "name": "wakeupSpeed",
+    "limited": false,
+    "values": []
+  },
+  "warmer": {
+    "name": "warmer",
+    "limited": false,
+    "values": []
+  },
+  "warningPeriod": {
+    "name": "warningPeriod",
+    "limited": false,
+    "values": []
+  },
+  "wash": {
+    "name": "wash",
+    "limited": false,
+    "values": []
+  },
+  "wave": {
+    "name": "wave",
+    "limited": false,
+    "values": []
+  },
+  "waveBandCode": {
+    "name": "waveBandCode",
+    "limited": false,
+    "values": []
+  },
+  "waveband": {
+    "name": "waveband",
+    "limited": false,
+    "values": []
+  },
+  "wavebandType": {
+    "name": "wavebandType",
+    "limited": true,
+    "values": [
+      "am",
+      "fm",
+      "dab",
+      "rds"
+    ]
+  },
+  "waypoint": {
+    "name": "waypoint",
+    "limited": false,
+    "values": []
+  },
+  "weaker": {
+    "name": "weaker",
+    "limited": false,
+    "values": []
+  },
+  "weather": {
+    "name": "weather",
+    "limited": false,
+    "values": []
+  },
+  "weatherNow": {
+    "name": "weatherNow",
+    "limited": false,
+    "values": []
+  },
+  "weatherReport": {
+    "name": "weatherReport",
+    "limited": false,
+    "values": []
+  },
+  "weatherToday": {
+    "name": "weatherToday",
+    "limited": false,
+    "values": []
+  },
+  "website": {
+    "name": "website",
+    "limited": false,
+    "values": []
+  },
+  "week": {
+    "name": "week",
+    "limited": false,
+    "values": []
+  },
+  "weekday": {
+    "name": "weekday",
+    "limited": true,
+    "values": [
+      "星期一",
+      "星期二",
+      "星期三",
+      "星期四",
+      "星期五",
+      "下星期一",
+      "下星期二",
+      "下星期三",
+      "下星期四",
+      "下星期五",
+      "下星期六",
+      "下星期日",
+      "friday"
+    ]
+  },
+  "weg": {
+    "name": "weg",
+    "limited": false,
+    "values": []
+  },
+  "weiter": {
+    "name": "weiter",
+    "limited": false,
+    "values": []
+  },
+  "welcome": {
+    "name": "welcome",
+    "limited": false,
+    "values": []
+  },
+  "welcomeLight": {
+    "name": "welcomeLight",
+    "limited": false,
+    "values": []
+  },
+  "what": {
+    "name": "what",
+    "limited": false,
+    "values": []
+  },
+  "where": {
+    "name": "where",
+    "limited": false,
+    "values": []
+  },
+  "while": {
+    "name": "while",
+    "limited": false,
+    "values": []
+  },
+  "whistle": {
+    "name": "whistle",
+    "limited": false,
+    "values": []
+  },
+  "white": {
+    "name": "white",
+    "limited": false,
+    "values": []
+  },
+  "who": {
+    "name": "who",
+    "limited": false,
+    "values": []
+  },
+  "why": {
+    "name": "why",
+    "limited": false,
+    "values": []
+  },
+  "widen": {
+    "name": "widen",
+    "limited": false,
+    "values": []
+  },
+  "wider": {
+    "name": "wider",
+    "limited": false,
+    "values": []
+  },
+  "widgetSet": {
+    "name": "widgetSet",
+    "limited": false,
+    "values": []
+  },
+  "wifi": {
+    "name": "wifi",
+    "limited": false,
+    "values": []
+  },
+  "wifiSetting": {
+    "name": "wifiSetting",
+    "limited": false,
+    "values": []
+  },
+  "wind": {
+    "name": "wind",
+    "limited": false,
+    "values": []
+  },
+  "window": {
+    "name": "window",
+    "limited": false,
+    "values": []
+  },
+  "windowLock": {
+    "name": "windowLock",
+    "limited": false,
+    "values": []
+  },
+  "windowLockPosition": {
+    "name": "windowLockPosition",
+    "limited": true,
+    "values": [
+      "左侧",
+      "右侧"
+    ]
+  },
+  "windowPosition": {
+    "name": "windowPosition",
+    "limited": true,
+    "values": [
+      "主驾",
+      "副驾",
+      "前排",
+      "后排",
+      "左前",
+      "左后",
+      "右前",
+      "右后",
+      "左侧",
+      "右侧",
+      "全车",
+      "auxiliary_driver",
+      "main_driver"
+    ]
+  },
+  "windscreen": {
+    "name": "windscreen",
+    "limited": false,
+    "values": []
+  },
+  "wiper": {
+    "name": "wiper",
+    "limited": false,
+    "values": []
+  },
+  "wiperMaintenance": {
+    "name": "wiperMaintenance",
+    "limited": false,
+    "values": []
+  },
+  "wiperMode": {
+    "name": "wiperMode",
+    "limited": true,
+    "values": [
+      "自动模式"
+    ]
+  },
+  "wiperPosition": {
+    "name": "wiperPosition",
+    "limited": true,
+    "values": [
+      "前",
+      "后"
+    ]
+  },
+  "wiperWash": {
+    "name": "wiperWash",
+    "limited": false,
+    "values": []
+  },
+  "wirelessCharging": {
+    "name": "wirelessCharging",
+    "limited": false,
+    "values": []
+  },
+  "with": {
+    "name": "with",
+    "limited": false,
+    "values": []
+  },
+  "within": {
+    "name": "within",
+    "limited": false,
+    "values": []
+  },
+  "word": {
+    "name": "word",
+    "limited": false,
+    "values": []
+  },
+  "you": {
+    "name": "you",
+    "limited": false,
+    "values": []
+  },
+  "zeroGravity": {
+    "name": "zeroGravity",
+    "limited": false,
+    "values": []
+  },
+  "zone": {
+    "name": "zone",
+    "limited": false,
+    "values": []
+  },
+  "zoom": {
+    "name": "zoom",
+    "limited": false,
+    "values": []
+  },
+  "zoomIn": {
+    "name": "zoomIn",
+    "limited": false,
+    "values": []
+  },
+  "zoomOut": {
+    "name": "zoomOut",
+    "limited": false,
+    "values": []
+  },
+  "zu": {
+    "name": "zu",
+    "limited": false,
+    "values": []
+  },
+  "zuruck": {
+    "name": "zuruck",
+    "limited": false,
+    "values": []
+  },
+  "zusammen": {
+    "name": "zusammen",
+    "limited": false,
+    "values": []
+  }
+}
