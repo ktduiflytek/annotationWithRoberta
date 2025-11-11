@@ -6,7 +6,7 @@ import json
 import logging
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, Iterable, List, Mapping, Optional, Sequence
+from typing import Dict, Iterable, Iterator, List, Mapping, Optional, Sequence
 
 import torch
 from transformers import AutoModelForTokenClassification, AutoTokenizer
@@ -14,6 +14,11 @@ from transformers import AutoModelForTokenClassification, AutoTokenizer
 from .data import SlotMetadata, read_segments_metadata
 
 LOGGER = logging.getLogger(__name__)
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+DEFAULT_SENTENCES_FILE = PROJECT_ROOT / "data/sentences.txt"
+DEFAULT_MODEL_DIR = PROJECT_ROOT / "model"
+DEFAULT_SEGMENTS_FILE = PROJECT_ROOT / "data/segments.xlsx"
+DEFAULT_SLOT_VALUE_MAP = DEFAULT_MODEL_DIR / "slot_value_map.json"
 
 
 @dataclass
@@ -151,3 +156,43 @@ class AutoAnnotator:
                 "Could not resolve value for limited slot %s with surface '%s'", label, surface
             )
         return None
+
+
+def _iter_sentences(path: Path) -> Iterator[str]:
+    if not path.exists():
+        LOGGER.error("Sentences file %s not found", path)
+        return
+
+    with path.open("r", encoding="utf-8") as handle:
+        for line in handle:
+            sentence = line.strip()
+            if sentence:
+                yield sentence
+
+
+def annotate_sentences(
+    annotator: AutoAnnotator,
+    sentences: Iterable[str],
+) -> Iterator[str]:
+    for sentence in sentences:
+        if not sentence:
+            continue
+        yield annotator.annotate(sentence)
+
+
+def main() -> None:
+    logging.basicConfig(level=logging.INFO)
+
+    slot_value_override = DEFAULT_SLOT_VALUE_MAP if DEFAULT_SLOT_VALUE_MAP.exists() else None
+    annotator = AutoAnnotator(
+        model_dir=DEFAULT_MODEL_DIR,
+        segments_file=DEFAULT_SEGMENTS_FILE,
+        slot_value_map_path=slot_value_override,
+    )
+
+    for line in annotate_sentences(annotator, _iter_sentences(DEFAULT_SENTENCES_FILE)):
+        print(line)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,3 +1,2 @@
 model/
-logs/
-sentences.txt
+!model/.gitkeep

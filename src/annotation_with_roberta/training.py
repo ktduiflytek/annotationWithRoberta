@@ -31,6 +31,7 @@ from .data import (
 )
 
 LOGGER = logging.getLogger(__name__)
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 
 @dataclass
@@ -273,3 +274,47 @@ def train_model(config: TrainingConfig) -> None:
     save_value_map_json(value_map, value_map_path)
 
     LOGGER.info("Artifacts saved to %s", config.output_dir)
+
+
+def default_training_config() -> TrainingConfig:
+    """Build a :class:`TrainingConfig` populated with sensible defaults."""
+
+    train_file = PROJECT_ROOT / "data/processed/train.conll"
+    eval_file = PROJECT_ROOT / "data/processed/dev.conll"
+    segments_file = PROJECT_ROOT / "data/segments.xlsx"
+    label_map_file = PROJECT_ROOT / "data/processed/label2id.json"
+    train_text_file = PROJECT_ROOT / "data/train.txt"
+    output_dir = PROJECT_ROOT / "model"
+
+    return TrainingConfig(
+        model_name="xlm-roberta-base",
+        train_file=train_file,
+        eval_file=eval_file if eval_file.exists() else None,
+        segments_file=segments_file,
+        label_map_file=label_map_file,
+        train_text_file=train_text_file if train_text_file.exists() else None,
+        output_dir=output_dir,
+        max_length=256,
+        learning_rate=3e-5,
+        weight_decay=0.01,
+        warmup_steps=500,
+        num_train_epochs=8,
+        per_device_train_batch_size=16,
+        per_device_eval_batch_size=16,
+        gradient_accumulation_steps=2,
+        label_all_tokens=True,
+        seed=42,
+    )
+
+
+def main() -> None:
+    """Train the model using the baked-in defaults."""
+
+    logging.basicConfig(level=logging.INFO)
+    config = default_training_config()
+    LOGGER.info("Starting training with configuration: %s", config)
+    train_model(config)
+
+
+if __name__ == "__main__":
+    main()
