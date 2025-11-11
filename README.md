@@ -43,13 +43,14 @@ python src/prepare_segments.py
 
 ### 2. Train the model
 
-`src/annotation_with_roberta/training.py` fine-tunes `xlm-roberta-base` using the JSON artefacts above plus the token/label data under `data/processed/`. When you run the module directly it will:
+`src/annotation_with_roberta/training.py` fine-tunes `xlm-roberta-base` using the JSON artefacts above plus the token/label data under `data/processed/`. If those processed files are missing or older than your spreadsheet / annotated text sources, the script automatically regenerates them from `data/train.txt` (and `data/dev.txt` when available) before training starts. When you run the module directly it will:
 
 1. Load the default configuration returned by `default_training_config()` (see the next subsection for every knob) and log it for traceability.
-2. Read `data/processed/train.conll` (and `data/processed/dev.conll` if present), ensuring every label exists in the spreadsheet metadata.
-3. Tokenise the examples with the XLM-R tokenizer while aligning the token-level labels, optionally propagating labels to subwords.
-4. Train the model with Hugging Face `Trainer`, evaluate on the dev split if available, and write all checkpoints to `model/`.
-5. Export the tokenizer, spreadsheet metadata, label catalogue, and `slot_value_map.json` (a surface→取值 lookup generated from the annotated training text) so inference can resolve limited slots.
+2. Rebuild the processed `.conll` files and `label2id.json` when the annotated text or spreadsheet changes so the training data always reflects the latest inputs.
+3. Read `data/processed/train.conll` (and `data/processed/dev.conll` if present), ensuring every label exists in the spreadsheet metadata.
+4. Tokenise the examples with the XLM-R tokenizer while aligning the token-level labels, optionally propagating labels to subwords.
+5. Train the model with Hugging Face `Trainer`, evaluate on the dev split if available, and write all checkpoints to `model/`.
+6. Export the tokenizer, spreadsheet metadata, label catalogue, and `slot_value_map.json` (a surface→取值 lookup generated from the annotated training text) so inference can resolve limited slots.
 
 ```bash
 python src/annotation_with_roberta/training.py
@@ -63,6 +64,7 @@ The `TrainingConfig` dataclass defines all tunable parameters. Key ones for this
 |-----------|---------|----------------|
 | `model_name` | `xlm-roberta-base` | Switch to a larger variant (e.g. `xlm-roberta-large`) for higher accuracy at the cost of GPU memory and slower inference. |
 | `train_file` / `eval_file` | `data/processed/train.conll` / `dev.conll` | Point these at new dataset splits when you expand or replace the corpus. Missing eval data disables evaluation and best-model selection. |
+| `train_text_file` / `eval_text_file` | `data/train.txt` / `dev.txt` | Override when the bracket-annotated source files live elsewhere. These drive the automatic `.conll`/`label2id.json` regeneration performed before training. |
 | `segments_file` | `data/segments.xlsx` | Update only if the catalogue moves. Out-of-sync spreadsheets will cause validation failures. |
 | `label_map_file` | `data/processed/label2id.json` | Must match the dataset labelling scheme. Rebuilding it incorrectly will misalign labels and degrade performance. |
 | `output_dir` | `model/` | Change to version your experiments or keep multiple checkpoints. Ensure inference points at the matching directory. |
@@ -117,8 +119,8 @@ Because inference mirrors the training tokenisation, any mismatch between tokeni
 │   ├── sentences.txt               # Sentences queued for annotation
 │   ├── train.txt / dev.txt         # Human-annotated examples that drive the slot value map
 │   └── processed/
-│       ├── train.conll, dev.conll  # Token/label sequences consumed during training
-│       └── label2id.json           # Label→index map aligned with the dataset
+│       ├── train.conll, dev.conll  # Auto-generated token/label sequences derived from train.txt / dev.txt
+│       └── label2id.json           # Auto-generated label→index map aligned with the dataset
 ├── model/
 │   ├── config.json, pytorch_model.bin, tokenizer/  # Standard Hugging Face checkpoint assets
 │   ├── label_catalogue.json        # Saved by the trainer for quick lookup at inference time

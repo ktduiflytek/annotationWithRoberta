@@ -23,6 +23,7 @@ from transformers import (
 try:  # pragma: no cover - runtime fallback when executed as a script
     from .data import (
         build_slot_value_map,
+        ensure_processed_datasets,
         read_conll_dataset,
         read_segments_metadata,
         save_label_catalogue_json,
@@ -38,6 +39,7 @@ except ImportError:  # pragma: no cover - executed when run as ``python training
 
     from annotation_with_roberta.data import (  # type: ignore
         build_slot_value_map,
+        ensure_processed_datasets,
         read_conll_dataset,
         read_segments_metadata,
         save_label_catalogue_json,
@@ -59,6 +61,7 @@ class TrainingConfig:
     label_map_file: Path
     output_dir: Path
     train_text_file: Optional[Path]
+    eval_text_file: Optional[Path]
     max_length: int = 256
     learning_rate: float = 5e-5
     weight_decay: float = 0.01
@@ -201,16 +204,26 @@ def train_model(config: TrainingConfig) -> None:
 
     config.output_dir.mkdir(parents=True, exist_ok=True)
 
+    segments = read_segments_metadata(config.segments_file)
+    ensure_processed_datasets(
+        metadata=segments,
+        train_text_file=config.train_text_file,
+        train_output_file=config.train_file,
+        label_map_file=config.label_map_file,
+        segments_source=config.segments_file,
+        eval_text_file=config.eval_text_file,
+        eval_output_file=config.eval_file,
+    )
+
     label2id = _load_label_map(config.label_map_file)
     id2label = {idx: label for label, idx in label2id.items()}
 
-    segments = read_segments_metadata(config.segments_file)
     train_tokens, train_labels = read_conll_dataset(config.train_file)
     validate_labels(train_labels, segments)
 
     eval_tokens: Optional[Sequence[Sequence[str]]] = None
     eval_labels: Optional[Sequence[Sequence[str]]] = None
-    if config.eval_file:
+    if config.eval_file and config.eval_file.exists():
         eval_tokens, eval_labels = read_conll_dataset(config.eval_file)
         validate_labels(eval_labels, segments)
 
@@ -300,15 +313,17 @@ def default_training_config() -> TrainingConfig:
     segments_file = PROJECT_ROOT / "data/segments.xlsx"
     label_map_file = PROJECT_ROOT / "data/processed/label2id.json"
     train_text_file = PROJECT_ROOT / "data/train.txt"
+    eval_text_file = PROJECT_ROOT / "data/dev.txt"
     output_dir = PROJECT_ROOT / "model"
 
     return TrainingConfig(
         model_name="xlm-roberta-base",
         train_file=train_file,
-        eval_file=eval_file if eval_file.exists() else None,
+        eval_file=(eval_file if (eval_file.exists() or eval_text_file.exists()) else None),
         segments_file=segments_file,
         label_map_file=label_map_file,
         train_text_file=train_text_file if train_text_file.exists() else None,
+        eval_text_file=eval_text_file if eval_text_file.exists() else None,
         output_dir=output_dir,
         max_length=256,
         learning_rate=3e-5,
