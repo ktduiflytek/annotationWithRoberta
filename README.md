@@ -30,7 +30,7 @@ Follow these steps to reproduce the full workflow.
 
 ### 1. Preprocess the spreadsheet
 
-`prepare_segments.py` reads the Excel file and writes two JSON artifacts:
+`prepare_segments.py` reads the Excel file with helpers from [`src/annotation_with_roberta/data.py`](src/annotation_with_roberta/data.py) and writes two JSON artifacts:
 
 * `data/segments_metadata.json` – the raw rows from the spreadsheet with all supporting columns.
 * `data/segments_catalogue.json` – a compact catalogue that splits normal labels from limited (`有限槽`) labels and maps each limited label to its allowed `取值` values.
@@ -61,7 +61,7 @@ Use `--no-eval` to skip validation, adjust optimisation hyperparameters through 
 
 ### 3. Annotate sentences
 
-`annotate.py` loads the trained model and annotates every sentence in `sentences.txt`. Each line should contain one sentence to annotate, with blank lines ignored.
+`annotate.py` loads the trained model through the [`AutoAnnotator` in src/annotation_with_roberta/inference.py](src/annotation_with_roberta/inference.py) and annotates every sentence in `sentences.txt`. Each line should contain one sentence to annotate, with blank lines ignored.
 
 ```bash
 python annotate.py
