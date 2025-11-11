@@ -23,7 +23,6 @@ from transformers import (
 try:  # pragma: no cover - runtime fallback when executed as a script
     from .data import (
         build_slot_value_map,
-        ensure_processed_datasets,
         read_conll_dataset,
         read_segments_metadata,
         save_label_catalogue_json,
@@ -39,7 +38,6 @@ except ImportError:  # pragma: no cover - executed when run as ``python training
 
     from annotation_with_roberta.data import (  # type: ignore
         build_slot_value_map,
-        ensure_processed_datasets,
         read_conll_dataset,
         read_segments_metadata,
         save_label_catalogue_json,
@@ -205,15 +203,20 @@ def train_model(config: TrainingConfig) -> None:
     config.output_dir.mkdir(parents=True, exist_ok=True)
 
     segments = read_segments_metadata(config.segments_file)
-    ensure_processed_datasets(
-        metadata=segments,
-        train_text_file=config.train_text_file,
-        train_output_file=config.train_file,
-        label_map_file=config.label_map_file,
-        segments_source=config.segments_file,
-        eval_text_file=config.eval_text_file,
-        eval_output_file=config.eval_file,
-    )
+
+    missing: List[Path] = []
+    if not config.train_file.exists():
+        missing.append(config.train_file)
+    if not config.label_map_file.exists():
+        missing.append(config.label_map_file)
+    if missing:
+        missing_str = ", ".join(str(path) for path in missing)
+        raise FileNotFoundError(
+            f"Missing processed artifacts: {missing_str}. Run `python src/prepare_segments.py` before training."
+        )
+
+    if config.eval_file and not config.eval_file.exists():
+        LOGGER.warning("Validation file %s not found; training will proceed without evaluation", config.eval_file)
 
     label2id = _load_label_map(config.label_map_file)
     id2label = {idx: label for label, idx in label2id.items()}

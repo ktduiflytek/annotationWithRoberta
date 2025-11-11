@@ -321,6 +321,20 @@ def save_label_map_json(label_map: Mapping[str, int], destination: Path) -> None
     )
 
 
+def save_id_label_map_json(id_map: Mapping[int, str], destination: Path) -> None:
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    destination.write_text(
+        json.dumps({str(key): value for key, value in id_map.items()}, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+
+def load_label_map_json(path: Path) -> Dict[str, int]:
+    with path.open("r", encoding="utf-8") as handle:
+        raw = json.load(handle)
+    return {str(label): int(index) for label, index in raw.items()}
+
+
 def _needs_rebuild(target: Path, dependencies: Iterable[Path]) -> bool:
     if not target.exists():
         return True
@@ -339,6 +353,7 @@ def ensure_processed_datasets(
     train_text_file: Optional[Path],
     train_output_file: Path,
     label_map_file: Path,
+    id_map_file: Optional[Path] = None,
     segments_source: Optional[Path] = None,
     eval_text_file: Optional[Path] = None,
     eval_output_file: Optional[Path] = None,
@@ -402,6 +417,14 @@ def ensure_processed_datasets(
                 label_sequences.extend(read_conll_dataset(eval_output_file)[1])
         label_map = build_label_map(label_sequences)
         save_label_map_json(label_map, label_map_file)
+        if id_map_file is not None:
+            id_map = {idx: label for label, idx in label_map.items()}
+            save_id_label_map_json(id_map, id_map_file)
+    elif id_map_file is not None and not id_map_file.exists():
+        LOGGER.info("Writing id2label map to %s", id_map_file)
+        label_map = load_label_map_json(label_map_file)
+        id_map = {idx: label for label, idx in label_map.items()}
+        save_id_label_map_json(id_map, id_map_file)
 
 
 def build_slot_value_map(
