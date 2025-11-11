@@ -2,11 +2,24 @@
 
 This repository trains an XLM-RoBERTa token-classification model that labels each token span—covering individual words or multi-word phrases—in a sentence with one of the pre-defined slot names from [`data/segments.xlsx`](data/segments.xlsx). Limited slots (column `C` marked `有限槽`) also require a canonical value from column `D`, which is appended to the annotated output as `##取值`.
 
-The project is organised as a three-stage pipeline:
+The project is organised as a three-stage pipeline. Run the steps in order the first time you set up a workspace, then re-run the pieces that correspond to the artefacts you change:
 
 1. **Spreadsheet preprocessing** – convert the Excel catalogue into JSON metadata so labels and their limited values can be validated quickly.
 2. **Model training** – fine-tune XLM-RoBERTa on the token/label dataset while enforcing the spreadsheet catalogue.
 3. **Sentence annotation** – read raw sentences from `data/sentences.txt` and emit fully labelled sequences using the trained model.
+
+### Quickstart
+
+```bash
+# 1) Regenerate JSON metadata from the spreadsheet (rerun whenever segments.xlsx changes)
+python src/prepare_segments.py
+
+# 2) Fine-tune the model; processed/*.conll and label2id.json are rebuilt automatically
+python src/annotation_with_roberta/training.py
+
+# 3) Label every sentence listed in data/sentences.txt
+python src/annotation_with_roberta/inference.py
+```
 
 ## Environment
 
@@ -35,7 +48,7 @@ Follow these steps to reproduce the full workflow.
   * `data/segments_metadata.json` – a faithful JSON rendering of the spreadsheet so you can audit every label, whether it is limited, and its allowed values.
   * `data/segments_catalogue.json` – a compact summary that separates normal labels from limited labels and only keeps the value lists. This format loads quickly inside training and inference.
 
-Run the script whenever `segments.xlsx` changes so both JSON files stay synchronised with the authoritative spreadsheet:
+Run the script whenever `segments.xlsx` changes so both JSON files stay synchronised with the authoritative spreadsheet. If you skip this step after editing the spreadsheet, the later stages will warn that the metadata is stale.
 
 ```bash
 python src/prepare_segments.py
@@ -43,7 +56,7 @@ python src/prepare_segments.py
 
 ### 2. Train the model
 
-`src/annotation_with_roberta/training.py` fine-tunes `xlm-roberta-base` using the JSON artefacts above plus the token/label data under `data/processed/`. If those processed files are missing or older than your spreadsheet / annotated text sources, the script automatically regenerates them from `data/train.txt` (and `data/dev.txt` when available) before training starts. When you run the module directly it will:
+`src/annotation_with_roberta/training.py` fine-tunes `xlm-roberta-base` using the JSON artefacts above plus the token/label data under `data/processed/`. Deleting the processed artefacts is safe—if those files are missing or older than your spreadsheet / annotated text sources, the script automatically regenerates them from `data/train.txt` (and `data/dev.txt` when available) before training starts. When you run the module directly it will:
 
 1. Load the default configuration returned by `default_training_config()` (see the next subsection for every knob) and log it for traceability.
 2. Rebuild the processed `.conll` files and `label2id.json` when the annotated text or spreadsheet changes so the training data always reflects the latest inputs.
