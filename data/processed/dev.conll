@@ -1,0 +1,891 @@
+Tænd	B-open
+for	I-open
+radio	B-radio
+
+Tænd	B-open
+for	I-open
+radioen	B-radio
+
+Tænd	B-open
+radio	B-radio
+
+Åben	B-open
+for	I-open
+radio	B-radio
+
+Åben	B-open
+for	I-open
+radioen	B-radio
+
+Åben	B-open
+radio	B-radio
+
+Start	B-start
+nu	B-now
+radio	B-radio
+
+Start	B-start
+radioen	B-radio
+
+Start	B-start
+radio	B-radio
+
+Tænd	B-open
+for	I-open
+bilens	B-car
+radio	B-radio
+
+Tænd	B-open
+for	I-open
+bilens	B-car
+radio	B-radio
+funktion	B-function
+
+Tænd	B-open
+bilens	B-car
+radio	B-radio
+
+Tænd	B-open
+nu	I-open
+radio	B-radio
+
+Tænd	B-open
+nu	I-open
+for	I-open
+radio	B-radio
+
+Tænd	B-open
+for	I-open
+radio	B-radio
+appen	B-app
+
+Tænd	B-open
+for	I-open
+vejr	B-weather
+
+Tænd	B-open
+vejr	B-weather
+appen	B-app
+
+Tænd	B-open
+for	I-open
+vejr	B-weather
+appen	B-app
+
+Åben	B-open
+for	I-open
+vejr	B-weather
+
+Åben	B-open
+vejr	B-weather
+appen	B-app
+
+Start	B-start
+vejr	B-weather
+
+Start	B-start
+nu	I-start
+vejr	B-weather
+appen	B-app
+
+Start	B-start
+vejr	B-weather
+appen	B-app
+
+Åben	B-open
+op	I-open
+vejr	B-weather
+appen	B-app
+
+Åben	B-open
+op	I-open
+for	I-open
+vejr	B-weather
+appen	B-app
+
+Tænd	B-open
+nu	I-open
+for	I-open
+vejr	B-weather
+appen	B-app
+
+Start	B-start
+vejr	B-weather
+appen	B-app
+nu	B-now
+
+Åben	B-open
+for	I-open
+vejr	B-weather
+appen	B-app
+
+Sluk	B-close
+vejr	B-weather
+
+Sluk	B-close
+vejr	B-weather
+appen	B-app
+
+Sluk	B-close
+for	I-close
+vejr	B-weather
+
+Luk	B-close
+vejr	B-weather
+
+Luk	B-close
+vejr	B-weather
+appen	B-app
+
+Luk	B-close
+ned	I-close
+vejr	B-weather
+
+Stop	B-stop
+vejr	B-weather
+appen	B-app
+
+Stop	B-stop
+vejr	B-weather
+appen	B-app
+nu	B-now
+
+Stop	B-stop
+vejr	B-weather
+nu	B-now
+
+Luk	B-close
+ned	I-close
+for	I-close
+vejr	B-weather
+
+Luk	B-close
+vejr	B-weather
+appen	B-app
+ned	B-closeBack
+
+Luk	B-close
+ned	I-close
+for	I-close
+vejr	B-weather
+appen	B-app
+
+Sluk	B-close
+for	I-close
+vejr	B-weather
+appen	B-app
+
+Stop	B-stop
+vejr	B-weather
+
+Luk	B-close
+for	I-close
+vejr	B-weather
+appen	B-app
+
+Tænd	B-open
+for	I-open
+bluetooth	B-bluetoothCall
+opkald	I-bluetoothCall
+
+Tænd	B-open
+bluetooth	B-bluetoothCall
+opkald	I-bluetoothCall
+app	B-app
+
+Tænd	B-open
+bluetooth	B-bluetoothCall
+opkald	I-bluetoothCall
+appen	B-app
+
+Tænd	B-open
+for	I-open
+opkald	B-callNoun
+appen	B-app
+
+Start	B-start
+bluetooth	B-bluetoothCall
+opkald	I-bluetoothCall
+
+Start	B-start
+bluetooth	B-bluetoothCall
+opkald	I-bluetoothCall
+app	B-app
+
+Start	B-start
+opkald	B-callNoun
+appen	B-app
+
+Start	B-start
+opkald	B-callNoun
+appen	B-app
+nu	B-now
+
+Start	B-start
+op	I-start
+for	I-start
+bluetooth	B-bluetoothCall
+opkald	I-bluetoothCall
+
+Start	B-start
+op	I-start
+for	I-start
+opkald	B-callNoun
+appen	B-app
+
+Åben	B-open
+for	I-open
+bluetooth	B-bluetoothCall
+opkald	I-bluetoothCall
+
+Åben	B-open
+bluetooth	B-bluetoothCall
+opkald	I-bluetoothCall
+app	B-app
+
+Åben	B-open
+opkald	B-callNoun
+appen	B-app
+
+Åben	B-open
+for	I-open
+opkald	B-callNoun
+appen	B-app
+
+Opstart	B-start
+opkald	B-callNoun
+appen	B-app
+
+Sluk	B-close
+for	I-close
+bluetooth	B-bluetoothCall
+opkald	I-bluetoothCall
+
+Sluk	B-close
+bluetooth	B-bluetoothCall
+opkald	I-bluetoothCall
+app	B-app
+
+Sluk	B-close
+bluetooth	B-bluetoothCall
+opkald	I-bluetoothCall
+appen	B-app
+
+Sluk	B-close
+for	I-close
+opkald	B-callNoun
+appen	B-app
+
+Stop	B-stop
+bluetooth	B-bluetoothCall
+opkald	I-bluetoothCall
+
+Stop	B-stop
+bluetooth	B-bluetoothCall
+opkald	I-bluetoothCall
+app	B-app
+
+Stop	B-stop
+nu	I-stop
+opkald	B-callNoun
+appen	B-app
+
+Stop	B-stop
+opkald	B-callNoun
+appen	B-app
+
+Luk	B-close
+ned	I-close
+for	I-close
+bluetooth	B-bluetoothCall
+opkald	I-bluetoothCall
+
+Luk	B-close
+ned	I-close
+for	I-close
+opkald	B-callNoun
+appen	B-app
+
+Luk	B-close
+for	I-close
+bluetooth	B-bluetoothCall
+opkald	I-bluetoothCall
+
+Luk	B-close
+bluetooth	B-bluetoothCall
+opkald	I-bluetoothCall
+app	B-app
+
+Luk	B-close
+opkald	B-callNoun
+appen	B-app
+
+Luk	B-close
+for	I-close
+opkald	B-callNoun
+appen	B-app
+
+Nedluk	B-close
+opkald	B-callNoun
+appen	B-app
+
+Åben	B-open
+siden	B-page
+for	B-prep
+bruger	B-userManual
+manual	I-userManual
+nu	B-now
+
+Åben	B-open
+siden	B-page
+for	B-prep
+bruger	B-userManual
+manual	I-userManual
+
+Start	B-start
+siden	B-page
+for	B-prep
+bruger	B-userManual
+manual	I-userManual
+
+Start	B-start
+siden	B-page
+for	B-prep
+bruger	B-userManual
+manual	I-userManual
+nu	B-now
+
+Start	B-start
+op	I-start
+for	I-start
+bruger	B-userManual
+manual	I-userManual
+
+Tænd	B-open
+siden	B-page
+for	B-prep
+bruger	B-userManual
+manual	I-userManual
+
+Åben	B-open
+for	I-open
+bruger	B-userManual
+manual	I-userManual
+
+Åben	B-open
+bruger	B-userManual
+manual	I-userManual
+
+Start	B-start
+bruger	B-userManual
+manual	I-userManual
+
+Start	B-start
+bruger	B-userManual
+manual	I-userManual
+nu	B-now
+
+Tænd	B-open
+bruger	B-userManual
+manual	I-userManual
+
+Tænd	B-open
+for	I-open
+bruger	B-userManual
+manual	I-userManual
+
+Start	B-start
+op	I-start
+for	I-start
+siden	B-page
+for	B-prep
+bruger	B-userManual
+manual	I-userManual
+
+Luk	B-close
+for	I-close
+siden	B-page
+for	B-prep
+bruger	B-userManual
+manual	I-userManual
+
+Luk	B-close
+siden	B-page
+for	B-prep
+bruger	B-userManual
+manual	I-userManual
+
+Stop	B-stop
+siden	B-page
+for	B-prep
+bruger	B-userManual
+manual	I-userManual
+nu	B-now
+
+Stop	B-stop
+siden	B-page
+for	B-prep
+bruger	B-userManual
+manual	I-userManual
+
+Luk	B-close
+ned	I-close
+siden	B-page
+for	B-prep
+bruger	B-userManual
+manual	I-userManual
+
+Sluk	B-close
+siden	B-page
+for	B-prep
+bruger	B-userManual
+manual	I-userManual
+
+Sluk	B-close
+for	I-close
+siden	B-page
+for	B-prep
+bruger	B-userManual
+manual	I-userManual
+
+Luk	B-close
+for	I-close
+bruger	B-userManual
+manual	I-userManual
+
+Luk	B-close
+bruger	B-userManual
+manual	I-userManual
+
+Stop	B-stop
+bruger	B-userManual
+manual	I-userManual
+nu	B-now
+
+Stop	B-stop
+bruger	B-userManual
+manual	I-userManual
+
+Sluk	B-close
+ned	I-close
+for	I-close
+bruger	B-userManual
+manual	I-userManual
+
+Sluk	B-close
+bruger	B-userManual
+manual	I-userManual
+
+Sluk	B-close
+for	I-close
+bruger	B-userManual
+manual	I-userManual
+
+Luk	B-close
+ned	I-close
+for	I-close
+siden	B-page
+for	B-prep
+bruger	B-userManual
+manual	I-userManual
+
+Set	B-set
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+low	B-noiseVolumeCompensationLevel
+
+Adjust	B-adjust
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+low	B-noiseVolumeCompensationLevel
+
+Change	B-change
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+low	B-noiseVolumeCompensationLevel
+
+Set	B-set
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+low	B-noiseVolumeCompensationLevel
+
+Adjust	B-adjust
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+low	B-noiseVolumeCompensationLevel
+
+Change	B-change
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+low	B-noiseVolumeCompensationLevel
+
+Set	B-set
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+low	B-noiseVolumeCompensationLevel
+
+Adjust	B-adjust
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+low	B-noiseVolumeCompensationLevel
+
+Change	B-change
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+low	B-noiseVolumeCompensationLevel
+
+Set	B-set
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+low	B-noiseVolumeCompensationLevel
+
+Adjust	B-adjust
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+low	B-noiseVolumeCompensationLevel
+
+Change	B-change
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+low	B-noiseVolumeCompensationLevel
+
+Turn	B-adjust
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+low	B-noiseVolumeCompensationLevel
+
+Turn	B-adjust
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+low	B-noiseVolumeCompensationLevel
+
+Switch	B-switchVerb
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+low	B-noiseVolumeCompensationLevel
+
+Set	B-set
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+medium	B-noiseVolumeCompensationLevel
+
+Adjust	B-adjust
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+medium	B-noiseVolumeCompensationLevel
+
+Change	B-change
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+medium	B-noiseVolumeCompensationLevel
+
+Set	B-set
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+medium	B-noiseVolumeCompensationLevel
+
+Adjust	B-adjust
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+medium	B-noiseVolumeCompensationLevel
+
+Change	B-change
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+medium	B-noiseVolumeCompensationLevel
+
+Set	B-set
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+medium	B-noiseVolumeCompensationLevel
+
+Adjust	B-adjust
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+medium	B-noiseVolumeCompensationLevel
+
+Change	B-change
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+medium	B-noiseVolumeCompensationLevel
+
+Set	B-set
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+medium	B-noiseVolumeCompensationLevel
+
+Adjust	B-adjust
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+medium	B-noiseVolumeCompensationLevel
+
+Change	B-change
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+medium	B-noiseVolumeCompensationLevel
+
+Turn	B-adjust
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+medium	B-noiseVolumeCompensationLevel
+
+Turn	B-adjust
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+medium	B-noiseVolumeCompensationLevel
+
+Switch	B-switchVerb
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+medium	B-noiseVolumeCompensationLevel
+
+Set	B-set
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+high	B-noiseVolumeCompensationLevel
+
+Adjust	B-adjust
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+high	B-noiseVolumeCompensationLevel
+
+Change	B-change
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+high	B-noiseVolumeCompensationLevel
+
+Set	B-set
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+high	B-noiseVolumeCompensationLevel
+
+Adjust	B-adjust
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+high	B-noiseVolumeCompensationLevel
+
+Change	B-change
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+high	B-noiseVolumeCompensationLevel
+
+Set	B-set
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+high	B-noiseVolumeCompensationLevel
+
+Adjust	B-adjust
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+high	B-noiseVolumeCompensationLevel
+
+Change	B-change
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+high	B-noiseVolumeCompensationLevel
+
+Set	B-set
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+high	B-noiseVolumeCompensationLevel
+
+Adjust	B-adjust
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+high	B-noiseVolumeCompensationLevel
+
+Change	B-change
+volume	B-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+high	B-noiseVolumeCompensationLevel
+
+Turn	B-adjust
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+level	B-level
+to	B-prep
+high	B-noiseVolumeCompensationLevel
+
+Turn	B-adjust
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+high	B-noiseVolumeCompensationLevel
+
+Switch	B-switchVerb
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+to	B-prep
+high	B-noiseVolumeCompensationLevel
+
+Turn	B-close
+off	I-close
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+
+Disable	B-close
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+
+Switch	B-close
+off	I-close
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+
+End	B-close
+volume	B-noiseVolumeCompensation
+speed	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+
+End	B-close
+speed	B-noiseVolumeCompensation
+volume	I-noiseVolumeCompensation
+compensation	I-noiseVolumeCompensation
+
+Open	B-open
+tailgate	B-tailgateSet
+settings	I-tailgateSet
+page	B-page
+
+Show	B-showVerb
+tailgate	B-tailgateSet
+settings	I-tailgateSet
+page	B-page
+
+Enter	B-open
+tailgate	B-tailgateSet
+settings	I-tailgateSet
+page	B-page
+
+Display	B-displayVerb
+tailgate	B-tailgateSet
+settings	I-tailgateSet
+page	B-page
+
+Open	B-open
+tailgate	B-tailgateSet
+settings	I-tailgateSet
+menu	B-menu
+
+Enter	B-open
+tailgate	B-tailgateSet
+settings	I-tailgateSet
+menu	B-menu
+
+Open	B-open
+trunk	B-tailgateSet
+settings	I-tailgateSet
+page	B-page
+
+Enter	B-open
+trunk	B-tailgateSet
+settings	I-tailgateSet
+page	B-page
+
+Display	B-displayVerb
+trunk	B-tailgateSet
+settings	I-tailgateSet
+page	B-page
+
+Open	B-open
+trunk	B-tailgateSet
+settings	I-tailgateSet
+menu	B-menu
+
+Enter	B-open
+trunk	B-tailgateSet
+settings	I-tailgateSet
+menu	B-menu
+

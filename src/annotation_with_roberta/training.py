@@ -263,7 +263,7 @@ def train_model(config: TrainingConfig) -> None:
         per_device_train_batch_size=config.per_device_train_batch_size,
         per_device_eval_batch_size=config.per_device_eval_batch_size,
         gradient_accumulation_steps=config.gradient_accumulation_steps,
-        evaluation_strategy="epoch" if "eval" in datasets else "no",
+        eval_strategy="epoch" if "eval" in datasets else "no",
         save_strategy="epoch" if "eval" in datasets else "no",
         load_best_model_at_end="eval" in datasets,
         metric_for_best_model="f1",

@@ -11,7 +11,15 @@ from typing import Dict, Iterable, Iterator, List, Mapping, Optional, Sequence
 import torch
 from transformers import AutoModelForTokenClassification, AutoTokenizer
 
-from .data import SlotMetadata, read_segments_metadata
+try:
+    from .data import SlotMetadata, read_segments_metadata
+except ImportError:  # pragma: no cover - fallback for direct script execution
+    import sys
+
+    package_root = Path(__file__).resolve().parent
+    if str(package_root) not in sys.path:
+        sys.path.insert(0, str(package_root))
+    from data import SlotMetadata, read_segments_metadata
 
 LOGGER = logging.getLogger(__name__)
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
