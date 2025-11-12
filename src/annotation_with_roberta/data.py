@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import logging
 import re
+from datetime import datetime
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, Iterable, List, Mapping, MutableMapping, Optional, Sequence, Set, Tuple
@@ -12,6 +13,9 @@ from zipfile import ZipFile
 from xml.etree import ElementTree as ET
 
 LOGGER = logging.getLogger(__name__)
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+LOG_DIR = PROJECT_ROOT / "logs"
+ANNOTATION_ERROR_LOG = LOG_DIR / "annotation_errors.log"
 
 SPREADSHEET_NS = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
 
@@ -183,6 +187,18 @@ class AnnotationParseError(ValueError):
         super().__init__(message)
 
 
+def _log_annotation_error(message: str) -> None:
+    """Persist annotation parsing issues so they can be reviewed later."""
+
+    try:
+        LOG_DIR.mkdir(parents=True, exist_ok=True)
+        timestamp = datetime.utcnow().isoformat(timespec="seconds")
+        with ANNOTATION_ERROR_LOG.open("a", encoding="utf-8") as handle:
+            handle.write(f"[{timestamp}] {message}\n")
+    except OSError as exc:  # pragma: no cover - best effort logging
+        LOGGER.error("Failed to write annotation error log: %s (%s)", message, exc)
+
+
 def _split_surface_and_value(body: str) -> Tuple[str, Optional[str]]:
     if "##" not in body:
         return body, None
@@ -282,7 +298,18 @@ def parse_annotated_corpus(
     labels: List[List[str]] = []
     with path.open("r", encoding="utf-8") as handle:
         for line_no, line in enumerate(handle, start=1):
-            tokens, token_labels = parse_annotated_line(line, metadata, line_no=line_no)
+            try:
+                tokens, token_labels = parse_annotated_line(line, metadata, line_no=line_no)
+            except AnnotationParseError as error:
+                error_message = f"{path} :: {error}"
+                LOGGER.warning(
+                    "Skipping annotated line %d in %s due to parse error: %s",
+                    line_no,
+                    path,
+                    error,
+                )
+                _log_annotation_error(error_message)
+                continue
             if tokens:
                 sentences.append(tokens)
                 labels.append(token_labels)

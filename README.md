@@ -48,6 +48,7 @@ Follow these steps to reproduce the full workflow.
   * `data/segments_metadata.json` – a faithful JSON rendering of the spreadsheet so you can audit every label, whether it is limited, and its allowed values.
   * `data/segments_catalogue.json` – a compact summary that separates normal labels from limited labels and only keeps the value lists. This format loads quickly inside training and inference.
 * regenerates `data/processed/train.conll`, `data/processed/dev.conll`, and both `label2id.json`/`id2label.json` whenever the spreadsheet or the bracket-annotated corpora (`data/train.txt`, `data/dev.txt`) change so the processed datasets stay aligned with the source annotations.
+* records any `AnnotationParseError` issues encountered while rebuilding datasets in `logs/annotation_errors.log` so you can triage malformed lines without halting the entire run.
 
 Run the script whenever `segments.xlsx` **or** the annotated text files change so the JSON metadata and processed datasets stay synchronised with the authoritative sources. Skipping this step after edits leaves stale `.conll` or label-map artefacts behind.
 
@@ -135,6 +136,8 @@ Because inference mirrors the training tokenisation, any mismatch between tokeni
 │       ├── train.conll, dev.conll  # Auto-generated token/label sequences derived from train.txt / dev.txt
 │       ├── label2id.json           # Auto-generated label→index map aligned with the dataset
 │       └── id2label.json           # Inverse map exported alongside label2id for convenience
+├── logs/
+│   └── annotation_errors.log       # Appended to whenever malformed annotated lines are skipped
 ├── model/
 │   ├── config.json, pytorch_model.bin, tokenizer/  # Standard Hugging Face checkpoint assets
 │   ├── label_catalogue.json        # Saved by the trainer for quick lookup at inference time

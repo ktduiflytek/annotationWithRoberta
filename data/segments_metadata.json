@@ -558,7 +558,7 @@
       "粉色",
       "青色",
       "橙色",
-      "紫色&#10;red",
+      "紫色\nred",
       "yellow",
       "白色"
     ]
@@ -3401,11 +3401,6 @@
   },
   "maintenanceMileage": {
     "name": "maintenanceMileage",
-    "limited": false,
-    "values": []
-  },
-  "make": {
-    "name": "make",
     "limited": false,
     "values": []
   },
