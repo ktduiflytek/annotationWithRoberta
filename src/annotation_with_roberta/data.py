@@ -2,9 +2,11 @@
 
 from __future__ import annotations
 
+import difflib
 import json
 import logging
 import re
+import os
 from datetime import datetime
 from dataclasses import dataclass
 from pathlib import Path
@@ -18,6 +20,7 @@ LOG_DIR = PROJECT_ROOT / "logs"
 ANNOTATION_ERROR_LOG = LOG_DIR / "annotation_errors.log"
 
 SPREADSHEET_NS = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
+DEPRECATED_FALLBACK_LABEL = os.getenv("DEPRECATED_LABEL_FALLBACK", "O")
 
 
 @dataclass(frozen=True)
@@ -27,12 +30,14 @@ class SlotMetadata:
     name: str
     limited: bool
     values: Tuple[str, ...]
+    deprecated: bool = False
 
     def to_dict(self) -> Dict[str, object]:
         return {
             "name": self.name,
             "limited": self.limited,
             "values": list(self.values),
+            "deprecated": self.deprecated,
         }
 
 
@@ -109,16 +114,41 @@ def read_segments_metadata(path: Path) -> Dict[str, SlotMetadata]:
     rows = list(_read_sheet_rows(path))
     if not rows:
         raise ValueError(f"No data found in spreadsheet: {path}")
+    header_row: List[str] = rows[0]
+    header_lookup = {value.strip().lower(): idx for idx, value in enumerate(header_row) if value.strip()}
+
+    def _find_column(candidates: Sequence[str], default: int) -> int:
+        for candidate in candidates:
+            if candidate in header_lookup:
+                return header_lookup[candidate]
+        for candidate in candidates:
+            normalized_candidate = candidate.replace(" ", "")
+            for header_value, idx in header_lookup.items():
+                if header_value.replace(" ", "") == normalized_candidate:
+                    return idx
+        return default
+
+    label_idx = _find_column(["label", "name"], 0)
+    slot_type_idx = _find_column(["slot type", "type", "slot_type"], 2)
+    values_idx = _find_column(["values", "value", "枚举值"], 3)
+    deprecated_idx = _find_column(["deprecated", "status", "inactive"], -1)
+
     metadata: Dict[str, SlotMetadata] = {}
     for row in rows[1:]:  # Skip header
-        if not row or not row[0].strip():
+        if not row:
             continue
-        label = row[0].strip()
-        slot_type = row[2].strip() if len(row) > 2 else ''
+        label = row[label_idx].strip() if len(row) > label_idx else ""
+        if not label:
+            continue
+        slot_type = row[slot_type_idx].strip() if len(row) > slot_type_idx and slot_type_idx >= 0 else ''
         limited = slot_type == '有限槽'
-        raw_values = row[3].strip() if len(row) > 3 else ''
+        raw_values = row[values_idx].strip() if len(row) > values_idx and values_idx >= 0 else ''
         values: Tuple[str, ...] = tuple(v.strip() for v in raw_values.split('|') if v.strip())
-        metadata[label] = SlotMetadata(name=label, limited=limited, values=values)
+        deprecated = False
+        if deprecated_idx >= 0 and len(row) > deprecated_idx:
+            status_value = row[deprecated_idx].strip().lower()
+            deprecated = status_value in {"deprecated", "inactive", "obsolete", "停用", "true", "yes"} or status_value.startswith("deprecated")
+        metadata[label] = SlotMetadata(name=label, limited=limited, values=values, deprecated=deprecated)
     return metadata
 
 
@@ -210,11 +240,70 @@ def _normalise_whitespace(text: str) -> str:
     return " ".join(text.strip().split())
 
 
+def _resolve_limited_slot_value(
+    *,
+    slot_meta: SlotMetadata,
+    surface: str,
+    explicit_value: Optional[str],
+    label: str,
+    line: str,
+    line_no: Optional[int],
+) -> str:
+    resolved_value = explicit_value.strip() if explicit_value else ""
+    candidates = {candidate.lower(): candidate for candidate in slot_meta.values}
+    if not resolved_value:
+        resolved_value = candidates.get(surface.lower(), "")
+    if resolved_value not in slot_meta.values:
+        search_terms = [resolved_value, surface]
+        allowed_lower = [candidate.lower() for candidate in slot_meta.values]
+        choice_lookup = dict(zip(allowed_lower, slot_meta.values))
+        for term in search_terms:
+            if not term:
+                continue
+            lowered = term.lower()
+            if lowered in choice_lookup:
+                resolved_value = choice_lookup[lowered]
+                break
+        else:
+            best_match: Optional[str] = None
+            best_score = -1.0
+            for term in search_terms:
+                lowered_term = term.lower()
+                for candidate in allowed_lower:
+                    score = difflib.SequenceMatcher(None, lowered_term, candidate).ratio()
+                    if score > best_score:
+                        best_score = score
+                        best_match = candidate
+            if best_match is not None:
+                resolved_value = choice_lookup[best_match]
+                LOGGER.debug(
+                    "Resolved limited slot %s value '%s' to closest allowed option '%s' on line %s",
+                    label,
+                    explicit_value or surface,
+                    resolved_value,
+                    line_no if line_no is not None else "?",
+                )
+    if not resolved_value:
+        raise AnnotationParseError(
+            f"Limited slot '{label}' is missing a valid value",
+            line=line,
+            line_no=line_no,
+        )
+    if resolved_value not in slot_meta.values:
+        raise AnnotationParseError(
+            f"Value '{resolved_value}' is not allowed for limited slot '{label}'",
+            line=line,
+            line_no=line_no,
+        )
+    return resolved_value
+
+
 def parse_annotated_line(
     line: str,
     metadata: Mapping[str, SlotMetadata],
     *,
     line_no: Optional[int] = None,
+    deprecated_fallback_label: str = DEPRECATED_FALLBACK_LABEL,
 ) -> Tuple[List[str], List[str]]:
     """Convert a bracket-annotated sentence into BIO tokens and labels."""
 
@@ -252,29 +341,26 @@ def parse_annotated_line(
 
         slot_meta = metadata[label]
         if slot_meta.limited:
-            resolved_value = value.strip() if value else ""
-            if not resolved_value:
-                candidates = {candidate.lower(): candidate for candidate in slot_meta.values}
-                resolved_value = candidates.get(surface.lower(), "")
-            if not resolved_value:
-                raise AnnotationParseError(
-                    f"Limited slot '{label}' is missing a valid value",
-                    line=line,
-                    line_no=line_no,
-                )
-            if resolved_value not in slot_meta.values:
-                raise AnnotationParseError(
-                    f"Value '{resolved_value}' is not allowed for limited slot '{label}'",
-                    line=line,
-                    line_no=line_no,
-                )
+            _resolve_limited_slot_value(
+                slot_meta=slot_meta,
+                surface=surface,
+                explicit_value=value,
+                label=label,
+                line=line,
+                line_no=line_no,
+            )
+
+        effective_label = deprecated_fallback_label if slot_meta.deprecated else label
 
         span_tokens = [token for token in surface.split(" ") if token]
         if not span_tokens:
             continue
         tokens.extend(span_tokens)
-        labels.append(f"B-{label}")
-        labels.extend(f"I-{label}" for _ in span_tokens[1:])
+        if effective_label == "O":
+            labels.extend("O" for _ in span_tokens)
+        else:
+            labels.append(f"B-{effective_label}")
+            labels.extend(f"I-{effective_label}" for _ in span_tokens[1:])
 
     if cursor < len(line):
         trailing = _normalise_whitespace(line[cursor:])
@@ -291,6 +377,8 @@ def parse_annotated_line(
 def parse_annotated_corpus(
     path: Path,
     metadata: Mapping[str, SlotMetadata],
+    *,
+    deprecated_fallback_label: str = DEPRECATED_FALLBACK_LABEL,
 ) -> Tuple[List[List[str]], List[List[str]]]:
     """Parse an annotated text file into token/label sequences."""
 
@@ -299,7 +387,12 @@ def parse_annotated_corpus(
     with path.open("r", encoding="utf-8") as handle:
         for line_no, line in enumerate(handle, start=1):
             try:
-                tokens, token_labels = parse_annotated_line(line, metadata, line_no=line_no)
+                tokens, token_labels = parse_annotated_line(
+                    line,
+                    metadata,
+                    line_no=line_no,
+                    deprecated_fallback_label=deprecated_fallback_label,
+                )
             except AnnotationParseError as error:
                 error_message = f"{path} :: {error}"
                 LOGGER.warning(
@@ -384,6 +477,7 @@ def ensure_processed_datasets(
     segments_source: Optional[Path] = None,
     eval_text_file: Optional[Path] = None,
     eval_output_file: Optional[Path] = None,
+    deprecated_fallback_label: str = DEPRECATED_FALLBACK_LABEL,
 ) -> None:
     """Rebuild the processed CoNLL datasets when their sources change."""
 
@@ -400,7 +494,11 @@ def ensure_processed_datasets(
                 "Annotated training text is required to rebuild processed data, but none was provided",
             )
         LOGGER.info("Rebuilding processed training data from %s", train_text_file)
-        train_tokens, train_labels = parse_annotated_corpus(train_text_file, metadata)
+        train_tokens, train_labels = parse_annotated_corpus(
+            train_text_file,
+            metadata,
+            deprecated_fallback_label=deprecated_fallback_label,
+        )
         write_conll_dataset(train_tokens, train_labels, train_output_file)
     else:
         _, train_labels = read_conll_dataset(train_output_file)
@@ -424,7 +522,11 @@ def ensure_processed_datasets(
                 )
             else:
                 LOGGER.info("Rebuilding processed dev data from %s", eval_text_file)
-                eval_tokens, eval_labels = parse_annotated_corpus(eval_text_file, metadata)
+                eval_tokens, eval_labels = parse_annotated_corpus(
+                    eval_text_file,
+                    metadata,
+                    deprecated_fallback_label=deprecated_fallback_label,
+                )
                 write_conll_dataset(eval_tokens, eval_labels, eval_output_file)
                 label_sequences.extend(eval_labels)
         elif eval_output_file.exists():
@@ -435,6 +537,8 @@ def ensure_processed_datasets(
     label_dependencies = [train_output_file]
     if eval_output_file is not None and eval_output_file.exists():
         label_dependencies.append(eval_output_file)
+    if segments_source is not None:
+        label_dependencies.append(segments_source)
     rebuild_label_map = _needs_rebuild(label_map_file, label_dependencies)
     if rebuild_label_map:
         LOGGER.info("Rebuilding label2id map at %s", label_map_file)
@@ -442,7 +546,27 @@ def ensure_processed_datasets(
             label_sequences.extend(read_conll_dataset(train_output_file)[1])
             if eval_output_file is not None and eval_output_file.exists():
                 label_sequences.extend(read_conll_dataset(eval_output_file)[1])
-        label_map = build_label_map(label_sequences)
+        observed_labels: Set[str] = set()
+        for sequence in label_sequences:
+            observed_labels.update(sequence)
+
+        observed_labels.add("O")
+        for label in metadata:
+            observed_labels.add(f"B-{label}")
+            observed_labels.add(f"I-{label}")
+
+        existing_label_map: Dict[str, int] = {}
+        if label_map_file.exists():
+            existing_label_map = load_label_map_json(label_map_file)
+
+        label_map: Dict[str, int] = {
+            label: idx for label, idx in sorted(existing_label_map.items(), key=lambda item: item[1])
+        }
+        next_index = (max(label_map.values()) + 1) if label_map else 0
+        for label in sorted(observed_labels):
+            if label not in label_map:
+                label_map[label] = next_index
+                next_index += 1
         save_label_map_json(label_map, label_map_file)
         if id_map_file is not None:
             id_map = {idx: label for label, idx in label_map.items()}
