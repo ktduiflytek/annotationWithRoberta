@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import difflib
 import json
 import logging
 from dataclasses import dataclass
@@ -160,9 +161,26 @@ class AutoAnnotator:
             if candidate.lower() == normalized_surface:
                 return candidate
         if slot_meta.limited:
-            LOGGER.warning(
-                "Could not resolve value for limited slot %s with surface '%s'", label, surface
-            )
+            allowed_lower = [candidate.lower() for candidate in slot_meta.values]
+            choice_lookup = dict(zip(allowed_lower, slot_meta.values))
+            best_match: Optional[str] = None
+            best_score = -1.0
+            for candidate in allowed_lower:
+                score = difflib.SequenceMatcher(None, normalized_surface, candidate).ratio()
+                if score > best_score:
+                    best_score = score
+                    best_match = candidate
+            if best_match is not None:
+                resolved = choice_lookup[best_match]
+                LOGGER.debug(
+                    "Resolved limited slot %s value '%s' to closest allowed option '%s'",
+                    label,
+                    surface,
+                    resolved,
+                )
+                return resolved
+            if slot_meta.values:
+                return slot_meta.values[0]
         return None
 
 
