@@ -1,9 +1,4 @@
 {
-  "&#10;carDoorRearRight": {
-    "name": "&#10;carDoorRearRight",
-    "limited": false,
-    "values": []
-  },
   "12hours": {
     "name": "12hours",
     "limited": false,
@@ -68,6 +63,11 @@
     "limited": false,
     "values": []
   },
+  "absence": {
+    "name": "absence",
+    "limited": false,
+    "values": []
+  },
   "ac": {
     "name": "ac",
     "limited": false,
@@ -85,7 +85,8 @@
       "自动循环",
       "内循环",
       "外循环",
-      "inner_loop"
+      "inner_loop",
+      "outer_loop"
     ]
   },
   "accelerate": {
@@ -128,6 +129,11 @@
   },
   "action": {
     "name": "action",
+    "limited": false,
+    "values": []
+  },
+  "activated": {
+    "name": "activated",
     "limited": false,
     "values": []
   },
@@ -229,6 +235,28 @@
     "limited": false,
     "values": []
   },
+  "airDirectionType": {
+    "name": "airDirectionType",
+    "limited": true,
+    "values": [
+      "吹面",
+      "吹脚",
+      "吹面吹脚",
+      "吹脚吹前玻璃",
+      "吹面吹脚吹玻璃",
+      "up",
+      "down",
+      "front_window",
+      "down_front",
+      "up_down",
+      "吹面吹玻璃",
+      "吹脚吹玻璃",
+      "避人吹风",
+      "对人吹风",
+      "吹面吹前玻璃",
+      "吹面吹脚吹前玻璃"
+    ]
+  },
   "airPurifier": {
     "name": "airPurifier",
     "limited": false,
@@ -298,7 +326,11 @@
       "smart",
       "reminder",
       "single_seat",
-      "parking_automatic_inner_loop"
+      "parking_automatic_inner_loop",
+      "automatic_defog",
+      "pm25",
+      "anion_control",
+      "economic"
     ]
   },
   "airconditionerMainPage": {
@@ -345,7 +377,8 @@
     "name": "alertSoundType",
     "limited": true,
     "values": [
-      "锁车提示音"
+      "锁车提示音",
+      "pedestrian_protection_sound"
     ]
   },
   "all": {
@@ -398,7 +431,8 @@
       "breathing",
       "跟随系统设置模式",
       "关联驾驶模式",
-      "atmosphere_music_rhythm"
+      "atmosphere_music_rhythm",
+      "ambient_light_related_driving"
     ]
   },
   "amplifier": {
@@ -471,6 +505,11 @@
     "limited": false,
     "values": []
   },
+  "appList": {
+    "name": "appList",
+    "limited": false,
+    "values": []
+  },
   "appManagementSet": {
     "name": "appManagementSet",
     "limited": false,
@@ -533,7 +572,6 @@
       "yandex music",
       "yandex books",
       "vk video",
-      "zoom",
       "bale_chat",
       "handle_game",
       "arcade_game",
@@ -541,11 +579,35 @@
       "care_mode",
       "tunein_radio",
       "byd radio",
-      "invigorating_mode"
+      "invigorating_mode",
+      "浏览器",
+      "rest space",
+      "camping space",
+      "security manager",
+      "spotify",
+      "amazon music",
+      "Apple TV",
+      "Prime Video",
+      "HBO Max",
+      "ESPN",
+      "IQIYI",
+      "Globoplay",
+      "Watch IT",
+      "Tving",
+      "WeTV",
+      "Disney+Hotstar",
+      "LINE Music",
+      "disney",
+      "卡拉OK"
     ]
   },
   "ar": {
     "name": "ar",
+    "limited": false,
+    "values": []
+  },
+  "arNavigation": {
+    "name": "arNavigation",
     "limited": false,
     "values": []
   },
@@ -605,10 +667,11 @@
       "粉色",
       "青色",
       "橙色",
-      "紫色&#10;red",
+      "紫色\nred",
       "yellow",
       "白色",
-      "dark_blue"
+      "dark_blue",
+      "green"
     ]
   },
   "atmosphereLampPosition": {
@@ -664,6 +727,11 @@
   },
   "auto": {
     "name": "auto",
+    "limited": false,
+    "values": []
+  },
+  "autoDownload": {
+    "name": "autoDownload",
     "limited": false,
     "values": []
   },
@@ -768,6 +836,11 @@
     "limited": false,
     "values": []
   },
+  "background": {
+    "name": "background",
+    "limited": false,
+    "values": []
+  },
   "backlight": {
     "name": "backlight",
     "limited": false,
@@ -803,6 +876,16 @@
     "limited": false,
     "values": []
   },
+  "be": {
+    "name": "be",
+    "limited": false,
+    "values": []
+  },
+  "become": {
+    "name": "become",
+    "limited": false,
+    "values": []
+  },
   "before": {
     "name": "before",
     "limited": false,
@@ -825,6 +908,11 @@
   },
   "bereit": {
     "name": "bereit",
+    "limited": false,
+    "values": []
+  },
+  "best": {
+    "name": "best",
     "limited": false,
     "values": []
   },
@@ -931,6 +1019,11 @@
   },
   "bookList": {
     "name": "bookList",
+    "limited": false,
+    "values": []
+  },
+  "bookTrip": {
+    "name": "bookTrip",
     "limited": false,
     "values": []
   },
@@ -1140,6 +1233,11 @@
     "limited": false,
     "values": []
   },
+  "captureAuf": {
+    "name": "captureAuf",
+    "limited": false,
+    "values": []
+  },
   "car": {
     "name": "car",
     "limited": false,
@@ -1147,6 +1245,11 @@
   },
   "carDoor": {
     "name": "carDoor",
+    "limited": false,
+    "values": []
+  },
+  "carDoorAuxiliaryDriver": {
+    "name": "carDoorAuxiliaryDriver",
     "limited": false,
     "values": []
   },
@@ -1191,6 +1294,11 @@
     "limited": false,
     "values": []
   },
+  "carDoorRearRight": {
+    "name": "carDoorRearRight",
+    "limited": false,
+    "values": []
+  },
   "carPlay": {
     "name": "carPlay",
     "limited": false,
@@ -1198,6 +1306,11 @@
   },
   "carWash": {
     "name": "carWash",
+    "limited": false,
+    "values": []
+  },
+  "carWashMode": {
+    "name": "carWashMode",
     "limited": false,
     "values": []
   },
@@ -1425,6 +1538,11 @@
     "limited": false,
     "values": []
   },
+  "closeSync": {
+    "name": "closeSync",
+    "limited": false,
+    "values": []
+  },
   "closeZu": {
     "name": "closeZu",
     "limited": false,
@@ -1450,8 +1568,18 @@
     "limited": false,
     "values": []
   },
+  "codriveSeatMassage": {
+    "name": "codriveSeatMassage",
+    "limited": false,
+    "values": []
+  },
   "codriveSeatVentilation": {
     "name": "codriveSeatVentilation",
+    "limited": false,
+    "values": []
+  },
+  "codriveWindow": {
+    "name": "codriveWindow",
     "limited": false,
     "values": []
   },
@@ -1533,6 +1661,11 @@
   },
   "column": {
     "name": "column",
+    "limited": false,
+    "values": []
+  },
+  "comfortMode": {
+    "name": "comfortMode",
     "limited": false,
     "values": []
   },
@@ -1621,13 +1754,18 @@
     "limited": false,
     "values": []
   },
-  "contactNumberInt": {
-    "name": "contactNumberInt",
+  "contactNumber": {
+    "name": "contactNumber",
     "limited": false,
     "values": []
   },
   "content": {
     "name": "content",
+    "limited": false,
+    "values": []
+  },
+  "continuation": {
+    "name": "continuation",
     "limited": false,
     "values": []
   },
@@ -1638,6 +1776,11 @@
   },
   "continueFort": {
     "name": "continueFort",
+    "limited": false,
+    "values": []
+  },
+  "continueNavigate": {
+    "name": "continueNavigate",
     "limited": false,
     "values": []
   },
@@ -1834,6 +1977,11 @@
     "limited": false,
     "values": []
   },
+  "dashboardBrightness": {
+    "name": "dashboardBrightness",
+    "limited": false,
+    "values": []
+  },
   "dashboardDisplayType": {
     "name": "dashboardDisplayType",
     "limited": true,
@@ -2022,7 +2170,8 @@
     "limited": true,
     "values": [
       "壁纸",
-      "3d"
+      "3d",
+      "导航"
     ]
   },
   "destination": {
@@ -2077,6 +2226,11 @@
   },
   "directCurrent": {
     "name": "directCurrent",
+    "limited": false,
+    "values": []
+  },
+  "directVerb": {
+    "name": "directVerb",
     "limited": false,
     "values": []
   },
@@ -2147,6 +2301,11 @@
   },
   "disus": {
     "name": "disus",
+    "limited": false,
+    "values": []
+  },
+  "disusMode": {
+    "name": "disusMode",
     "limited": false,
     "values": []
   },
@@ -2222,8 +2381,18 @@
     "limited": false,
     "values": []
   },
+  "driveSeatMassage": {
+    "name": "driveSeatMassage",
+    "limited": false,
+    "values": []
+  },
   "driveSeatVentilation": {
     "name": "driveSeatVentilation",
+    "limited": false,
+    "values": []
+  },
+  "driveWindow": {
+    "name": "driveWindow",
     "limited": false,
     "values": []
   },
@@ -2244,6 +2413,16 @@
   },
   "drivingMode": {
     "name": "drivingMode",
+    "limited": false,
+    "values": []
+  },
+  "drivingModeComfort": {
+    "name": "drivingModeComfort",
+    "limited": false,
+    "values": []
+  },
+  "drivingModeEco": {
+    "name": "drivingModeEco",
     "limited": false,
     "values": []
   },
@@ -2274,7 +2453,13 @@
       "赛道模式",
       "track",
       "pet",
-      "soundwave"
+      "soundwave",
+      "陡坡缓降模式",
+      "山地模式",
+      "relax",
+      "extreme",
+      "personalise",
+      "economy"
     ]
   },
   "drivingSetting": {
@@ -2307,6 +2492,11 @@
     "limited": false,
     "values": []
   },
+  "eLock": {
+    "name": "eLock",
+    "limited": false,
+    "values": []
+  },
   "eagleEyeMap": {
     "name": "eagleEyeMap",
     "limited": false,
@@ -2319,6 +2509,11 @@
   },
   "eat": {
     "name": "eat",
+    "limited": false,
+    "values": []
+  },
+  "economicNews": {
+    "name": "economicNews",
     "limited": false,
     "values": []
   },
@@ -2378,7 +2573,11 @@
     "values": [
       "LOW",
       "MIDDLE",
-      "HIGH"
+      "HIGH",
+      "mid",
+      "low",
+      "high",
+      "max"
     ]
   },
   "energySetting": {
@@ -2391,6 +2590,11 @@
     "limited": false,
     "values": []
   },
+  "engineSound": {
+    "name": "engineSound",
+    "limited": false,
+    "values": []
+  },
   "enjoy": {
     "name": "enjoy",
     "limited": false,
@@ -2398,6 +2602,11 @@
   },
   "entertainment": {
     "name": "entertainment",
+    "limited": false,
+    "values": []
+  },
+  "entertainmentNews": {
+    "name": "entertainmentNews",
     "limited": false,
     "values": []
   },
@@ -2440,6 +2649,16 @@
     "limited": false,
     "values": []
   },
+  "exist": {
+    "name": "exist",
+    "limited": false,
+    "values": []
+  },
+  "existStatt": {
+    "name": "existStatt",
+    "limited": false,
+    "values": []
+  },
   "exit": {
     "name": "exit",
     "limited": false,
@@ -2467,6 +2686,26 @@
   },
   "extreme": {
     "name": "extreme",
+    "limited": false,
+    "values": []
+  },
+  "extremeBright": {
+    "name": "extremeBright",
+    "limited": false,
+    "values": []
+  },
+  "extremeDark": {
+    "name": "extremeDark",
+    "limited": false,
+    "values": []
+  },
+  "extremeHigh": {
+    "name": "extremeHigh",
+    "limited": false,
+    "values": []
+  },
+  "extremeLow": {
+    "name": "extremeLow",
     "limited": false,
     "values": []
   },
@@ -2500,6 +2739,11 @@
     "limited": false,
     "values": []
   },
+  "famous": {
+    "name": "famous",
+    "limited": false,
+    "values": []
+  },
   "fan": {
     "name": "fan",
     "limited": false,
@@ -2516,7 +2760,8 @@
     "values": [
       "LOW",
       "MIDDLE",
-      "HIGH"
+      "HIGH",
+      "mid"
     ]
   },
   "fast": {
@@ -2624,6 +2869,11 @@
     "limited": false,
     "values": []
   },
+  "folder": {
+    "name": "folder",
+    "limited": false,
+    "values": []
+  },
   "follow": {
     "name": "follow",
     "limited": false,
@@ -2631,6 +2881,11 @@
   },
   "food": {
     "name": "food",
+    "limited": false,
+    "values": []
+  },
+  "foodNews": {
+    "name": "foodNews",
     "limited": false,
     "values": []
   },
@@ -2646,6 +2901,11 @@
   },
   "forecast": {
     "name": "forecast",
+    "limited": false,
+    "values": []
+  },
+  "forgotten": {
+    "name": "forgotten",
     "limited": false,
     "values": []
   },
@@ -2753,7 +3013,9 @@
       "heat",
       "sterilization",
       "power_off_delay",
-      "smart"
+      "smart",
+      "保鲜模式",
+      "keep_fresh"
     ]
   },
   "fridgeSmartModeType": {
@@ -2781,8 +3043,23 @@
     "limited": false,
     "values": []
   },
+  "frontDefog": {
+    "name": "frontDefog",
+    "limited": false,
+    "values": []
+  },
+  "frontDefrost": {
+    "name": "frontDefrost",
+    "limited": false,
+    "values": []
+  },
   "frontWindow": {
     "name": "frontWindow",
+    "limited": false,
+    "values": []
+  },
+  "frontWiper": {
+    "name": "frontWiper",
     "limited": false,
     "values": []
   },
@@ -2914,6 +3191,11 @@
     "limited": false,
     "values": []
   },
+  "have": {
+    "name": "have",
+    "limited": false,
+    "values": []
+  },
   "headLight": {
     "name": "headLight",
     "limited": false,
@@ -2954,7 +3236,9 @@
       "远光灯模式",
       "low_beam_light",
       "high_beam_light",
-      "近光灯自动开启模式"
+      "近光灯自动开启模式",
+      "headlight_delay",
+      "intelligent_high_beam_assist"
     ]
   },
   "headNumberInt": {
@@ -2964,6 +3248,11 @@
   },
   "headUP": {
     "name": "headUP",
+    "limited": false,
+    "values": []
+  },
+  "healthNews": {
+    "name": "healthNews",
     "limited": false,
     "values": []
   },
@@ -3134,6 +3423,11 @@
     "limited": false,
     "values": []
   },
+  "hotNews": {
+    "name": "hotNews",
+    "limited": false,
+    "values": []
+  },
   "hotSpot": {
     "name": "hotSpot",
     "limited": false,
@@ -3179,6 +3473,11 @@
     "limited": false,
     "values": []
   },
+  "hudBrightness": {
+    "name": "hudBrightness",
+    "limited": false,
+    "values": []
+  },
   "hudDirection": {
     "name": "hudDirection",
     "limited": true,
@@ -3198,6 +3497,11 @@
       "标准模式"
     ]
   },
+  "hudHeight": {
+    "name": "hudHeight",
+    "limited": false,
+    "values": []
+  },
   "i": {
     "name": "i",
     "limited": false,
@@ -3215,6 +3519,11 @@
   },
   "immediately": {
     "name": "immediately",
+    "limited": false,
+    "values": []
+  },
+  "inCallBroadcast": {
+    "name": "inCallBroadcast",
     "limited": false,
     "values": []
   },
@@ -3283,6 +3592,16 @@
     "limited": false,
     "values": []
   },
+  "innerCamera": {
+    "name": "innerCamera",
+    "limited": false,
+    "values": []
+  },
+  "innerCameraVideoRecord": {
+    "name": "innerCameraVideoRecord",
+    "limited": false,
+    "values": []
+  },
   "input": {
     "name": "input",
     "limited": false,
@@ -3310,6 +3629,11 @@
   },
   "intelligentKeySensor": {
     "name": "intelligentKeySensor",
+    "limited": false,
+    "values": []
+  },
+  "intelligentKeyTailgate": {
+    "name": "intelligentKeyTailgate",
     "limited": false,
     "values": []
   },
@@ -3608,6 +3932,11 @@
     "limited": false,
     "values": []
   },
+  "lifestyleNews": {
+    "name": "lifestyleNews",
+    "limited": false,
+    "values": []
+  },
   "light": {
     "name": "light",
     "limited": false,
@@ -3684,6 +4013,11 @@
   },
   "listen": {
     "name": "listen",
+    "limited": false,
+    "values": []
+  },
+  "listened": {
+    "name": "listened",
     "limited": false,
     "values": []
   },
@@ -3901,6 +4235,11 @@
       "mid"
     ]
   },
+  "massageIntensity": {
+    "name": "massageIntensity",
+    "limited": false,
+    "values": []
+  },
   "massageMode": {
     "name": "massageMode",
     "limited": false,
@@ -3929,7 +4268,8 @@
       "腰背按摩模式",
       "自在舒身模式",
       "活力舒展模式",
-      "臀腿按摩模式"
+      "臀腿按摩模式",
+      "pulse_type"
     ]
   },
   "maxBrightness": {
@@ -3957,6 +4297,11 @@
     "limited": false,
     "values": []
   },
+  "measurement": {
+    "name": "measurement",
+    "limited": false,
+    "values": []
+  },
   "media": {
     "name": "media",
     "limited": false,
@@ -3980,7 +4325,11 @@
       "youtube music",
       "collect",
       "spotify",
-      "amazon"
+      "amazon",
+      "device 1",
+      "device 2",
+      "web",
+      "sd"
     ]
   },
   "mediaVolume": {
@@ -4138,6 +4487,11 @@
     "limited": false,
     "values": []
   },
+  "modalVerb": {
+    "name": "modalVerb",
+    "limited": false,
+    "values": []
+  },
   "mode": {
     "name": "mode",
     "limited": false,
@@ -4160,6 +4514,11 @@
   },
   "monitor": {
     "name": "monitor",
+    "limited": false,
+    "values": []
+  },
+  "monitoring": {
+    "name": "monitoring",
     "limited": false,
     "values": []
   },
@@ -4231,6 +4590,11 @@
     "limited": false,
     "values": []
   },
+  "musicListCollection": {
+    "name": "musicListCollection",
+    "limited": false,
+    "values": []
+  },
   "musicNameRefer": {
     "name": "musicNameRefer",
     "limited": false,
@@ -4248,6 +4612,11 @@
   },
   "my": {
     "name": "my",
+    "limited": false,
+    "values": []
+  },
+  "myHome": {
+    "name": "myHome",
     "limited": false,
     "values": []
   },
@@ -4326,6 +4695,11 @@
     "limited": false,
     "values": []
   },
+  "necessary": {
+    "name": "necessary",
+    "limited": false,
+    "values": []
+  },
   "need": {
     "name": "need",
     "limited": false,
@@ -4380,6 +4754,11 @@
   },
   "nextPage": {
     "name": "nextPage",
+    "limited": false,
+    "values": []
+  },
+  "nextSong": {
+    "name": "nextSong",
     "limited": false,
     "values": []
   },
@@ -4594,6 +4973,11 @@
     "limited": false,
     "values": []
   },
+  "onlineNews": {
+    "name": "onlineNews",
+    "limited": false,
+    "values": []
+  },
   "onlineVideo": {
     "name": "onlineVideo",
     "limited": false,
@@ -4714,6 +5098,11 @@
     "limited": false,
     "values": []
   },
+  "organismMonitor": {
+    "name": "organismMonitor",
+    "limited": false,
+    "values": []
+  },
   "orientationMap": {
     "name": "orientationMap",
     "limited": false,
@@ -4726,6 +5115,16 @@
   },
   "others": {
     "name": "others",
+    "limited": false,
+    "values": []
+  },
+  "outerCamera": {
+    "name": "outerCamera",
+    "limited": false,
+    "values": []
+  },
+  "outerCameraVideoRecord": {
+    "name": "outerCameraVideoRecord",
     "limited": false,
     "values": []
   },
@@ -4949,6 +5348,20 @@
     "limited": false,
     "values": []
   },
+  "playbackSourceType": {
+    "name": "playbackSourceType",
+    "limited": true,
+    "values": [
+      "spotify",
+      "amazon music",
+      "youtube music"
+    ]
+  },
+  "played": {
+    "name": "played",
+    "limited": false,
+    "values": []
+  },
   "playlist": {
     "name": "playlist",
     "limited": false,
@@ -4996,6 +5409,11 @@
   },
   "poiWaypoint": {
     "name": "poiWaypoint",
+    "limited": false,
+    "values": []
+  },
+  "politicalNews": {
+    "name": "politicalNews",
     "limited": false,
     "values": []
   },
@@ -5051,7 +5469,12 @@
       "混动模式",
       "强制发电模式",
       "forced_power_generation",
-      "纯电模式"
+      "纯电模式",
+      "power_mode",
+      "pure_electric_first",
+      "forced_pure_electric",
+      "fuel_first",
+      "hybrid"
     ]
   },
   "powerRetention": {
@@ -5184,6 +5607,11 @@
     "limited": false,
     "values": []
   },
+  "queryDestinationName": {
+    "name": "queryDestinationName",
+    "limited": false,
+    "values": []
+  },
   "queryDistance": {
     "name": "queryDistance",
     "limited": false,
@@ -5199,6 +5627,11 @@
     "limited": false,
     "values": []
   },
+  "queryName": {
+    "name": "queryName",
+    "limited": false,
+    "values": []
+  },
   "queryTimeRemain": {
     "name": "queryTimeRemain",
     "limited": false,
@@ -5206,6 +5639,11 @@
   },
   "queryTrafficInfo": {
     "name": "queryTrafficInfo",
+    "limited": false,
+    "values": []
+  },
+  "queryUmbrella": {
+    "name": "queryUmbrella",
     "limited": false,
     "values": []
   },
@@ -5231,6 +5669,11 @@
   },
   "quickHeat": {
     "name": "quickHeat",
+    "limited": false,
+    "values": []
+  },
+  "quiet": {
+    "name": "quiet",
     "limited": false,
     "values": []
   },
@@ -5323,7 +5766,10 @@
     "limited": true,
     "values": [
       "综合模式",
-      "WLTP模式"
+      "WLTP模式",
+      "ev_mileage",
+      "hev_mileage",
+      "total_mileage"
     ]
   },
   "rangeInfoCalculateType": {
@@ -5333,7 +5779,8 @@
       "标准里程",
       "动态里程",
       "standard_mileage",
-      "dynamic_mileage"
+      "dynamic_mileage",
+      "electric_quantity"
     ]
   },
   "rangeInformationCalculationStandard": {
@@ -5391,7 +5838,8 @@
       "第二排左",
       "第二排右",
       "全车",
-      "右后"
+      "右后",
+      "左后"
     ]
   },
   "readVor": {
@@ -5406,6 +5854,26 @@
   },
   "rear": {
     "name": "rear",
+    "limited": false,
+    "values": []
+  },
+  "rearDefog": {
+    "name": "rearDefog",
+    "limited": false,
+    "values": []
+  },
+  "rearDefrost": {
+    "name": "rearDefrost",
+    "limited": false,
+    "values": []
+  },
+  "rearWindow": {
+    "name": "rearWindow",
+    "limited": false,
+    "values": []
+  },
+  "rearWiper": {
+    "name": "rearWiper",
     "limited": false,
     "values": []
   },
@@ -5650,6 +6118,11 @@
     "limited": false,
     "values": []
   },
+  "roadMode": {
+    "name": "roadMode",
+    "limited": false,
+    "values": []
+  },
   "roadModeType": {
     "name": "roadModeType",
     "limited": true,
@@ -5665,6 +6138,11 @@
   },
   "rotate": {
     "name": "rotate",
+    "limited": false,
+    "values": []
+  },
+  "rotateAngle": {
+    "name": "rotateAngle",
     "limited": false,
     "values": []
   },
@@ -5810,7 +6288,10 @@
       "camping_mode",
       "invigorating_mode",
       "temporary_stop_mode",
-      "pet_mode"
+      "pet_mode",
+      "会议模式",
+      "智能模式",
+      "camping"
     ]
   },
   "schedule": {
@@ -5820,6 +6301,11 @@
   },
   "scheduledCharging": {
     "name": "scheduledCharging",
+    "limited": false,
+    "values": []
+  },
+  "scheduledChargingSetting": {
+    "name": "scheduledChargingSetting",
     "limited": false,
     "values": []
   },
@@ -5927,6 +6413,11 @@
     "limited": false,
     "values": []
   },
+  "searchAB": {
+    "name": "searchAB",
+    "limited": false,
+    "values": []
+  },
   "searchHeraus": {
     "name": "searchHeraus",
     "limited": false,
@@ -5998,11 +6489,17 @@
     "limited": false,
     "values": []
   },
+  "seatMemoryKeyBinding": {
+    "name": "seatMemoryKeyBinding",
+    "limited": false,
+    "values": []
+  },
   "seatModeType": {
     "name": "seatModeType",
     "limited": true,
     "values": [
-      "座椅记忆模式"
+      "座椅记忆模式",
+      "zero_gravity"
     ]
   },
   "seatModeValue": {
@@ -6155,6 +6652,11 @@
     "limited": false,
     "values": []
   },
+  "sentenceCancel": {
+    "name": "sentenceCancel",
+    "limited": false,
+    "values": []
+  },
   "sentenceChargingTimeRemain": {
     "name": "sentenceChargingTimeRemain",
     "limited": false,
@@ -6165,8 +6667,18 @@
     "limited": false,
     "values": []
   },
+  "sentenceConfirm": {
+    "name": "sentenceConfirm",
+    "limited": false,
+    "values": []
+  },
   "sentenceDecreaseAirTempLittle": {
     "name": "sentenceDecreaseAirTempLittle",
+    "limited": false,
+    "values": []
+  },
+  "sentenceDecreaseAirTempLittleRear": {
+    "name": "sentenceDecreaseAirTempLittleRear",
     "limited": false,
     "values": []
   },
@@ -6200,6 +6712,11 @@
     "limited": false,
     "values": []
   },
+  "sentenceIncreaseAirTempLittleRear": {
+    "name": "sentenceIncreaseAirTempLittleRear",
+    "limited": false,
+    "values": []
+  },
   "sentenceIncreaseAirTempMore": {
     "name": "sentenceIncreaseAirTempMore",
     "limited": false,
@@ -6230,6 +6747,11 @@
     "limited": false,
     "values": []
   },
+  "sentenceOpenFeedback": {
+    "name": "sentenceOpenFeedback",
+    "limited": false,
+    "values": []
+  },
   "sentenceOpenReadlight": {
     "name": "sentenceOpenReadlight",
     "limited": false,
@@ -6252,6 +6774,11 @@
   },
   "sentenceRest": {
     "name": "sentenceRest",
+    "limited": false,
+    "values": []
+  },
+  "sentenceReturn": {
+    "name": "sentenceReturn",
     "limited": false,
     "values": []
   },
@@ -6282,6 +6809,16 @@
   },
   "sentenceZoomIn": {
     "name": "sentenceZoomIn",
+    "limited": false,
+    "values": []
+  },
+  "sentenceZoomMax": {
+    "name": "sentenceZoomMax",
+    "limited": false,
+    "values": []
+  },
+  "sentenceZoomMin": {
+    "name": "sentenceZoomMin",
     "limited": false,
     "values": []
   },
@@ -6358,7 +6895,21 @@
       "al_qibla_set",
       "safe_set",
       "ambient_light_set",
-      "comfortable_environment_set"
+      "comfortable_environment_set",
+      "预约充电设置",
+      "能量管理页面",
+      "intelligent_key_set",
+      "lighting_set",
+      "driver_assistance_set",
+      "quick_control",
+      "ac_set",
+      "fridge_set",
+      "energy_set",
+      "discharge_set",
+      "others_set",
+      "charging_stop_soc_set",
+      "electric_quantity_management",
+      "energy_consumption_list"
     ]
   },
   "setTo": {
@@ -6368,6 +6919,11 @@
   },
   "setting": {
     "name": "setting",
+    "limited": false,
+    "values": []
+  },
+  "shine": {
+    "name": "shine",
     "limited": false,
     "values": []
   },
@@ -6383,6 +6939,11 @@
   },
   "showDar": {
     "name": "showDar",
+    "limited": false,
+    "values": []
+  },
+  "showEin": {
+    "name": "showEin",
     "limited": false,
     "values": []
   },
@@ -6451,6 +7012,19 @@
     "limited": false,
     "values": []
   },
+  "singingList": {
+    "name": "singingList",
+    "limited": false,
+    "values": []
+  },
+  "singingMode": {
+    "name": "singingMode",
+    "limited": true,
+    "values": [
+      "original_mode",
+      "instrumental_mode"
+    ]
+  },
   "single": {
     "name": "single",
     "limited": false,
@@ -6463,6 +7037,16 @@
   },
   "situation": {
     "name": "situation",
+    "limited": false,
+    "values": []
+  },
+  "skim": {
+    "name": "skim",
+    "limited": false,
+    "values": []
+  },
+  "skip": {
+    "name": "skip",
     "limited": false,
     "values": []
   },
@@ -6493,6 +7077,11 @@
   },
   "small": {
     "name": "small",
+    "limited": false,
+    "values": []
+  },
+  "smartDeodorize": {
+    "name": "smartDeodorize",
     "limited": false,
     "values": []
   },
@@ -6546,7 +7135,9 @@
     "limited": true,
     "values": [
       "强制保电模式",
-      "保电模式"
+      "保电模式",
+      "power_saving_mode",
+      "forced_battery_retention_memory"
     ]
   },
   "socialApp": {
@@ -6676,16 +7267,6 @@
       "女声"
     ]
   },
-  "specialDate": {
-    "name": "specialDate",
-    "limited": true,
-    "values": [
-      "今天",
-      "明天",
-      "后天",
-      "today"
-    ]
-  },
   "speed": {
     "name": "speed",
     "limited": false,
@@ -6698,6 +7279,11 @@
   },
   "splitScreen": {
     "name": "splitScreen",
+    "limited": false,
+    "values": []
+  },
+  "sportNews": {
+    "name": "sportNews",
     "limited": false,
     "values": []
   },
@@ -6760,6 +7346,11 @@
       "运动模式"
     ]
   },
+  "steeringWheelHeating": {
+    "name": "steeringWheelHeating",
+    "limited": false,
+    "values": []
+  },
   "step": {
     "name": "step",
     "limited": false,
@@ -6815,6 +7406,11 @@
     "limited": false,
     "values": []
   },
+  "sunny": {
+    "name": "sunny",
+    "limited": false,
+    "values": []
+  },
   "sunroof": {
     "name": "sunroof",
     "limited": false,
@@ -6862,23 +7458,8 @@
   },
   "sweepMode": {
     "name": "sweepMode",
-    "limited": true,
-    "values": [
-      "吹面",
-      "吹脚",
-      "吹面吹脚",
-      "吹脚吹前玻璃",
-      "吹面吹脚吹玻璃",
-      "up",
-      "down",
-      "front_window",
-      "down_front",
-      "up_down",
-      "吹面吹玻璃",
-      "吹脚吹玻璃",
-      "避人吹风",
-      "对人吹风"
-    ]
+    "limited": false,
+    "values": []
   },
   "sweepModeType": {
     "name": "sweepModeType",
@@ -6893,6 +7474,11 @@
   },
   "switchAn": {
     "name": "switchAn",
+    "limited": false,
+    "values": []
+  },
+  "switchChannel": {
+    "name": "switchChannel",
     "limited": false,
     "values": []
   },
@@ -6986,6 +7572,19 @@
     "limited": false,
     "values": []
   },
+  "takeVideoCategory": {
+    "name": "takeVideoCategory",
+    "limited": true,
+    "values": [
+      "车内",
+      "车外"
+    ]
+  },
+  "techNews": {
+    "name": "techNews",
+    "limited": false,
+    "values": []
+  },
   "teil": {
     "name": "teil",
     "limited": false,
@@ -7075,6 +7674,11 @@
     "limited": false,
     "values": []
   },
+  "thisYear": {
+    "name": "thisYear",
+    "limited": false,
+    "values": []
+  },
   "threeQuarters": {
     "name": "threeQuarters",
     "limited": false,
@@ -7082,6 +7686,16 @@
   },
   "tilt": {
     "name": "tilt",
+    "limited": false,
+    "values": []
+  },
+  "tiltAngle": {
+    "name": "tiltAngle",
+    "limited": false,
+    "values": []
+  },
+  "tiltNoun": {
+    "name": "tiltNoun",
     "limited": false,
     "values": []
   },
@@ -7152,6 +7766,11 @@
   },
   "topList": {
     "name": "topList",
+    "limited": false,
+    "values": []
+  },
+  "topNews": {
+    "name": "topNews",
     "limited": false,
     "values": []
   },
@@ -7230,6 +7849,11 @@
     "limited": false,
     "values": []
   },
+  "umbrella": {
+    "name": "umbrella",
+    "limited": false,
+    "values": []
+  },
   "uncollect": {
     "name": "uncollect",
     "limited": false,
@@ -7298,6 +7922,11 @@
     "limited": false,
     "values": []
   },
+  "unsync": {
+    "name": "unsync",
+    "limited": false,
+    "values": []
+  },
   "up": {
     "name": "up",
     "limited": false,
@@ -7315,6 +7944,11 @@
   },
   "usbMusic": {
     "name": "usbMusic",
+    "limited": false,
+    "values": []
+  },
+  "usbMusicPlay": {
+    "name": "usbMusicPlay",
     "limited": false,
     "values": []
   },
@@ -7380,10 +8014,20 @@
       "manual_voice_recognition",
       "manual_vehicle_set",
       "manual_carplay",
-      "manual_car_pair&#10;",
+      "manual_car_pair",
       "manual_wifi_set",
       "manual_qdlink"
     ]
+  },
+  "utoCloseSunshadeWhenLock": {
+    "name": "utoCloseSunshadeWhenLock",
+    "limited": false,
+    "values": []
+  },
+  "uvIndex": {
+    "name": "uvIndex",
+    "limited": false,
+    "values": []
   },
   "valentinesDayMode": {
     "name": "valentinesDayMode",
@@ -7458,6 +8102,11 @@
     "limited": false,
     "values": []
   },
+  "ventilationMode": {
+    "name": "ventilationMode",
+    "limited": false,
+    "values": []
+  },
   "version": {
     "name": "version",
     "limited": false,
@@ -7480,6 +8129,11 @@
   },
   "video": {
     "name": "video",
+    "limited": false,
+    "values": []
+  },
+  "videoRecord": {
+    "name": "videoRecord",
     "limited": false,
     "values": []
   },
@@ -7614,7 +8268,16 @@
       "蓝牙电话",
       "开机背景音乐",
       "仪表屏报警音",
-      "音乐"
+      "音乐",
+      "telephone",
+      "map",
+      "voice",
+      "media",
+      "instrument_alarm",
+      "bluetooth_music",
+      "poweron_bgm",
+      "bluetooth",
+      "music"
     ]
   },
   "vor": {
@@ -7682,6 +8345,11 @@
     "limited": false,
     "values": []
   },
+  "we": {
+    "name": "we",
+    "limited": false,
+    "values": []
+  },
   "weaker": {
     "name": "weaker",
     "limited": false,
@@ -7716,25 +8384,6 @@
     "name": "week",
     "limited": false,
     "values": []
-  },
-  "weekday": {
-    "name": "weekday",
-    "limited": true,
-    "values": [
-      "星期一",
-      "星期二",
-      "星期三",
-      "星期四",
-      "星期五",
-      "下星期一",
-      "下星期二",
-      "下星期三",
-      "下星期四",
-      "下星期五",
-      "下星期六",
-      "下星期日",
-      "friday"
-    ]
   },
   "weg": {
     "name": "weg",
@@ -7826,6 +8475,11 @@
     "limited": false,
     "values": []
   },
+  "wifiSpot": {
+    "name": "wifiSpot",
+    "limited": false,
+    "values": []
+  },
   "wind": {
     "name": "wind",
     "limited": false,
@@ -7896,7 +8550,8 @@
     "name": "wiperMode",
     "limited": true,
     "values": [
-      "自动模式"
+      "自动模式",
+      "倒车联动模式"
     ]
   },
   "wiperPosition": {
@@ -7906,6 +8561,11 @@
       "前",
       "后"
     ]
+  },
+  "wiperRelatedReverse": {
+    "name": "wiperRelatedReverse",
+    "limited": false,
+    "values": []
   },
   "wiperWash": {
     "name": "wiperWash",

@@ -264,8 +264,9 @@ def train_model(config: TrainingConfig) -> None:
         per_device_eval_batch_size=config.per_device_eval_batch_size,
         gradient_accumulation_steps=config.gradient_accumulation_steps,
         eval_strategy="epoch" if "eval" in datasets else "no",
-        save_strategy="epoch" if "eval" in datasets else "no",
-        load_best_model_at_end="eval" in datasets,
+        save_strategy="epoch" if "eval" in datasets else "no",    # or "steps"          # save a checkpoint each eval
+        load_best_model_at_end=True,     # <-- important # <-- use your eval_f1
+        greater_is_better=True, 
         metric_for_best_model="f1",
         save_total_limit=2,
         logging_strategy="steps",
